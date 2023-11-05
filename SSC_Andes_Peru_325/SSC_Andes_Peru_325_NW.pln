@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v3.21 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC_Andes_Peru_354 (2)</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>SPHZ</DepartureID>
+        <DepartureLLA>S9° 20' 51.00",W77° 35' 54.01",+009026.00</DepartureLLA>
+        <DestinationID>SPNC</DestinationID>
+        <DestinationLLA>S9° 52' 43.25",W76° 12' 16.44",+006070.00</DestinationLLA>
+        <Descr>SSC_Andes_Peru_354 (2)</Descr>
+        <DeparturePosition>34</DeparturePosition>
+        <DepartureName>Comandante German Arias Grazzi</DepartureName>
+        <DestinationName>Alferez David Figueroa Fernand</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Comandante German Arias Grazzi">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S9° 20' 51.00",W77° 35' 54.01",+009026.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>34</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>SPHZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+15180|14000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S9° 17' 51.52",W77° 30' 44.36",+015180.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP1+14396x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S9° 7' 21.99",W77° 31' 28.85",+014396.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP2+15394x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S9° 17' 10.05",W77° 23' 29.30",+015394.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP3+8983x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S9° 21' 4.84",W77° 35' 49.02",+008983.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP4+14997x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S9° 41' 18.29",W77° 15' 14.13",+014997.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP5+7579x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S10° 26' 44.20",W77° 10' 2.22",+007579.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP6+10075">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S10° 11' 50.47",W77° 3' 1.99",+010075.46</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+11200x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S9° 52' 48.28",W76° 17' 21.86",+011200.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Alferez David Figueroa Fernand">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S9° 52' 43.25",W76° 12' 16.44",+006070.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>SPNC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

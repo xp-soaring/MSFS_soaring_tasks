@@ -1,0 +1,61 @@
+<Task fai_finish="0" finish_min_height_ref="MSL" finish_min_height="0.000"
+            start_max_height_ref="MSL" start_max_height="1219.200" start_max_speed="0" start_requires_arm="0"
+            aat_min_time="0" name="SSC Guatamala 331_S" type="RT">
+
+    <Point type="Start">
+        <Waypoint altitude="773.000" comment="" id="1" name="START 4000">
+            <Location latitude="15.0535581" longitude="-89.6594238"/>
+        </Waypoint>
+        <ObservationZone length="5000" type="Line"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="1989.000" comment="" id="2" name="WP 1">
+            <Location latitude="14.9994271" longitude="-90.4221153"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="1442.000" comment="" id="3" name="WP 2">
+            <Location latitude="15.2404649" longitude="-90.5671799"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="2519.000" comment="" id="4" name="WP 3">
+            <Location latitude="15.3833499" longitude="-90.8235025"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="1617.000" comment="" id="5" name="WP 4">
+            <Location latitude="15.3134925" longitude="-90.3028140"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="33.000" comment="" id="6" name="WP 5">
+            <Location latitude="15.4205866" longitude="-89.6340184"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Finish">
+        <Waypoint altitude="19.000" comment="" id="7" name="FINISH">
+            <Location latitude="15.6713457" longitude="-88.9667273"/>
+        </Waypoint>
+        <ObservationZone length="4000" type="Line"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="20.117" comment="" id="8" name="Las Vegas Airport">
+            <Location latitude="15.6688890" longitude="-88.9627762"/>
+        </Waypoint>
+        <ObservationZone radius="500" type="Cylinder"/>
+    </Point>
+
+    </Task>

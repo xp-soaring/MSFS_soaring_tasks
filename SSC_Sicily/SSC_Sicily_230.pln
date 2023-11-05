@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>SSC_Sicily_220</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LICJ</DepartureID>
+        <DepartureLLA>N38° 10' 55.00",E13° 5' 58.00",+000037.00</DepartureLLA>
+        <DestinationID>LICR</DestinationID>
+        <DestinationLLA>N38° 4' 19.00",E15° 39' 13.00",+000049.00</DestinationLLA>
+        <Descr>SSC_Sicily_220</Descr>
+        <DeparturePosition>2</DeparturePosition>
+        <DepartureName>Punta Raisi</DepartureName>
+        <DestinationName>Reggio Calabria</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="Punta Raisi">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 10' 55.00",E13° 5' 58.00",+000037.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>2</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LICJ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="*Start 4000+1798|4000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 7' 56.63",E13° 15' 37.79",+001798.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Acquedolci+28">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 2' 54.09",E14° 32' 25.38",+000028.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Messina+23">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 17' 16.98",E15° 34' 17.05",+000022.97</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="*Finish+75x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 4' 45.89",E15° 38' 38.00",+000075.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Reggio Calabria">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 4' 19.00",E15° 39' 13.00",+000049.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LICR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

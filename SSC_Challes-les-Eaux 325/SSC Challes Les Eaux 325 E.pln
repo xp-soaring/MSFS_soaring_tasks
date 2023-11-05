@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v3.29 -->
+    <FlightPlan.FlightPlan>
+        <Title>LFLE to LFLE</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LFLE</DepartureID>
+        <DepartureLLA>N45° 33' 38.00",E5° 58' 33.00",+000963.00</DepartureLLA>
+        <DestinationID>LFLE</DestinationID>
+        <DestinationLLA>N45° 33' 38.00",E5° 58' 33.00",+000963.00</DestinationLLA>
+        <Descr>LFLE to LFLE</Descr>
+        <DeparturePosition>14L</DeparturePosition>
+        <DepartureName>Challes-Les-Eaux</DepartureName>
+        <DestinationName>Challes-Les-Eaux</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Challes-Les-Eaux">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45° 33' 38.00",E5° 58' 33.00",+000963.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>14</RunwayNumberFP>
+            <RunwayDesignatorFP>LEFT</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>LFLE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start MAX 5000+3051|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 24' 3.97",E5° 56' 17.20",+003051.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Mont Aiguille+6627x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 50' 26.40",E5° 33' 5.64",+006627.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Tour Du Pin Airfield+1073x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 33' 22.94",E5° 22' 59.88",+001073.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Aix-les-Bains+804x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 41' 47.72",E5° 54' 32.37",+000803.81</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Annemasse+1591x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 11' 31.00",E6° 16' 6.00",+001591.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+4055x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 36' 41.89",E5° 58' 43.04",+004055.12</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Challes-Les-Eaux">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45° 33' 38.00",E5° 58' 33.00",+000963.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LFLE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

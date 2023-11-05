@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v3.21 -->
+    <FlightPlan.FlightPlan>
+        <Title>EIKY to EIKY</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>EIKY</DepartureID>
+        <DepartureLLA>N52° 10' 50.99",W9° 31' 26.00",+000097.00</DepartureLLA>
+        <DestinationID>EIKY</DestinationID>
+        <DestinationLLA>N52° 10' 50.99",W9° 31' 26.00",+000097.00</DestinationLLA>
+        <Descr>EIKY to EIKY</Descr>
+        <DeparturePosition>26</DeparturePosition>
+        <DepartureName>EIKY Kerry</DepartureName>
+        <DestinationName>EIKY Kerry</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="EIKY Kerry">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N52° 10' 50.99",W9° 31' 26.00",+000097.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>26</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>EIKY</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 4000+758|4000x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 13' 2.23",W9° 39' 26.37",+000757.87</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Inch Beach on Left+581x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 9' 7.31",W9° 58' 46.94",+000580.71</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+344x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 7' 59.80",W10° 4' 25.59",+000344.49</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+525x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 11' 39.67",W9° 56' 14.92",+000524.93</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Annascaul Lake+568x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 11' 5.57",W10° 4' 14.47",+000567.59</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+1535x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 10' 27.67",W10° 15' 4.59",+001535.43</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Tralee due East+2133x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 15' 2.58",W10° 15' 34.24",+002133.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 6+568x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 9' 52.80",W10° 16' 0.21",+000567.59</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 7+541x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 11' 16.17",W9° 57' 45.14",+000541.34</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 8+0x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 7' 21.10",W10° 6' 24.25",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 9+285x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 12' 15.26",W9° 40' 2.22",+000285.43</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+79x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 10' 34.49",W9° 32' 35.42",+000078.74</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="EIKY Kerry">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N52° 10' 50.99",W9° 31' 26.00",+000097.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>EIKY</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

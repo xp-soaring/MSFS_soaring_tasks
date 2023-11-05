@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v3.07 -->
+    <FlightPlan.FlightPlan>
+        <Title>LFTM to LFTM</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LFTM</DepartureID>
+        <DepartureLLA>N44° 27' 26.00",E5° 43' 38.00",+002324.00</DepartureLLA>
+        <DestinationID>LFTM</DestinationID>
+        <DestinationLLA>N44° 27' 26.00",E5° 43' 38.00",+002324.00</DestinationLLA>
+        <Descr>LFTM to LFTM</Descr>
+        <DeparturePosition>18</DeparturePosition>
+        <DepartureName>Montsaleon</DepartureName>
+        <DestinationName>Montsaleon</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Montsaleon">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 27' 26.00",E5° 43' 38.00",+002324.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>18</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LFTM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+2369|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 27' 37.34",E5° 43' 38.79",+002368.77</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Pont d'Avignon+56x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 57' 5.59",E4° 47' 59.98",+000055.77</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="St. Auban+1476x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 3' 31.13",E5° 59' 26.69",+001476.38</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2313x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 27' 15.12",E5° 43' 37.16",+002312.99</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Montsaleon">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 27' 26.00",E5° 43' 38.00",+002324.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LFTM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

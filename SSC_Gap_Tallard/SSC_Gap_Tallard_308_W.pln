@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v3.21 -->
+    <FlightPlan.FlightPlan>
+        <Title>LFNA to LFNA</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LFNA</DepartureID>
+        <DepartureLLA>N44° 27' 14.00",E6° 2' 12.00",+001954.00</DepartureLLA>
+        <DestinationID>LFNA</DestinationID>
+        <DestinationLLA>N44° 27' 14.00",E6° 2' 12.00",+001954.00</DestinationLLA>
+        <Descr>LFNA to LFNA</Descr>
+        <DeparturePosition>20</DeparturePosition>
+        <DepartureName>Tallard</DepartureName>
+        <DestinationName>Tallard</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Tallard">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 27' 14.00",E6° 2' 12.00",+001954.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>20</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LFNA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+3399|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 27' 7.79",E6° 6' 8.66",+003398.95</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="LF79 Mont Aiguille+6627x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 50' 26.40",E5° 33' 5.64",+006627.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Lac de Palandru+1614x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 26' 13.23",E5° 30' 59.44",+001614.17</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Valence+354x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 55' 55.62",E4° 52' 56.61",+000354.33</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1946x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 26' 58.97",E6° 2' 2.20",+001945.54</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Tallard">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 27' 14.00",E6° 2' 12.00",+001954.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LFNA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

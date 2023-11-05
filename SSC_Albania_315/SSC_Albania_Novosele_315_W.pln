@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title>LANO to LANO</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LANO</DepartureID>
+        <DepartureLLA>N40° 36' 5.20",E19° 25' 59.63",-000000.00</DepartureLLA>
+        <DestinationID>LANO</DestinationID>
+        <DestinationLLA>N40° 36' 5.20",E19° 25' 59.63",-000000.00</DestinationLLA>
+        <Descr>LANO to LANO</Descr>
+        <DeparturePosition>30</DeparturePosition>
+        <DepartureName>Novosele Airport</DepartureName>
+        <DestinationName>Novosele Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Novosele Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N40° 36' 5.20",E19° 25' 59.63",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>30</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LANO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+26|4000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 37' 42.76",E19° 30' 12.52",+000026.25</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Delvine+3025x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 59' 10.31",E20° 6' 52.54",+003024.93</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Corfu+1604x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 46' 2.57",E19° 49' 49.16",+001604.33</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Maja Hilques+2067">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 24' 30.23",E19° 19' 27.97",+002066.93</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Maja Papadhisi+2188x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 10' 13.72",E19° 50' 33.65",+002188.32</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+0x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 35' 45.01",E19° 25' 48.03",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Novosele Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N40° 36' 5.20",E19° 25' 59.63",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LANO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.0.7 -->
+    <FlightPlan.FlightPlan>
+        <Title>WN21 to WN21</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>WN21</DepartureID>
+        <DepartureLLA>N48° 4' 53.33",W123° 23' 52.67",+000650.00</DepartureLLA>
+        <DestinationID>WN21</DestinationID>
+        <DestinationLLA>N48° 4' 53.33",W123° 23' 52.67",+000650.00</DestinationLLA>
+        <Descr>WN21 to WN21</Descr>
+        <DeparturePosition>3</DeparturePosition>
+        <DepartureName>Lawson Airpark</DepartureName>
+        <DestinationName>Lawson Airpark</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Lawson Airpark">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 4' 53.33",W123° 23' 52.67",+000650.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>3</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>WN21</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+3159|4000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 0' 51.38",W123° 23' 14.82",+003159.45</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Bear Mountain+2766x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 58' 6.77",W123° 3' 19.65",+002765.75</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Dosewallips River+89x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 41' 37.75",W122° 54' 34.37",+000088.58</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Mount Fromme+5958x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 47' 43.64",W123° 21' 36.26",+005958.01</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Mount Baldy+1896x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 2' 45.44",W123° 36' 55.50",+001896.33</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+712x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 4' 35.30",W123° 24' 10.67",+000711.94</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Lawson Airpark">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 4' 53.33",W123° 23' 52.67",+000650.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>WN21</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

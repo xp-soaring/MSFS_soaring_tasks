@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title>VIAW to VIKL</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>VISR</DepartureID>
+        <DepartureLLA>N33° 59' 18.00",E74° 46' 30.01",+005453.00</DepartureLLA>
+        <DestinationID>VIKL</DestinationID>
+        <DestinationLLA>N34° 31' 27.51",E76° 9' 20.36",+009571.00</DestinationLLA>
+        <Descr>VIAW to VIKL</Descr>
+        <DeparturePosition>31</DeparturePosition>
+        <DepartureName>Srinagar AB</DepartureName>
+        <DestinationName>Kargil</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Srinagar AB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N33° 59' 18.00",E74° 46' 30.01",+005453.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>31</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>VISR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+5207|9000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 3' 48.46",E74° 51' 19.29",+005206.69</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP1+7762x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N33° 54' 56.66",E74° 33' 19.01",+007762.47</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP2+9731x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 25' 26.13",E74° 0' 58.55",+009730.97</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP3+9514x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 12' 17.96",E75° 1' 2.62",+009514.44</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+8885x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 36' 6.99",E76° 5' 43.91",+008885.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Kargil">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N34° 31' 27.51",E76° 9' 20.36",+009571.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>VIKL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

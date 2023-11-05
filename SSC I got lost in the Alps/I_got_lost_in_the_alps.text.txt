@@ -1,0 +1,52 @@
+This is mostly a ground thermals task set in alps hope you brought your map we are taking off from Füssen glider airfield. 
+
+
+Saturday, June 3, 05:45 PM Zulu / <t:1683395100:t> your local time
+
+Briefing: <t:1683395100:t> your local time
+Voice: Sim Soaring Club (PTT) ⁠Sim Soaring Club (PTT)
+At this time we meet in the voice chat and get ready.
+
+Server: South East Asia
+In-game date/time: July 1 2023, 12:00 Noon (Noon - local sim time). <--- THIS IS IMPORTANT
+
+Launch: <t:1683396000:t> your local time
+At this time we simultaneously click fly to sync our weather.
+
+Task Start: <t:1683397800:t> your local time
+At this time we cross the starting line and start the task.
+
+
+Departure: EDGD (Füssen Glider airfield)
+Arrival: LOKN (Ntsch im Galital airport)
+
+Weather file & profile name: "SSC I got lost in the alps 254.wpr" (SSC I got lost in the alps 254)
+
+Soaring Type: Ground thermal and Ridge
+Distance: 254km/158 mi task
+Duration: 90 to 120 minutes (1h30 to 2h)
+Recommended gliders: Flapped
+
+
+Start Max Alt:5000 feet
+
+Flight plan file: "SSC I got lost in the alps 254.pln"
+
+Briefing:
+We start in Germany and we try to find the best route to Tre Cime and from there let's go even more into the wind towards our destination in Austria 
+
+Announcement
+
+SSC Saturday June 3
+
+This Saturday we are flying in the alps and there is a good chanse to get lost.
+
+❗ Note that we will use South East Asia Server for better stability in Multiplayer.
+
+Departure airport is EDGD (Füssen Glider airfield)
+
+More info will follow in PUT LINK HERE
+
+
+
+The weather preset is already available in the ⁠🇪🇺│ssc-saturday channel.

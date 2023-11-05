@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v3.21 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC Berner Alpen 300</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LSGE</DepartureID>
+        <DepartureLLA>N46° 45' 18.00",E7° 4' 34.00",+002288.00</DepartureLLA>
+        <DestinationID>LSGE</DestinationID>
+        <DestinationLLA>N46° 45' 18.00",E7° 4' 34.00",+002288.00</DestinationLLA>
+        <Descr>SSC Berner Alpen 300</Descr>
+        <DeparturePosition>10</DeparturePosition>
+        <DepartureName>Ecuvillens</DepartureName>
+        <DestinationName>Ecuvillens</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Ecuvillens">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N46° 45' 18.00",E7° 4' 34.00",+002288.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>10</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LSGE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*START 6000+2244|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 39' 18.97",E7° 5' 44.24",+002244.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Chillon Castle+1214x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 24' 51.30",E6° 55' 39.09",+001214.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Interlaken+1873x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 40' 54.81",E7° 52' 40.23",+001873.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Lucerne+1450x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 3' 2.13",E8° 18' 34.60",+001450.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="LSZG Grenchen+1406x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 10' 53.00",E7° 24' 59.00",+001406.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="LSGY Yverdon-Les-Bains+1421x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 45' 43.00",E6° 36' 48.00",+001421.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2270x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 45' 19.92",E7° 4' 16.34",+002270.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Ecuvillens">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N46° 45' 18.00",E7° 4' 34.00",+002288.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LSGE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

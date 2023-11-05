@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v3.21 -->
+    <FlightPlan.FlightPlan>
+        <Title>NZHT to NZTU</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>NZHT</DepartureID>
+        <DepartureLLA>S43° 51' 55.71",E169° 2' 28.48",+000014.00</DepartureLLA>
+        <DestinationID>NZMH</DestinationID>
+        <DestinationLLA>S43° 27' 58.27",E171° 9' 43.87",+002303.00</DestinationLLA>
+        <Descr>NZHT to NZTU</Descr>
+        <DeparturePosition>15</DeparturePosition>
+        <DepartureName>Haast Aerodrome</DepartureName>
+        <DestinationName>Arrowsmith Station</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Haast Aerodrome">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S43° 51' 55.71",E169° 2' 28.48",+000014.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>15</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>NZHT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start Max 5000ft+98|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 56' 25.54",E169° 9' 14.73",+000098.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Landsborough River+3570x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 45' 18.46",E169° 55' 41.82",+003570.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Mount Cook/Aoraki+10322x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 35' 26.11",E170° 8' 52.84",+010321.52</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Mount Edward+6168x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S44° 0' 28.81",E170° 35' 53.80",+006167.98</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2293x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 28' 6.54",E171° 9' 50.05",+002293.31</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Arrowsmith Station">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S43° 27' 58.27",E171° 9' 43.87",+002303.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>NZMH</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

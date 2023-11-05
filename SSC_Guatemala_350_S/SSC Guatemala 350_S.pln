@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v3.21 -->
+    <FlightPlan.FlightPlan>
+        <Title>MGZA to MGCB</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>MGZA</DepartureID>
+        <DepartureLLA>N14° 57' 36.00",W89° 32' 19.99",+000633.00</DepartureLLA>
+        <DestinationID>MGRD</DestinationID>
+        <DestinationLLA>N15° 40' 8.00",W88° 57' 45.99",+000066.00</DestinationLLA>
+        <Descr>MGZA to MGCB</Descr>
+        <DeparturePosition>15</DeparturePosition>
+        <DepartureName>Zacapa Airport</DepartureName>
+        <DestinationName>Las Vegas Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Zacapa Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N14° 57' 36.00",W89° 32' 19.99",+000633.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>15</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>MGZA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*START 4000+2536|4000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N15° 3' 12.81",W89° 39' 33.93",+002536.09</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+6526x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N14° 59' 57.94",W90° 25' 19.62",+006525.59</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+4731x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N15° 14' 25.67",W90° 34' 1.85",+004730.97</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+8264x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N15° 23' 0.06",W90° 49' 24.61",+008264.44</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+5305x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N15° 18' 48.57",W90° 18' 10.13",+005305.12</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+108x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N15° 25' 14.11",W89° 38' 2.47",+000108.27</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*FINISH+62x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N15° 40' 16.84",W88° 58' 0.22",+000062.34</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Las Vegas Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N15° 40' 8.00",W88° 57' 45.99",+000066.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>MGRD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

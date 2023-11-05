@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title>KTVL to KTVL</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>KMEV</DepartureID>
+        <DepartureLLA>N39° 0' 1.80",W119° 45' 4.01",+004714.00</DepartureLLA>
+        <DestinationID>KMEV</DestinationID>
+        <DestinationLLA>N39° 0' 1.80",W119° 45' 4.01",+004714.00</DestinationLLA>
+        <Descr>KTVL to KTVL</Descr>
+        <DeparturePosition>12</DeparturePosition>
+        <DepartureName>Minden</DepartureName>
+        <DestinationName>Minden</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Minden">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N39° 0' 1.80",W119° 45' 4.01",+004714.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>12</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>KMEV</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+5784|7000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 58' 14.23",W119° 51' 10.60",+005784.12</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Truckee+5899x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 19' 12.20",W120° 8' 22.49",+005898.95</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Cold Springs+7159x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 46' 33.92",W119° 57' 54.75",+007158.79</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Highland Peak+9675x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 32' 2.64",W119° 45' 16.18",+009675.20</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Topaz Ranch+5010x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 43' 45.75",W119° 27' 56.98",+005009.84</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+4734x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 59' 37.58",W119° 44' 51.77",+004734.25</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Minden">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N39° 0' 1.80",W119° 45' 4.01",+004714.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>KMEV</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

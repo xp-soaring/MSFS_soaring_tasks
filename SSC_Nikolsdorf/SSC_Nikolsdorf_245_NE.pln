@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v3.33 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC Nikolsdorf 245</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LOKL</DepartureID>
+        <DepartureLLA>N46° 47' 54.00",E12° 52' 42.00",+002093.00</DepartureLLA>
+        <DestinationID>LOKL</DestinationID>
+        <DestinationLLA>N46° 47' 54.00",E12° 52' 42.00",+002093.00</DestinationLLA>
+        <Descr>SSC Nikolsdorf 245</Descr>
+        <DeparturePosition>12</DeparturePosition>
+        <DepartureName>Nikolsdorf Airport</DepartureName>
+        <DestinationName>Nikolsdorf Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Nikolsdorf Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N46° 47' 54.00",E12° 52' 42.00",+002093.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>12</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LOKL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+3419|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 47' 2.67",E12° 51' 18.12",+003419.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Schneewinkelkopf+10397x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 6' 11.52",E12° 39' 45.37",+010397.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Monte Fumo+8717x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 5' 4.62",E12° 5' 29.46",+008717.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Sterzing+3077x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 52' 59.49",E11° 26' 22.25",+003077.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2087x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 47' 57.15",E12° 52' 31.51",+002087.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Nikolsdorf Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N46° 47' 54.00",E12° 52' 42.00",+002093.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LOKL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

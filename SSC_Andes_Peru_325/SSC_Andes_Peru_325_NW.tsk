@@ -1,0 +1,68 @@
+<Task fai_finish="0" finish_min_height_ref="MSL" finish_min_height="0.000"
+            start_max_height_ref="MSL" start_max_height="4267.200" start_max_speed="0" start_requires_arm="0"
+            aat_min_time="0" name="SSC_Andes_Peru_325_NW" type="RT">
+
+    <Point type="Start">
+        <Waypoint altitude="4626.864" comment="" id="1" name="Start">
+            <Location latitude="-9.2976444" longitude="-77.5123222"/>
+        </Waypoint>
+        <ObservationZone length="5000" type="Line"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="4387.901" comment="" id="2" name="WP1">
+            <Location latitude="-9.1227750" longitude="-77.5246806"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="4692.091" comment="" id="3" name="WP2">
+            <Location latitude="-9.2861250" longitude="-77.3914722"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="2738.018" comment="" id="4" name="WP3">
+            <Location latitude="-9.3513444" longitude="-77.5969500"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="4571.085" comment="" id="5" name="WP4">
+            <Location latitude="-9.6884139" longitude="-77.2539250"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="2310.079" comment="" id="6" name="WP5">
+            <Location latitude="-10.4456111" longitude="-77.1672833"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="3070.860" comment="" id="7" name="WP6">
+            <Location latitude="-10.1973528" longitude="-77.0505528"/>
+        </Waypoint>
+        <ObservationZone radius="500" type="Cylinder"/>
+    </Point>
+
+    <Point type="Finish">
+        <Waypoint altitude="3413.760" comment="" id="8" name="Finish">
+            <Location latitude="-9.8800778" longitude="-76.2894056"/>
+        </Waypoint>
+        <ObservationZone length="2000" type="Line"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="1850.136" comment="" id="9" name="Alferez David Figueroa Fernand">
+            <Location latitude="-9.8786806" longitude="-76.2045667"/>
+        </Waypoint>
+        <ObservationZone radius="500" type="Cylinder"/>
+    </Point>
+
+    </Task>

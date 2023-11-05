@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title>FVSV to FVKB</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>FVSV</DepartureID>
+        <DepartureLLA>S17° 55' 47.07",E25° 46' 24.16",+003356.00</DepartureLLA>
+        <DestinationID>FVGF</DestinationID>
+        <DestinationLLA>S17° 32' 11.74",E28° 19' 55.31",+002980.00</DestinationLLA>
+        <Descr>FVSV, FVKB created by Little Navmap 2.8.11</Descr>
+        
+        <DepartureName>Sprayview Airstrip</DepartureName>
+        <DestinationName>Gokwe North Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Sprayview Airstrip">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S17° 55' 47.07",E25° 46' 24.16",+003356.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>FVSV</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Elephant Hills Golf Course+2963|5000x3048">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S17° 54' 23.77",E25° 50' 13.25",+002962.60</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="DUVDU+2316x1829">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S17° 59' 39.59",E25° 56' 34.01",+002316.27</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Gorge +2096x1829">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S17° 58' 29.33",E26° 5' 19.26",+002096.46</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Thermal searching+2372x1829">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S17° 53' 11.85",E26° 12' 47.86",+002372.05</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Deka Fishing Camp+1621x1829">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S18° 4' 21.90",E26° 41' 12.51",+001620.73</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="FVML Mlibizi Fishing Camp+1939x1829">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S17° 57' 36.99",E27° 7' 6.06",+001938.98</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2405x1829">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S17° 37' 41.70",E28° 24' 8.45",+002404.86</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Gokwe North Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S17° 32' 11.74",E28° 19' 55.31",+002980.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>FVGF</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

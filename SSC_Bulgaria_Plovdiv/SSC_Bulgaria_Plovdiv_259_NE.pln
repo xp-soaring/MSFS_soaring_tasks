@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title> to LB21</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LB21</DepartureID>
+        <DepartureLLA>N42° 17' 26.46",E24° 42' 49.44",+000649.61</DepartureLLA>
+        <DestinationID>LB21</DestinationID>
+        <DestinationLLA>N42° 17' 26.46",E24° 42' 49.44",+000649.61</DestinationLLA>
+        <Descr> to LB21</Descr>
+        <DeparturePosition>8</DeparturePosition>
+        <DepartureName>Graf Ignatievo</DepartureName>
+        <DestinationName>Graf Ignatievo</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Graf Ignatievo">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N42° 17' 26.46",E24° 42' 49.44",+000649.61</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>8</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LB21</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+643|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 15' 58.51",E24° 41' 16.80",+000643.04</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Ezeroto+2779x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 9' 53.16",E24° 3' 58.08",+002778.87</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Izvorovo+3163x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N41° 52' 3.99",E25° 2' 40.97",+003162.73</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Elhovo+1145x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 22' 12.18",E25° 24' 9.96",+001145.01</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+633x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 17' 34.98",E24° 43' 37.74",+000633.20</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Graf Ignatievo">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N42° 17' 26.46",E24° 42' 49.44",+000649.61</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LB21</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title>LGMA to LGMA</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LGMA</DepartureID>
+        <DepartureLLA>N39° 24' 26.58",E21° 59' 44.32",+000300.00</DepartureLLA>
+        <DestinationID>LGMA</DestinationID>
+        <DestinationLLA>N39° 24' 26.58",E21° 59' 44.32",+000300.00</DestinationLLA>
+        <Descr>LGMA to LGMA</Descr>
+        <DeparturePosition>9</DeparturePosition>
+        <DepartureName>Myrini - Karditsa</DepartureName>
+        <DestinationName>Myrini - Karditsa</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Myrini - Karditsa">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N39° 24' 26.58",E21° 59' 44.32",+000300.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>9</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LGMA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+302|4000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 25' 46.12",E22° 1' 26.68",+000302.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Sarantaporo+2513x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 4' 10.79",E22° 3' 28.08",+002513.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Polikarpi+2103x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 31' 7.29",E21° 20' 42.69",+002103.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Metsovo+4475x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 49' 11.32",E21° 9' 50.10",+004475.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+305x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 24' 26.48",E21° 59' 37.77",+000305.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Myrini - Karditsa">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N39° 24' 26.58",E21° 59' 44.32",+000300.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LGMA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

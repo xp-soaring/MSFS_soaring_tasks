@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title>VIKL to VILH</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>VIKL</DepartureID>
+        <DepartureLLA>N34° 31' 27.51",E76° 9' 20.36",+009571.00</DepartureLLA>
+        <DestinationID>VILH</DestinationID>
+        <DestinationLLA>N34° 8' 10.58",E77° 32' 49.49",+010696.00</DestinationLLA>
+        <Descr>VIKL to VILH</Descr>
+        
+        <DepartureName>Kargil</DepartureName>
+        <DestinationName>Leh</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Kargil">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N34° 31' 27.51",E76° 9' 20.36",+009571.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>VIKL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+9101|12000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 29' 23.51",E76° 6' 3.32",+009101.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+11529x3000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 5' 23.21",E75° 59' 31.63",+011529.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+11588x3000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N33° 29' 37.00",E76° 51' 39.97",+011588.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+11129x3000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N33° 53' 15.06",E76° 56' 51.20",+011129.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+11362x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 10' 28.63",E77° 24' 27.62",+011362.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Leh">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N34° 8' 10.58",E77° 32' 49.49",+010696.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>VILH</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

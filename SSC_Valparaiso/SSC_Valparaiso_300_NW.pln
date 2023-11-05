@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title>SCRD to SCRD</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>SCRD</DepartureID>
+        <DepartureLLA>S33° 4' 6.00",W71° 33' 27.01",+001100.00</DepartureLLA>
+        <DestinationID>SCRD</DestinationID>
+        <DestinationLLA>S33° 4' 6.00",W71° 33' 27.01",+001100.00</DestinationLLA>
+        <Descr>SCRD to SCRD</Descr>
+        <DeparturePosition>36</DeparturePosition>
+        <DepartureName>Valparaiso</DepartureName>
+        <DestinationName>Valparaiso</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Valparaiso">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S33° 4' 6.00",W71° 33' 27.01",+001100.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>36</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>SCRD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start MAX 6000+932|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S33° 5' 44.05",W71° 28' 32.44",+000932.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Santiago+1923x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S33° 25' 51.90",W70° 38' 8.35",+001922.57</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Los Andes+7257x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S32° 57' 20.42",W70° 29' 43.77",+007257.22</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Rinconada de Guzman+2907x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S32° 34' 32.70",W70° 44' 12.66",+002906.82</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Cerro Las Vizcachas+5886x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S33° 4' 55.89",W71° 2' 8.55",+005885.83</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1096">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S33° 3' 49.54",W71° 33' 17.79",+001095.80</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Valparaiso">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S33° 4' 6.00",W71° 33' 27.01",+001100.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>SCRD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

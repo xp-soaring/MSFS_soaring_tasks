@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v3.10 -->
+    <FlightPlan.FlightPlan>
+        <Title>EDGD to LITE</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>EDGD</DepartureID>
+        <DepartureLLA>N47° 34' 57.77",E10° 41' 15.03",+002577.00</DepartureLLA>
+        <DestinationID>LOKN</DestinationID>
+        <DestinationLLA>N46° 34' 51.00",E13° 37' 42.00",+001801.00</DestinationLLA>
+        <Descr>EDGD to LITE</Descr>
+        <DeparturePosition>8</DeparturePosition>
+        <DepartureName>Füssen Glider Airfield</DepartureName>
+        <DestinationName>Ntsch Im Gailtal Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Füssen Glider Airfield">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 34' 57.77",E10° 41' 15.03",+002577.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>8</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>EDGD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+2654|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 34' 5.54",E10° 44' 3.59",+002654.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Tre Cime+8766x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 37' 8.07",E12° 17' 49.40",+008766.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1818x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 35' 12.15",E13° 33' 12.18",+001818.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Ntsch Im Gailtal Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N46° 34' 51.00",E13° 37' 42.00",+001801.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LOKN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v3.25 -->
+    <FlightPlan.FlightPlan>
+        <Title>LIQN to LIQN</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LIQN</DepartureID>
+        <DepartureLLA>N42° 25' 36.00",E12° 50' 60.00",+001277.00</DepartureLLA>
+        <DestinationID>LIQN</DestinationID>
+        <DestinationLLA>N42° 25' 36.00",E12° 50' 60.00",+001277.00</DestinationLLA>
+        <Descr>LIQN to LIQN</Descr>
+        <DeparturePosition>16L</DeparturePosition>
+        <DepartureName>Rieti</DepartureName>
+        <DestinationName>Rieti</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Rieti">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N42° 25' 36.00",E12° 50' 60.00",+001277.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>16</RunwayNumberFP>
+            <RunwayDesignatorFP>LEFT</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>LIQN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*START MAX 4000 ft+2090|4000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 22' 52.39",E12° 59' 42.88",+002090.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Amici Del Volo+1222x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N41° 40' 38.02",E13° 44' 35.70",+001222.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Cime di Femmina Morta+6109x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 1' 45.40",E14° 4' 31.50",+006109.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Monte Ciela+6178x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 25' 45.43",E13° 45' 13.87",+006178.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Bugiano+1985x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 50' 56.08",E12° 54' 34.64",+001985.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1273x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 25' 47.89",E12° 50' 59.17",+001273.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Rieti">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N42° 25' 36.00",E12° 50' 60.00",+001277.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LIQN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

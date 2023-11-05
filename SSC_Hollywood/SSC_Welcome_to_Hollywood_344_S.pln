@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v3.21 -->
+    <FlightPlan.FlightPlan>
+        <Title>KSBA to KPSP</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>KSBA</DepartureID>
+        <DepartureLLA>N34° 25' 34.30",W119° 50' 29.37",+000011.00</DepartureLLA>
+        <DestinationID>KPSP</DestinationID>
+        <DestinationLLA>N33° 49' 47.10",W116° 30' 24.91",+000416.67</DestinationLLA>
+        <Descr>KSBA to KPSP</Descr>
+        <DeparturePosition>7</DeparturePosition>
+        <DepartureName>Santa Barbara Muni</DepartureName>
+        <DestinationName>Palm Springs Intl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Santa Barbara Muni">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N34° 25' 34.30",W119° 50' 29.37",+000011.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>7</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>KSBA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*START+164|4000x3000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 26' 1.73",W119° 44' 34.47",+000164.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Fillmore+482x1500">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 24' 10.85",W118° 55' 5.07",+000482.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="The Hollywood Sign+732x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 7' 16.90",W118° 19' 58.37",+000732.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Big Bear+6759x6000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 15' 50.48",W116° 51' 21.88",+006759.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Morongo Casino+1965x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N33° 55' 19.19",W116° 47' 57.41",+001965.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Tramway+8425x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N33° 48' 48.38",W116° 38' 18.21",+008425.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*FINISH+433x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N33° 49' 44.27",W116° 30' 38.04",+000433.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Palm Springs Intl">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N33° 49' 47.10",W116° 30' 24.91",+000416.67</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>KPSP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

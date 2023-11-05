@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v3.06 -->
+    <FlightPlan.FlightPlan>
+        <Title>A57 to A57</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>A57</DepartureID>
+        <DepartureLLA>N59° 11' 56.89",W138° 26' 45.16",+000053.00</DepartureLLA>
+        <DestinationID>A57</DestinationID>
+        <DestinationLLA>N59° 11' 56.89",W138° 26' 45.16",+000053.00</DestinationLLA>
+        <Descr>A57 to A57</Descr>
+        <DeparturePosition>25</DeparturePosition>
+        <DepartureName>Alsek River</DepartureName>
+        <DestinationName>Alsek River</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Alsek River">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N59° 11' 56.89",W138° 26' 45.16",+000053.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>25</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>A57</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 4000+2474x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N59° 14' 17.33",W138° 23' 2.76",+002473.75</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Fish Lake+46x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N58° 38' 53.81",W137° 38' 29.15",+000045.93</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Mount Barnard+1693x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N59° 4' 58.50",W137° 2' 12.96",+001692.91</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Yakutat Glacier+2116x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N59° 36' 57.72",W138° 39' 30.41",+002116.14</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Dangerous River|x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N59° 24' 16.94",W139° 13' 58.92",+000029.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+52x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N59° 11' 58.41",W138° 26' 26.54",+000052.49</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Alsek River">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N59° 11' 56.89",W138° 26' 45.16",+000053.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            <ICAO>
+                <ICAOIdent>A57</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v3.28 -->
+    <FlightPlan.FlightPlan>
+        <Title>NZQN to NZQN</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>NZQN</DepartureID>
+        <DepartureLLA>S45° 1' 10.56",E168° 44' 40.77",+001164.00</DepartureLLA>
+        <DestinationID>NZQN</DestinationID>
+        <DestinationLLA>S45° 1' 10.56",E168° 44' 40.77",+001164.00</DestinationLLA>
+        <Descr>NZQN to NZQN</Descr>
+        <DeparturePosition>5</DeparturePosition>
+        <DepartureName>Queenstown</DepartureName>
+        <DestinationName>Queenstown</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Queenstown">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S45° 1' 10.56",E168° 44' 40.77",+001164.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>5</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>NZQN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+3031|4000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S45° 9' 38.65",E168° 41' 47.19",+003031.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+1119x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S45° 28' 21.54",E168° 39' 58.43",+001118.77</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+1138x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S44° 27' 8.67",E169° 14' 59.56",+001138.45</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+2726x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S44° 36' 57.20",E168° 54' 13.71",+002726.38</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+4262x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S44° 31' 52.13",E168° 20' 14.99",+004261.81</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 6+3386x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S45° 7' 15.24",E168° 24' 1.17",+003385.83</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1161x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S45° 1' 12.01",E168° 44' 4.93",+001161.42</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Queenstown">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S45° 1' 10.56",E168° 44' 40.77",+001164.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>NZQN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
