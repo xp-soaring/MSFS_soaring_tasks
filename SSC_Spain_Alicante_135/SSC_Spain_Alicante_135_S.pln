@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title>LEMU to LEMU</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LEMU</DepartureID>
+        <DepartureLLA>N38° 26' 25.48",W0° 28' 28.77",+000438.00</DepartureLLA>
+        <DestinationID>LEMU</DestinationID>
+        <DestinationLLA>N38° 26' 25.48",W0° 28' 28.77",+000438.00</DestinationLLA>
+        <Descr>LEMU to LEMU</Descr>
+        <DeparturePosition>12</DeparturePosition>
+        <DepartureName>Muchamiel Airport</DepartureName>
+        <DestinationName>Muchamiel Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Muchamiel Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 26' 25.48",W0° 28' 28.77",+000438.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>12</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LEMU</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+597|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 27' 33.41",W0° 26' 5.66",+000597.11</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+446x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 38' 28.30",E0° 0' 13.48",+000446.19</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+2917x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 41' 39.37",W0° 19' 40.38",+002916.67</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+2592x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 27' 12.92",W0° 42' 43.34",+002591.86</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+423x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 26' 32.02",W0° 28' 45.71",+000423.23</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Muchamiel Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 26' 25.48",W0° 28' 28.77",+000438.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LEMU</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

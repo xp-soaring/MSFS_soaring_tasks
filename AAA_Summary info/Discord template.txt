@@ -1,10 +1,12 @@
-**SSC Valparaiso 300** <t:1699728300:F>
+SSC TITLE
+
+<t:1699728300:F>
 
 **MSFS Server:** Southeast Asia
 
 **Sim date/time:** Nov 11th 3pm local (i.e. 3pm on day we are flying)
 
-**Max start:** 6000 Feet MSL
+**Max start:** START_HEIGHT Feet MSL
 
 Distance is 300km, expected duration ~90 min
 

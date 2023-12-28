@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title>NZSF to NZSF</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>NZSF</DepartureID>
+        <DepartureLLA>S43° 23' 1.31",E171° 54' 41.73",+001198.00</DepartureLLA>
+        <DestinationID>NZSF</DestinationID>
+        <DestinationLLA>S43° 23' 1.31",E171° 54' 41.73",+001198.00</DestinationLLA>
+        <Descr>NZSF, NZSF created by Little Navmap 2.8.12</Descr>
+        <DeparturePosition>22</DeparturePosition>
+        <DepartureName>NZSF</DepartureName>
+        <DestinationName>NZSF</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="NZSF">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S43° 23' 1.31",E171° 54' 41.73",+001198.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>22</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>NZSF</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 5000+1020|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 17' 49.91",E171° 57' 16.47",+001020.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="TP1|x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 59' 8.02",E172° 6' 37.60",+001500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="TP2|x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 45' 18.29",E171° 37' 42.30",+001500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1227x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 22' 39.32",E171° 54' 10.80",+001227.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="NZSF">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S43° 23' 1.31",E171° 54' 41.73",+001198.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>NZSF</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

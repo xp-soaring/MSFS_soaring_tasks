@@ -12,7 +12,7 @@
         <DestinationID>VILH</DestinationID>
         <DestinationLLA>N34° 8' 10.58",E77° 32' 49.49",+010696.00</DestinationLLA>
         <Descr>VIKL to VILH</Descr>
-        
+        <DeparturePosition>2</DeparturePosition>
         <DepartureName>Kargil</DepartureName>
         <DestinationName>Leh</DestinationName>
         <AppVersion>
@@ -24,7 +24,7 @@
             <ATCWaypointType>Airport</ATCWaypointType>
             <WorldPosition>N34° 31' 27.51",E76° 9' 20.36",+009571.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
-            
+            <RunwayNumberFP>2</RunwayNumberFP>
             
             <ICAO>
                 <ICAOIdent>VIKL</ICAOIdent>

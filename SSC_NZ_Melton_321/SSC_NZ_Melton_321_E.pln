@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title>NZWL to NZWL</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>NZWL</DepartureID>
+        <DepartureLLA>S43° 28' 39.35",E172° 23' 34.00",+000291.00</DepartureLLA>
+        <DestinationID>NZWL</DestinationID>
+        <DestinationLLA>S43° 28' 39.35",E172° 23' 34.00",+000291.00</DestinationLLA>
+        <Descr>NZWL to NZWL</Descr>
+        <DeparturePosition>4</DeparturePosition>
+        <DepartureName>West Melton Aerodrome</DepartureName>
+        <DestinationName>West Melton Aerodrome</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="West Melton Aerodrome">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S43° 28' 39.35",E172° 23' 34.00",+000291.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>4</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>NZWL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 5000+210|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 31' 34.70",E172° 25' 50.61",+000209.97</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+69x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 59' 5.60",E171° 56' 49.20",+000068.90</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+1276x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 20' 46.12",E171° 27' 9.44",+001276.25</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+1112x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 13' 52.41",E171° 57' 23.73",+001112.20</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+1706x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 48' 48.79",E172° 25' 22.30",+001706.04</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+295x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 28' 36.59",E172° 23' 24.01",+000295.28</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="West Melton Aerodrome">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S43° 28' 39.35",E172° 23' 34.00",+000291.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>NZWL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
