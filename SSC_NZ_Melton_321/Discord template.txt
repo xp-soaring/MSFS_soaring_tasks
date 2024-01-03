@@ -1,24 +1,24 @@
-SSC Spain Alicante 135km in the K7
+SSC NZ Melton 321km
 
-<t:1704307500:F>
+<t:1704566700:F>
 
-**Glider Class:** Schleicher K7
+**Glider Class:** Anything OK, 18m recommended
 
 **MSFS Server:** Southeast Asia
 
-**Sim date/time:** July 1st 1pm local (i.e. NOT day we are flying)
+**Sim date/time:** 6th Jan 2pm local (i.e. day we are flying)
 
-**Max start:** 4000 Feet MSL
+**Max start:** 5000 Feet MSL
 
-Distance is 135km, expected duration ~80 min
+Distance is 321km, expected duration ~1 hour 40 min
 
-**Meet/Briefing:** <t:1704307500:t>
+**Meet/Briefing:** <t:1704566700:t>
 At this time we meet in the voice chat and get ready. https://discord.com/channels/876123356385149009/876397825934626836
 
-**Synchronized Fly:** <t:1704308400:t>
+**Synchronized Fly:** <t:1704567600:t>
 At this time we simultaneously click the [FLY] button to sync our weather.
 
-**Task Start:** <t:1704310200:t>
+**Task Start:** <t:1704569400:t>
 At this time we cross the starting line and start the task.
 
 Task / Wx will be provided nearer the time.
