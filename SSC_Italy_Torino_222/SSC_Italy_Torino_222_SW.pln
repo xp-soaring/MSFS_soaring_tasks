@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title>LISB to LISB</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LISB</DepartureID>
+        <DepartureLLA>N45° 7' 29.37",E7° 31' 18.09",+001088.00</DepartureLLA>
+        <DestinationID>LISB</DestinationID>
+        <DestinationLLA>N45° 7' 29.37",E7° 31' 18.09",+001088.00</DestinationLLA>
+        <Descr>LISB to LISB</Descr>
+        <DeparturePosition>21</DeparturePosition>
+        <DepartureName>Campo Di Volo Prealpi-Musinè</DepartureName>
+        <DestinationName>Campo Di Volo Prealpi-Musinè</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Campo Di Volo Prealpi-Musinè">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45° 7' 29.37",E7° 31' 18.09",+001088.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>21</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LISB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+2910|4000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 7' 41.91",E7° 26' 27.87",+002910.11</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+10564x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 12' 6.54",E7° 4' 45.43",+010564.30</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+6119x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 21' 25.19",E6° 22' 34.26",+006118.77</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+9301x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 6' 37.76",E6° 17' 57.63",+009301.18</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+7297x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 55' 10.08",E6° 38' 55.79",+007296.59</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1089x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 7' 26.43",E7° 31' 14.08",+001089.24</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Campo Di Volo Prealpi-Musinè">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45° 7' 29.37",E7° 31' 18.09",+001088.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LISB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
