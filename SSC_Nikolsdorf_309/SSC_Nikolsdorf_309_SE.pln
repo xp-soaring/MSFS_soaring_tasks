@@ -31,7 +31,7 @@
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="*Start+6250|6000">
+        <ATCWaypoint id="*Start+6250|6000x5000">
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N46° 47' 2.25",E12° 57' 49.62",+006250.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
@@ -39,31 +39,31 @@
 
         <ATCWaypoint id="Ferndorf+2001x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 42' 58.78",E13° 37' 22.97",+002001.31</WorldPosition>
+            <WorldPosition>N46° 42' 58.78",E13° 37' 22.97",+002001.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
         <ATCWaypoint id="Flattach+4649x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 57' 6.01",E13° 8' 59.83",+004648.95</WorldPosition>
+            <WorldPosition>N46° 57' 6.01",E13° 8' 59.83",+004649.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
         <ATCWaypoint id="LIVD Dobbiaco - Toblach Airport+4974">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 45' 0.76",E12° 21' 14.88",+004973.75</WorldPosition>
+            <WorldPosition>N46° 45' 0.76",E12° 21' 14.88",+004974.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
         <ATCWaypoint id="Notsch+2457x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 36' 45.57",E13° 33' 55.29",+002457.35</WorldPosition>
+            <WorldPosition>N46° 36' 45.57",E13° 33' 55.29",+002457.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
         <ATCWaypoint id="*Finish+2093x4000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 47' 52.18",E12° 52' 48.36",+002093.18</WorldPosition>
+            <WorldPosition>N46° 47' 52.18",E12° 52' 48.36",+002093.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 

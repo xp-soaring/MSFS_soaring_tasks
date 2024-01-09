@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title>SDSK to SDSK</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>SDSK</DepartureID>
+        <DepartureLLA>S22° 55' 44.94",W42° 30' 17.78",+000033.00</DepartureLLA>
+        <DestinationID>SDSK</DestinationID>
+        <DestinationLLA>S22° 55' 44.94",W42° 30' 17.78",+000033.00</DestinationLLA>
+        <Descr>SDSK to SDSK</Descr>
+        <DeparturePosition>14</DeparturePosition>
+        <DepartureName>Saquarema Airport</DepartureName>
+        <DestinationName>Saquarema Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Saquarema Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S22° 55' 44.94",W42° 30' 17.78",+000033.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>14</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>SDSK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+52|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S22° 53' 38.00",W42° 28' 13.43",+000052.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Cabo Frio+14x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S22° 55' 15.00",W42° 4' 17.00",+000014.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Correntezas+1089x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S22° 26' 11.67",W42° 24' 8.70",+001089.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Guapiacu+892x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S22° 25' 50.54",W42° 49' 10.42",+000892.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Itaipuacu+33x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S22° 57' 34.77",W42° 58' 42.70",+000033.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+23x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S22° 55' 34.12",W42° 30' 41.82",+000023.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Saquarema Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S22° 55' 44.94",W42° 30' 17.78",+000033.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>SDSK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
