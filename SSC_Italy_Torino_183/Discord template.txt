@@ -1,4 +1,4 @@
-SSC Italy Torino 222km in the Pirat
+SSC Italy Torino 183km in the Pirat
 
 <t:1705517100:F>
 
@@ -10,7 +10,7 @@ SSC Italy Torino 222km in the Pirat
 
 **Max start:** 4000 Feet MSL
 
-Distance is 222km, expected duration 110 min
+Distance is 183km, expected duration 90 min
 
 **Meet/Briefing:** <t:1705517100:t>
 At this time we meet in the voice chat and get ready. https://discord.com/channels/876123356385149009/876397825934626836
@@ -22,5 +22,3 @@ At this time we simultaneously click the [FLY] button to sync our weather.
 At this time we cross the starting line and start the task.
 
 Task / Wx will be provided nearer the time.
-
-(Weather is SSC Soaring SW)

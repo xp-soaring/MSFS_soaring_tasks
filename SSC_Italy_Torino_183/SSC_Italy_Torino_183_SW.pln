@@ -31,39 +31,39 @@
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="*Start+2910|4000x5000">
+        <ATCWaypoint id="*Start+3169|4000x5000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 7' 41.91",E7° 26' 27.87",+002910.11</WorldPosition>
+            <WorldPosition>N45° 8' 22.81",E7° 24' 39.47",+003169.29</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 1+10564x2000">
+        <ATCWaypoint id="WP 1+10033x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 12' 6.54",E7° 4' 45.43",+010564.30</WorldPosition>
+            <WorldPosition>N45° 14' 6.04",E6° 59' 43.97",+010032.81</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 2+6119x2000">
+        <ATCWaypoint id="WP 2+9075x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 21' 25.19",E6° 22' 34.26",+006118.77</WorldPosition>
+            <WorldPosition>N45° 14' 40.00",E6° 31' 45.52",+009074.80</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 3+9301x2000">
+        <ATCWaypoint id="WP 3+5778x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 6' 37.76",E6° 17' 57.63",+009301.18</WorldPosition>
+            <WorldPosition>N44° 55' 22.79",E6° 42' 10.85",+005777.56</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 4+7297x2000">
+        <ATCWaypoint id="WP 4+1788x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N44° 55' 10.08",E6° 38' 55.79",+007296.59</WorldPosition>
+            <WorldPosition>N45° 8' 53.37",E7° 1' 42.65",+001788.06</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
-        <ATCWaypoint id="*Finish+1089x4000">
+        <ATCWaypoint id="*Finish+1093x4000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 7' 26.43",E7° 31' 14.08",+001089.24</WorldPosition>
+            <WorldPosition>N45° 7' 24.34",E7° 31' 6.87",+001092.52</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
