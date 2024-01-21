@@ -1,0 +1,54 @@
+<Task fai_finish="0" finish_min_height_ref="MSL" finish_min_height="0.000"
+            start_max_height_ref="MSL" start_max_height="1219.200" start_max_speed="0" start_requires_arm="0"
+            aat_min_time="0" name="SSC_Italy_Torino_183_SW" type="RT">
+
+    <Point type="Start">
+        <Waypoint altitude="965.911" comment="" id="1" name="Start">
+            <Location latitude="45.1396694" longitude="7.4109639"/>
+        </Waypoint>
+        <ObservationZone length="5000" type="Line"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="3058.058" comment="" id="2" name="WP 1">
+            <Location latitude="45.2350111" longitude="6.9955472"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="2766.060" comment="" id="3" name="WP 2">
+            <Location latitude="45.2444444" longitude="6.5293111"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="1761.134" comment="" id="4" name="WP 3">
+            <Location latitude="44.9229972" longitude="6.7030139"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="544.982" comment="" id="5" name="WP 4">
+            <Location latitude="45.1481583" longitude="7.0285139"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Finish">
+        <Waypoint altitude="333.146" comment="" id="6" name="Finish">
+            <Location latitude="45.1234278" longitude="7.5185750"/>
+        </Waypoint>
+        <ObservationZone length="4000" type="Line"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="331.622" comment="" id="7" name="Campo Di Volo Prealpi-Musinè">
+            <Location latitude="45.1248250" longitude="7.5216917"/>
+        </Waypoint>
+        <ObservationZone radius="500" type="Cylinder"/>
+    </Point>
+
+    </Task>

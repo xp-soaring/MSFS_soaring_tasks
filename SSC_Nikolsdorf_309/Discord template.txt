@@ -1,26 +1,26 @@
-SSC Italy Torino 222km in the Pirat
+SSC AT Nikolsdorf 309
 
-<t:1705517100:F>
+<t:1706381100:F>
 
-**Glider Class:** SZD30 Pirat
+**Glider Class:** Any, flapped recommended
 
 **MSFS Server:** Southeast Asia
 
 **Sim date/time:** July 1st 1pm local (i.e. NOT day we are flying)
 
-**Max start:** 4000 Feet MSL
+**Max start:** 6000 Feet MSL
 
-Distance is 222km, expected duration 110 min
+Distance is 309km, expected duration 90 min
 
-**Meet/Briefing:** <t:1705517100:t>
+**Meet/Briefing:** <t:1706381100:t>
 At this time we meet in the voice chat and get ready. https://discord.com/channels/876123356385149009/876397825934626836
 
-**Synchronized Fly:** <t:1705518000:t>
+**Synchronized Fly:** <t:1706382000:t>
 At this time we simultaneously click the [FLY] button to sync our weather.
 
-**Task Start:** <t:1705519800:t>
+**Task Start:** <t:1706383800:t>
 At this time we cross the starting line and start the task.
 
 Task / Wx will be provided nearer the time.
 
-(Weather is SSC Soaring SW)
+(Weather is SSC Soaring SE)

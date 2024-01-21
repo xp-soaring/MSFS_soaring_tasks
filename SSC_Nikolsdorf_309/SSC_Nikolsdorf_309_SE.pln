@@ -2,7 +2,7 @@
 
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
-    <!-- Created in B21 Task Planner X.X.X -->
+    <!-- Created in B21 Task Planner v4.3.0 -->
     <FlightPlan.FlightPlan>
         <Title>LOKL to LOKL</Title>
         <FPType>VFR</FPType>
@@ -12,7 +12,7 @@
         <DestinationID>LOKL</DestinationID>
         <DestinationLLA>N46° 47' 54.00",E12° 52' 42.00",+002093.00</DestinationLLA>
         <Descr>LOKL to LOKL</Descr>
-        
+        <DeparturePosition>12</DeparturePosition>
         <DepartureName>Nikolsdorf Airport</DepartureName>
         <DestinationName>Nikolsdorf Airport</DestinationName>
         <AppVersion>
@@ -24,7 +24,7 @@
             <ATCWaypointType>Airport</ATCWaypointType>
             <WorldPosition>N46° 47' 54.00",E12° 52' 42.00",+002093.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
-            
+            <RunwayNumberFP>12</RunwayNumberFP>
             
             <ICAO>
                 <ICAOIdent>LOKL</ICAOIdent>
