@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC_US_Yosemite_SW</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>5CL0</DepartureID>
+        <DepartureLLA>N37° 20' 25.79",W119° 51' 43.58",+001625.00</DepartureLLA>
+        <DestinationID>E45</DestinationID>
+        <DestinationLLA>N37° 51' 42.00",W120° 10' 42.84",+002904.00</DestinationLLA>
+        <Descr>SSC_US_Yosemite_SW</Descr>
+        <DeparturePosition>27</DeparturePosition>
+        <DepartureName>Grupe Ranch</DepartureName>
+        <DestinationName>Pine Mountain Lake</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Grupe Ranch">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 20' 25.79",W119° 51' 43.58",+001625.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>27</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>5CL0</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 4000+1867|4000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 23' 46.85",W119° 51' 21.63",+001866.80</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Ferguson+2159x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 39' 16.74",W119° 54' 42.96",+002158.79</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Half Dome+5141x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 45' 49.65",W119° 31' 45.06",+005141.08</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Hetch Hetchy+6115x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 55' 40.23",W119° 38' 58.08",+006115.49</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2844x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 51' 42.89",W120° 10' 5.68",+002844.49</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Pine Mountain Lake">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 51' 42.00",W120° 10' 42.84",+002904.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>E45</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
