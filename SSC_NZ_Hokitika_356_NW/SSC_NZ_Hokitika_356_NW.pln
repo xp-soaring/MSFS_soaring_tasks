@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner X.X.X -->
+    <FlightPlan.FlightPlan>
+        <Title>NZHK to NZHP</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>NZHK</DepartureID>
+        <DepartureLLA>S42° 42' 49.00",E170° 59' 6.99",+000129.00</DepartureLLA>
+        <DestinationID>NZHP</DestinationID>
+        <DestinationLLA>S42° 36' 3.02",E171° 41' 56.53",+000693.00</DestinationLLA>
+        <Descr>NZHK to NZHP</Descr>
+        <DeparturePosition>30</DeparturePosition>
+        <DepartureName>Hokitika</DepartureName>
+        <DestinationName>Lake Haupiri Airstrip</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Hokitika">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S42° 42' 49.00",E170° 59' 6.99",+000129.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>30</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>NZHK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 5000+167|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 42' 40.09",E171° 2' 19.54",+000167.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Hurunui River+1772x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 49' 9.24",E172° 15' 53.43",+001772.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Rakaia River+4846x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 24' 56.44",E171° 32' 3.52",+004846.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Prelude Peak+5164x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 18' 42.09",E170° 52' 36.17",+005164.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Hokitika River+1457x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 48' 49.64",E171° 5' 44.09",+001456.69</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+981x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 36' 12.63",E171° 41' 38.92",+000981.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Lake Haupiri Airstrip">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S42° 36' 3.02",E171° 41' 56.53",+000693.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>NZHP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
