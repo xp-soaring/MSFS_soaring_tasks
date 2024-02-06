@@ -2,16 +2,16 @@
 
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
-    <!-- Created in B21 Task Planner v4.3.0 -->
+    <!-- Created in B21 Task Planner X.X.X -->
     <FlightPlan.FlightPlan>
-        <Title>LTXE to LTXE</Title>
+        <Title>SSC_TR_Karain_237_SE</Title>
         <FPType>VFR</FPType>
         <CruisingAlt>1500.000</CruisingAlt>
         <DepartureID>LTXE</DepartureID>
-        <DepartureLLA>N37° 5' 45.77",E30° 38' 51.92",+001015.00</DepartureLLA>
+        <DepartureLLA>N37° 5' 45.78",E30° 38' 51.90",-000000.00</DepartureLLA>
         <DestinationID>LTXE</DestinationID>
-        <DestinationLLA>N37° 5' 45.77",E30° 38' 51.92",+001015.00</DestinationLLA>
-        <Descr>LTXE to LTXE</Descr>
+        <DestinationLLA>N37° 5' 45.78",E30° 38' 51.90",-000000.00</DestinationLLA>
+        <Descr>SSC_TR_Karain_237_SE</Descr>
         <DeparturePosition>18</DeparturePosition>
         <DepartureName>Karain Airport</DepartureName>
         <DestinationName>Karain Airport</DestinationName>
@@ -22,7 +22,7 @@
 
         <ATCWaypoint id="Karain Airport">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N37° 5' 45.77",E30° 38' 51.92",+001015.00</WorldPosition>
+            <WorldPosition>N37° 5' 45.78",E30° 38' 51.90",-000000.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <RunwayNumberFP>18</RunwayNumberFP>
             
@@ -31,33 +31,45 @@
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="*Start+984x5000">
+        <ATCWaypoint id="*Start+2329|5000x5000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N37° 4' 23.73",E30° 42' 14.54",+000984.25</WorldPosition>
+            <WorldPosition>N37° 5' 9.09",E30° 33' 30.49",+002329.40</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
         <ATCWaypoint id="Gelidonya+256x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N36° 13' 2.68",E30° 24' 31.61",+000255.91</WorldPosition>
+            <WorldPosition>N36° 13' 2.70",E30° 24' 31.62",+000255.91</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
-        <ATCWaypoint id="Karacaoren+7621x2000">
+        <ATCWaypoint id="Karacaoren+4278x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N36° 32' 32.88",E30° 9' 54.07",+007621.39</WorldPosition>
+            <WorldPosition>N36° 32' 45.80",E30° 11' 23.08",+004278.22</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Guynuk+1063x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 41' 22.86",E30° 31' 59.94",+001062.99</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Kargii+2431x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 59' 12.90",E30° 24' 1.92",+002431.10</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
         <ATCWaypoint id="*Finish+1004x4000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N37° 5' 27.89",E30° 38' 51.73",+001003.94</WorldPosition>
+            <WorldPosition>N37° 5' 27.90",E30° 38' 51.72",+001003.94</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
         <ATCWaypoint id="Karain Airport">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N37° 5' 45.77",E30° 38' 51.92",+001015.00</WorldPosition>
+            <WorldPosition>N37° 5' 45.78",E30° 38' 51.90",-000000.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             
             
