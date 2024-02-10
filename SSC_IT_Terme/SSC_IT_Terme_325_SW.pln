@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.3 -->
+    <FlightPlan.FlightPlan>
+        <Title>LICA to LICA</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LICA</DepartureID>
+        <DepartureLLA>N38° 54' 30.00",E16° 14' 30.00",+000030.00</DepartureLLA>
+        <DestinationID>LICA</DestinationID>
+        <DestinationLLA>N38° 54' 30.00",E16° 14' 30.00",+000030.00</DestinationLLA>
+        <Descr>LICA to LICA</Descr>
+        
+        <DepartureName>Terme</DepartureName>
+        <DestinationName>Terme</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Terme">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 54' 30.00",E16° 14' 30.00",+000030.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LICA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+312|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 56' 53.83",E16° 15' 26.11",+000311.68</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Campo Di Volo Avio Lao+17x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 46' 49.82",E15° 48' 21.02",+000017.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Campo Di Volo Dragons Fly+20x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 44' 18.47",E16° 27' 25.62",+000020.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Crotone+518x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 59' 48.00",E17° 4' 45.00",+000518.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+39x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 54' 12.05",E16° 15' 45.88",+000039.37</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Terme">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 54' 30.00",E16° 14' 30.00",+000030.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LICA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
