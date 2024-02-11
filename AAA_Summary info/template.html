@@ -1,0 +1,174 @@
+<html>
+<head>
+    <title>Discord SSC template</title>
+
+<style>
+#datetime_select {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#discorddoc_template {
+    display: inline-block;
+    /* white-space: pre; */
+    border: 2px solid black;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    white-space: pre-wrap;
+}
+
+#discorddoc_output {
+    display: inline-block;
+    font-family: sans-serif;
+    /* white-space: pre; */
+    border: 2px solid black;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: #424242;
+    color: white;
+    white-space: pre-wrap;
+}
+
+</style>
+
+<script>
+class DiscordDoc {
+    constructor() {
+        let dd = this;
+        dd.template_str = `
+SSC Task Title
+
+#DATETIME#
+
+**MSFS Server:** Southeast Asia
+
+**Sim date/time:** Nov 11th 3pm local (i.e. 3pm on day we are flying)
+
+**Max start:** 5000 Feet MSL
+
+Distance is 300km, expected duration ~90 min
+
+**Meet/Briefing:** #TIME#
+At this time we meet in the voice chat and get ready. https://discord.com/channels/876123356385149009/876397825934626836
+
+**Synchronized Fly:** #TIME+15#
+At this time we simultaneously click the [FLY] button to sync our weather.
+
+**Task Start:** #TIME+45#
+At this time we cross the starting line and start the task.
+
+A scenic trip out of Valparaiso, Chile.  Pilots who finish this task successfully during the event will be eligible to apply for the Silver Soaring Badge :silver:
+`;
+    } // end constructor()
+
+    init() {
+        let dd = this;
+
+        dd.local_date_str = "2024-02-11";
+        dd.local_time_str = "18:45";
+
+        dd.local_datetime_str = dd.local_date_str+"T"+dd.local_time_str;
+
+        dd.datetime_js = new Date(dd.local_datetime_str);
+
+        console.log(dd.datetime_js.toISOString(), Math.round(dd.datetime_js.getTime()/1000));
+
+        dd.date_el = document.getElementById("input_date");
+        dd.date_el.addEventListener('change', function (){
+            console.log(`date=${this.value}`);
+            dd.update_datetime(dd);
+        })
+
+        dd.time_el = document.getElementById("input_time");
+        dd.time_el.addEventListener('change', function (){
+            console.log(`time=${this.value}`);
+            dd.update_datetime(dd);
+        })
+
+
+        dd.date_el.valueAsDate = new Date();
+        //dd.time_el.valueAsDate = new Date();
+
+        dd.template_el = document.getElementById("discorddoc_template");
+        dd.template_el.innerText = this.template_str;
+
+        dd.output_el = document.getElementById("discorddoc_output");
+
+    } // end init()
+
+    // The user has changed local date or time.
+    update_datetime(dd) {
+        dd.local_date_str = dd.date_el.value;
+        dd.local_time_str = dd.time_el.value;
+        dd.local_datetime_str = dd.local_date_str+"T"+dd.local_time_str;
+        dd.datetime_js = new Date(dd.local_datetime_str);
+        dd.unix_timestamp_str = (dd.datetime_js.getTime()/1000).toFixed(0);
+
+        console.log(`Local datetime: ${dd.local_datetime_str}, timestamp: ${dd.unix_timestamp_str}`);
+        dd.update_output(dd);
+    }
+
+    update_output(dd)  {
+        let display_str = "";
+        dd.output_str = "";
+
+        let lines = dd.template_str.split("\n");
+        for (let i=0; i<lines.length; i++) {
+            let display_line = lines[i];
+            let output_line = lines[i];
+
+            // Replace #DATETIME#
+            display_line = display_line.replace("#DATETIME#", dd.get_datetime_str());
+            output_line = output_line.replace("#DATETIME#", dd.get_discord_datetime_str());
+
+
+            display_str += display_line + "\n";
+            dd.output_str += output_line + "\n";
+        }
+        dd.output_el.innerHTML = display_str;
+    }
+
+    get_datetime_str() {
+        // e.g. Sunday, 11 February 2024 14:00
+        let day_of_week = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")[dd.datetime_js.getDay()];
+        let day_of_month = dd.datetime_js.getDate().toString();
+        let month = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "November", "December")[dd.datetime_js.getMonth()];
+        let year = dd.datetime_js.getFullYear().toString();
+        let time = ("0"+dd.datetime_js.getHours()).slice(-2) + ":" + ("0"+dd.datetime_js.getMinutes()).slice(-2);
+        return day_of_week+", "+day_of_month+" "+month+" "+year+" "+time;
+    }
+
+    get_discord_datetime_str() {
+        // e.g. <t:1707660000:F>
+        return "<t:"+dd.unix_timestamp_str+":F>";
+    }
+
+    get_time_str(time_str) {
+        return "XXX";
+    }
+
+} // end class SSC_Discord
+
+var dd = new DiscordDoc();
+</script>
+
+</head>
+<body onload="dd.init()">
+<h1>SSC Discord Task Template</h1>
+<div id="datetime_select">
+    <h4>Input your required LOCAL date and time</h4>
+    <input id="input_date" type="date" />
+    <input id="input_time" type="time" min="00:00" max="23:59" value="18:45"/>
+</div>
+<div id="discorddoc_output"></div>
+<div id="discorddoc_template" contenteditable="true"></div>
+
+</body>
+</html>
