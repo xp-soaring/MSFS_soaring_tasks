@@ -45,9 +45,28 @@ body {
 }
 
 #discorddoc_display {
-    width: 100%;
     min-height: calc(100vh - 350px);
     padding: 10px;
+}
+
+/* unvisited link */
+#discorddoc_display_frame a:link {
+    color: lightblue;
+  }
+
+/* visited link */
+#discorddoc_display_frame a:visited {
+    color: green;
+}
+
+/* mouse over link */
+#discorddoc_display_frame a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+#discorddoc_display_frame a:active {
+    color: blue;
 }
 
 /* ----------------------------------- */
@@ -65,7 +84,6 @@ body {
 }
 
 #discorddoc_template {
-    width: 100%;
     min-height: calc(100vh - 350px);
     padding: 10px;
 }
