@@ -12,6 +12,9 @@ body {
     margin-left: 30px;
 }
 
+#datetime_select input {
+    font-size: 1.5em;
+}
 
 /* ----------------------------------- */
 /* ---  Wrapper for text areas     --- */
@@ -29,6 +32,14 @@ body {
     padding-bottom: 5px;
     font-size: 1.2em;
     font-weight: bold;
+}
+
+.frame_header button {
+    float: right;
+    margin-right: 15px;
+    border-radius: 4px;
+    background-color: #424242;
+    color: white;
 }
 
 /* ----------------------------------- */
@@ -56,12 +67,12 @@ body {
 
 /* visited link */
 #discorddoc_display_frame a:visited {
-    color: green;
+    color: rgb(108, 207, 240);
 }
 
 /* mouse over link */
 #discorddoc_display_frame a:hover {
-    color: hotpink;
+    color: #5c79f0;
 }
 
 /* selected link */
