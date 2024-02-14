@@ -3,25 +3,43 @@
 class DiscordDoc {
     constructor() {
         let dd = this;
-        dd.template_str = DiscordDoc.initial_template_str;
+        dd.template_str = `
+SSC Task Title
+
+#DATETIME#
+
+**MSFS Server:** Southeast Asia
+
+**Sim date/time:** Nov 11th 3pm local (i.e. 3pm *on day we are flying*)
+
+**Max start:** 5000 Feet MSL
+
+Distance is 300km, expected duration ~90 min
+
+**Meet/Briefing:** #TIME#
+At this time we meet in the voice chat and get ready. https://discord.com/channels/876123356385149009/876397825934626836
+
+**Synchronized Fly:** #TIME+15#
+At this time we simultaneously click the [FLY] button to sync our weather.
+
+**Task Start:** #TIME+45#
+At this time we cross the starting line and start the task.
+
+A scenic trip out of Valparaiso, Chile.  Pilots who finish this task successfully during the event will be eligible to apply for the Silver Soaring Badge :silver:
+`;
     } // end constructor()
 
     init() {
         let dd = this;
 
-        dd.local_date_str = "2024-02-11"; // Will be derived from date input
-        dd.local_time_str = "18:45"; // Will be derived from time input
+        dd.local_date_str = "2024-02-11";
+        dd.local_time_str = "18:45";
 
-        dd.discord_str = "dummy"; // Will contain template updated with Hammertime values
+        dd.local_datetime_str = dd.local_date_str+"T"+dd.local_time_str;
 
-        dd.datetime_js = null; // Date() updated in update_datetime() from current input values
+        dd.datetime_js = new Date(dd.local_datetime_str);
 
-        dd.unix_datetime_int = null; // Int unix timestamp updated in update_datetime() from current input values
-
-        dd.MAX_RESET = 5;
-
-        // -------------------------------
-        // Date time input elements
+        console.log(dd.datetime_js.toISOString(), Math.round(dd.datetime_js.getTime()/1000));
 
         dd.date_el = document.getElementById("input_date");
         dd.date_el.addEventListener('change', function (){
@@ -35,34 +53,17 @@ class DiscordDoc {
             dd.update_datetime(dd);
         })
 
-        dd.date_el.valueAsDate = new Date();
 
-        // -------------------------------
-        // Discord template elements
+        dd.date_el.valueAsDate = new Date();
+        //dd.time_el.valueAsDate = new Date();
 
         dd.template_el = document.getElementById("discorddoc_template");
-        dd.template_el.innerText = dd.template_str;
-        dd.template_el.addEventListener("input", (event) => {
-            dd.template_updated(dd);
-        });
-
-        document.getElementById("store").addEventListener("click", (e) => {
-            dd.ui_click_store(dd);
-        });
-
-        document.getElementById("reset").addEventListener("click", (e) => {
-            dd.ui_click_reset(dd);
-        });
-
-        // -------------------------------
-        // Display area elements
+        dd.template_el.innerText = this.template_str;
+        dd.template_el.addEventListener("input", (e) => { dd.handle_edit(dd); });
 
         dd.display_el = document.getElementById("discorddoc_display");
-        document.getElementById("copy").addEventListener("click", (e) => {
-            dd.ui_click_copy(dd);
-        });
+        dd.output_el = document.getElementById("discorddoc_output");
 
-        //----------------------------------------------------------------------
         // trigger an 'update' so the display area is populated
         dd.update_datetime(dd);
     } // end init()
@@ -79,35 +80,9 @@ class DiscordDoc {
         dd.update_output(dd);
     }
 
-    // The user has changed the template
-    template_updated(dd) {
-        // First we have to clean out the double linefeeds in the template
-        // Remove single leading linefeed (<div>)
-        let html_str = dd.template_el.innerHTML;
-        if (html_str.startsWith("<div><br></div>")) {
-            html_str = html_str.slice(14);
-        }
-        if (html_str.startsWith("<br>")) {
-            html_str = html_str.slice(4);
-        }
-        dd.template_str = html_str
-            .replaceAll("<div><br></div>","\n")
-            .replaceAll("<div>","\n")
-            .replaceAll("</div>","")
-            .replaceAll("<br>","\n");
-
-        //let clean_doc = document.createElement("div");
-        //clean_doc.innerHTML = template_html;
-        //dd.template_str = clean_doc.innerText;
-
-        console.log(`template_updated() '${dd.template_str}'`);
-        console.log(`linefeeds: ${dd.template_str.replaceAll('\n','$')}`);
-        dd.update_output(dd);
-    }
-
     update_output(dd)  {
         let display_str = "";
-        dd.discord_str = "";
+        dd.output_str = "";
 
         let lines = dd.template_str.split("\n");
         for (let i=0; i<lines.length; i++) {
@@ -132,7 +107,7 @@ class DiscordDoc {
             display_line = dd.display_replace_url(display_line);
 
             display_str += display_line + "\n";
-            dd.discord_str += output_line + "\n";
+            dd.output_str += output_line + "\n";
         }
         dd.display_el.innerHTML = display_str;
     }
@@ -292,7 +267,7 @@ class DiscordDoc {
             let url_str = match[0];
             console.log(`url: [${match.index}..${match.index + match[0].length - 1}] ${url_str}`);
             replaced_str += str.slice(str_index, match.index);
-            replaced_str += `<a href='${url_str}' target='_blank'>${url_str}</a>`;
+            replaced_str += `<a href='${url_str}'>${url_str}</a>`;
             str_index = match.index + match[0].length;
         }
         replaced_str += str.slice(str_index);
@@ -311,24 +286,17 @@ class DiscordDoc {
             if (adjust_parts.length == 2) {
                 adjust_s += parseInt(adjust_parts[0]) * 3600; // add hours
             }
-            if (isNaN(adjust_s)) {
-                return 0;
-            }
             return adjust_sign * adjust_s;
         } else if (time_str.startsWith("#DATETIME+") || time_str.startsWith("#DATETIME-")) {
             let adjust_sign = time_str.slice(9,10) == "+" ? 1 : -1;
             // e.g. "#TIME+1:30#"
             // to "1:30"
             let adjust_str = time_str.slice(10,-1);
-            console.log(`adj '${adjust_str}'`);
             // to ["1", "30"] i.e. hours, minutes
             let adjust_parts = adjust_str.split(":");
             let adjust_s = parseInt(adjust_parts[adjust_parts.length - 1]) * 60; // add minutes
             if (adjust_parts.length == 2) {
                 adjust_s += parseInt(adjust_parts[0]) * 3600; // add hours
-            }
-            if (isNaN(adjust_s)) {
-                return 0;
             }
             return adjust_sign * adjust_s;
         }
@@ -340,63 +308,10 @@ class DiscordDoc {
         return "XXX";
     }
 
-    ui_click_copy(dd) {
-        console.log("copy");
-        navigator.clipboard.writeText(dd.discord_str);
+    handle_edit(dd) {
+        console.log("edit");
+        dd.template_str = dd.template_el.innerText;
+        dd.update_output(dd);
     }
-
-    ui_click_reset(dd) {
-        console.log("reset");
-        let template_str = localStorage.getItem("template_0");
-        if (template_str != null && template_str != 'null') {
-            dd.template_el.innerText = template_str;
-            for (let i=0; i<dd.MAX_RESET; i++) {
-                template_str = localStorage.getItem("template_"+i);
-                localStorage.setItem("template_"+(i-1), template_str);
-            }
-            localStorage.setItem("template_"+(dd.MAX_RESET-1), 'null');
-        } else {
-            dd.template_el.innerText = DiscordDoc.initial_template_str;
-        }
-        dd.template_updated(dd);
-    }
-
-    ui_click_store(dd) {
-        console.log("store");
-        // Shuffle up existing stored entries
-        for (let i=dd.MAX_RESET - 2; i>=0; i--) {
-            let template_str = localStorage.getItem("template_"+i);
-            if (template_str == null) {
-                continue;
-            }
-            localStorage.setItem("template_"+(i+1), template_str);
-        }
-        localStorage.setItem("template_0", dd.template_str);
-    }
-
-    static initial_template_str = `SSC Task Title
-
-#DATETIME#
-
-**MSFS Server:** Southeast Asia
-
-**Sim date/time:** Nov 11th 3pm local (i.e. 3pm *on day we are flying*)
-
-**Max start:** 5000 Feet MSL
-
-Distance is 300km, expected duration ~90 min
-
-**Meet/Briefing:** #TIME#
-At this time we meet in the voice chat and get ready. https://discord.com/channels/876123356385149009/876397825934626836
-
-**Synchronized Fly:** #TIME+15#
-At this time we simultaneously click the [FLY] button to sync our weather.
-
-**Task Start:** #TIME+45#
-At this time we cross the starting line and start the task.
-
-A scenic trip out of Valparaiso, Chile.  Pilots who finish this task successfully during the event will be eligible to apply for the Silver Soaring Badge :silver:
-`;
-
 } // end class DiscordDoc
 
