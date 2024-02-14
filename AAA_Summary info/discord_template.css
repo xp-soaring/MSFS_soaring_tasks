@@ -51,10 +51,22 @@ body {
 
 #header_right {
     display: inline-flex;
-    width: 49%;
     border: 1px solid blue;
     background-color: lightblue;
     flex: 4;
+}
+
+table {
+    border-collapse: collapse;
+    display: block;
+    padding: 0;
+}
+td {
+    padding: 2px;
+}
+
+tr {
+
 }
 
 /* ----------------------------------- */

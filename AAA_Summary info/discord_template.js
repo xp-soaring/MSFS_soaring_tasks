@@ -96,12 +96,8 @@ class DiscordDoc {
             .replaceAll("</div>","")
             .replaceAll("<br>","\n");
 
-        //let clean_doc = document.createElement("div");
-        //clean_doc.innerHTML = template_html;
-        //dd.template_str = clean_doc.innerText;
-
-        console.log(`template_updated() '${dd.template_str}'`);
-        console.log(`linefeeds: ${dd.template_str.replaceAll('\n','$')}`);
+        //console.log(`template_updated() '${dd.template_str}'`);
+        //console.log(`linefeeds: ${dd.template_str.replaceAll('\n','$')}`);
         dd.update_output(dd);
     }
 
@@ -147,7 +143,7 @@ class DiscordDoc {
                 break;
             }
             let time_str = replaced_str.slice(time_pos, time_end_pos+1);
-            console.log(`Datetime ${time_str} between ${time_pos} and ${time_end_pos}`);
+            //console.log(`Datetime ${time_str} between ${time_pos} and ${time_end_pos}`);
 
             // Check for time adjustment
             let adjust_s = dd.get_adjust_s(time_str);
@@ -180,7 +176,7 @@ class DiscordDoc {
                 break;
             }
             let time_str = replaced_str.slice(time_pos, time_end_pos+1);
-            console.log(`Datetime ${time_str} between ${time_pos} and ${time_end_pos}`);
+            //console.log(`Datetime ${time_str} between ${time_pos} and ${time_end_pos}`);
 
             // Check for time adjustment
             let adjust_s = dd.get_adjust_s(time_str);
@@ -207,7 +203,7 @@ class DiscordDoc {
                 break;
             }
             let time_str = replaced_str.slice(time_pos, time_end_pos+1);
-            console.log(`Time ${time_str} between ${time_pos} and ${time_end_pos}`);
+            //console.log(`Time ${time_str} between ${time_pos} and ${time_end_pos}`);
 
             // Check for time adjustment
             let adjust_s = dd.get_adjust_s(time_str);
@@ -234,7 +230,7 @@ class DiscordDoc {
                 break;
             }
             let time_str = replaced_str.slice(time_pos, time_end_pos+1);
-            console.log(`Time ${time_str} between ${time_pos} and ${time_end_pos}`);
+            //console.log(`Time ${time_str} between ${time_pos} and ${time_end_pos}`);
 
             // Check for time adjustment
             let adjust_s = dd.get_adjust_s(time_str);
@@ -256,7 +252,7 @@ class DiscordDoc {
                 break;
             }
             let bold_str = replaced_str.slice(bold_pos, bold_end_pos+2);
-            console.log(`Bold ${bold_str} between ${bold_pos} and ${bold_end_pos}`);
+            //console.log(`Bold ${bold_str} between ${bold_pos} and ${bold_end_pos}`);
 
             replaced_str = replaced_str.slice(0,bold_pos)+"<b>"+bold_str.slice(2,-2)+"</b>"+replaced_str.slice(bold_end_pos+2);
 
@@ -274,7 +270,7 @@ class DiscordDoc {
                 break;
             }
             let italic_str = replaced_str.slice(italic_pos, italic_end_pos+1);
-            console.log(`Italic ${italic_str} between ${italic_pos} and ${italic_end_pos}`);
+            //console.log(`Italic ${italic_str} between ${italic_pos} and ${italic_end_pos}`);
 
             replaced_str = replaced_str.slice(0,italic_pos)+"<i>"+italic_str.slice(1,-1)+"</i>"+replaced_str.slice(italic_end_pos+1);
 
@@ -290,7 +286,7 @@ class DiscordDoc {
         let str_index = 0;
         while (match = rx.exec(str)) {
             let url_str = match[0];
-            console.log(`url: [${match.index}..${match.index + match[0].length - 1}] ${url_str}`);
+            //console.log(`url: [${match.index}..${match.index + match[0].length - 1}] ${url_str}`);
             replaced_str += str.slice(str_index, match.index);
             replaced_str += `<a href='${url_str}' target='_blank'>${url_str}</a>`;
             str_index = match.index + match[0].length;
@@ -320,7 +316,7 @@ class DiscordDoc {
             // e.g. "#TIME+1:30#"
             // to "1:30"
             let adjust_str = time_str.slice(10,-1);
-            console.log(`adj '${adjust_str}'`);
+            //console.log(`adj '${adjust_str}'`);
             // to ["1", "30"] i.e. hours, minutes
             let adjust_parts = adjust_str.split(":");
             let adjust_s = parseInt(adjust_parts[adjust_parts.length - 1]) * 60; // add minutes
