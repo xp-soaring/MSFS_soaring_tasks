@@ -7,7 +7,7 @@ rm -r tasks/discord_template/
 
 echo copying files from MSFS_soaring_tasks
 cd ../MSFS_soaring_tasks
-cp -r discord_template ../xp-soaring.github.io/
+cp -r discord_template ../xp-soaring.github.io/tasks/
 
 cd ../xp-soaring.github.io
 
