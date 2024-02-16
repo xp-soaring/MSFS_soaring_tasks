@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.3 -->
+    <FlightPlan.FlightPlan>
+        <Title>SCMF to SCMF</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>SCMF</DepartureID>
+        <DepartureLLA>S39° 15' 21.00",W72° 20' 35.99",+000935.00</DepartureLLA>
+        <DestinationID>SCMF</DestinationID>
+        <DestinationLLA>S39° 15' 21.00",W72° 20' 35.99",+000935.00</DestinationLLA>
+        <Descr>SCMF to SCMF</Descr>
+        <DeparturePosition>24</DeparturePosition>
+        <DepartureName>Malloco Airport</DepartureName>
+        <DestinationName>Malloco Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Malloco Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S39° 15' 21.00",W72° 20' 35.99",+000935.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>24</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>SCMF</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 6000+925|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S39° 13' 35.07",W72° 24' 53.97",+000925.20</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Covadonga+262x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S39° 40' 49.84",W72° 38' 53.23",+000262.47</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Pirihueico Apt+2034x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S40° 1' 46.04",W71° 43' 16.61",+002034.12</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Puhala+2992x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S39° 24' 10.47",W71° 31' 53.28",+002992.13</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Llolle Norte Apt+1598x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S39° 3' 39.07",W71° 41' 14.25",+001597.77</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1027x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S39° 15' 26.33",W72° 20' 29.15",+001027.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Malloco Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S39° 15' 21.00",W72° 20' 35.99",+000935.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>SCMF</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
