@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.3 -->
+    <FlightPlan.FlightPlan>
+        <Title>KRDD to KRDD</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>KRDD</DepartureID>
+        <DepartureLLA>N40° 30' 34.17",W122° 17' 37.05",+000495.41</DepartureLLA>
+        <DestinationID>KRDD</DestinationID>
+        <DestinationLLA>N40° 30' 32.41",W122° 17' 36.43",+000501.97</DestinationLLA>
+        <Descr>KRDD to KRDD</Descr>
+        <DeparturePosition>16</DeparturePosition>
+        <DepartureName>KRDD</DepartureName>
+        <DestinationName>KRDD</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="KRDD">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N40° 30' 34.17",W122° 17' 37.05",+000495.41</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>16</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>KRDD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*START+728|4000x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 40' 16.08",W122° 16' 27.83",+000728.35</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+14088x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N41° 24' 35.95",W122° 11' 42.25",+014088.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+5305x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N41° 3' 2.58",W123° 25' 25.07",+005305.12</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+499x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 30' 35.93",W122° 17' 41.68",+000498.69</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="KRDD">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N40° 30' 32.41",W122° 17' 36.43",+000501.97</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>KRDD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
