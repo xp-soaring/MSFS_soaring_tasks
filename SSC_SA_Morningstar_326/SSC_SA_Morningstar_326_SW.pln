@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.3 -->
+    <FlightPlan.FlightPlan>
+        <Title>FASP to FASP</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>FASP</DepartureID>
+        <DepartureLLA>S33° 45' 32.96",E18° 32' 53.49",+000226.00</DepartureLLA>
+        <DestinationID>FASP</DestinationID>
+        <DestinationLLA>S33° 45' 32.96",E18° 32' 53.49",+000226.00</DestinationLLA>
+        <Descr>FASP to FASP</Descr>
+        <DeparturePosition>11</DeparturePosition>
+        <DepartureName>Morningstar</DepartureName>
+        <DestinationName>Morningstar</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Morningstar">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S33° 45' 32.96",E18° 32' 53.49",+000226.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>11</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>FASP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+95|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S33° 47' 20.50",E18° 30' 25.87",+000095.14</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+3084x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S34° 14' 36.94",E18° 53' 12.78",+003083.99</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+2615x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S34° 3' 23.93",E19° 43' 1.25",+002614.83</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+1473x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S33° 59' 59.02",E19° 13' 14.10",+001473.10</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+1903x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S33° 19' 49.61",E19° 4' 30.06",+001902.89</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+584x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S33° 43' 1.54",E18° 33' 58.38",+000583.99</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Morningstar">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S33° 45' 32.96",E18° 32' 53.49",+000226.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>FASP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
