@@ -9,10 +9,10 @@ class DiscordDoc {
     init() {
         let dd = this;
 
-        dd.local_date_str = "2024-02-11"; // Will be derived from date input
-        dd.local_time_str = "18:45"; // Will be derived from time input
+        dd.local_date_str = null; // e.g. "2024-02-11". Will be derived from date input
+        dd.local_time_str = null; // e.g. "18:45". Will be derived from time input
 
-        dd.discord_str = "dummy"; // Will contain template updated with Hammertime values
+        dd.discord_str = null; // e.g. "<t:1708800300:F>". Will contain template updated with Hammertime values
 
         dd.datetime_js = null; // Date() updated in update_datetime() from current input values
 
@@ -72,16 +72,19 @@ class DiscordDoc {
         });
 
         document.getElementById("reset").addEventListener("click", (e) => {
-            dd.ui_click_reset(dd);
+            dd.ui_click_load(dd);
         });
 
         // -------------------------------
         // Display area elements
 
-        dd.display_el = document.getElementById("discorddoc_display");
+        dd.display_el = document.getElementById("discorddoc_preview");
         document.getElementById("copy").addEventListener("click", (e) => {
-            dd.ui_click_copy(dd);
+            dd.ui_click_copy_template(dd);
         });
+
+        // Saves dropdown
+        dd.saves_dropdown_el = document.getElementById("saves_dropdown");
 
         //----------------------------------------------------------------------
         // trigger an 'update' so the display area is populated
@@ -418,16 +421,39 @@ class DiscordDoc {
 
     ui_hammertime_copy(el) {
         navigator.clipboard.writeText(el.innerText);
+        dd.copy_hammertime_popup(dd);
     }
 
-    ui_click_copy(dd) {
-        console.log("copy");
+    ui_click_copy_template(dd) {
+        console.log("copy template");
         navigator.clipboard.writeText(dd.discord_str);
+        dd.copy_template_popup(dd);
     }
 
-    ui_click_reset(dd) {
-        console.log("reset");
-        let template_str = localStorage.getItem("template_0");
+    copy_template_popup(dd) {
+        let popup_el = document.getElementById("copy_template_popup");
+        popup_el.style.display = "block";
+        setTimeout( () => {
+            popup_el.style.display = "none";
+        }, 1000);
+    }
+
+    copy_hammertime_popup(dd) {
+        let popup_el = document.getElementById("copy_hammertime_popup");
+        popup_el.style.display = "block";
+        setTimeout( () => {
+            popup_el.style.display = "none";
+        }, 1000);
+    }
+
+    ui_click_load(dd) {
+        console.log("load");
+        dd.saves_dropdown_el.style.display = "block";
+        //DEBUG display saves list in dropdown, call load_stored_template on click
+    }
+
+    load_stored_template(dd, index) {
+        let template_str = localStorage.getItem("template_"+index);
         if (template_str != null && template_str != 'null') {
             dd.template_el.innerText = template_str;
             for (let i=0; i<dd.MAX_RESET; i++) {
@@ -438,10 +464,11 @@ class DiscordDoc {
         } else {
             dd.template_el.innerText = DiscordDoc.initial_template_str;
         }
+        dd.saves_dropdown_el.style.display = "none";
         dd.template_updated(dd);
     }
 
-    ui_click_store(dd) {
+    ui_click_store(dd) { //DEBUG add popup confirm for store 'firstline'
         console.log("store");
         // Shuffle up existing stored entries
         for (let i=dd.MAX_RESET - 2; i>=0; i--) {
