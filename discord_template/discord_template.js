@@ -3,7 +3,6 @@
 class DiscordDoc {
     constructor() {
         let dd = this;
-        dd.template_str = DiscordDoc.initial_template_str;
     } // end constructor()
 
     init() {
@@ -18,16 +17,22 @@ class DiscordDoc {
 
         dd.unix_datetime_int = null; // Int unix timestamp updated in update_datetime() from current input values
 
-        dd.MAX_RESET = 5;
+        dd.MAX_STORE_INDEX = 5;           // max number of templates than can be stored (localStorage[template_N])
+        dd.store_index = null;      // index of current stored template (localStorage[template_index]
 
         // -------------------------------
         // Date time input elements
+
+        //dd.date_el
 
         dd.date_el = document.getElementById("input_date");
         dd.date_el.addEventListener('change', function (){
             console.log(`date=${this.value}`);
             dd.update_datetime(dd);
         })
+        dd.date_el.valueAsDate = new Date();
+
+        // dd.time_el
 
         dd.time_el = document.getElementById("input_time");
         dd.time_el.addEventListener('change', function (){
@@ -35,10 +40,10 @@ class DiscordDoc {
             dd.update_datetime(dd);
         })
 
-        dd.date_el.valueAsDate = new Date();
-
         // -------------------------------
         // Hammertime copy elements
+
+        // dd.hammertime_date_display_el
 
         dd.hammertime_date_display_el = document.getElementById("hammertime_date_display");
         dd.hammertime_date_el = document.getElementById("hammertime_date");
@@ -46,11 +51,15 @@ class DiscordDoc {
             dd.ui_hammertime_copy(dd.hammertime_date_el);
         });
 
+        // dd.hammertime_time_display_el
+
         dd.hammertime_time_display_el = document.getElementById("hammertime_time_display");
         dd.hammertime_time_el = document.getElementById("hammertime_time");
         document.getElementById("hammertime_time_button").addEventListener("click", (e) => {
             dd.ui_hammertime_copy(dd.hammertime_time_el);
         });
+
+        // dd.hammertime_datetime_display_el
 
         dd.hammertime_datetime_display_el = document.getElementById("hammertime_datetime_display");
         dd.hammertime_datetime_el = document.getElementById("hammertime_datetime");
@@ -61,30 +70,42 @@ class DiscordDoc {
         // -------------------------------
         // Discord template elements
 
+        // dd.template_el
+
         dd.template_el = document.getElementById("discorddoc_template");
-        dd.template_el.innerText = dd.template_str;
         dd.template_el.addEventListener("input", (event) => {
             dd.template_updated(dd);
         });
 
-        document.getElementById("store").addEventListener("click", (e) => {
+        document.getElementById("store_template_buttton").addEventListener("click", (e) => {
             dd.ui_click_store(dd);
         });
 
-        document.getElementById("reset").addEventListener("click", (e) => {
+        document.getElementById("load_button").addEventListener("click", (e) => {
             dd.ui_click_load(dd);
         });
 
-        // -------------------------------
-        // Display area elements
+        document.getElementById("reset_button").addEventListener("click", (e) => {
+            dd.ui_click_reset(dd);
+        });
 
-        dd.display_el = document.getElementById("discorddoc_preview");
-        document.getElementById("copy").addEventListener("click", (e) => {
+        // -------------------------------
+        // Preview area elements
+
+        dd.preview_el = document.getElementById("discorddoc_preview");
+        document.getElementById("copy_template_button").addEventListener("click", (e) => {
             dd.ui_click_copy_template(dd);
         });
 
-        // Saves dropdown
-        dd.saves_dropdown_el = document.getElementById("saves_dropdown");
+        // Loads dropdown
+        dd.load_dropdown_el = document.getElementById("load_dropdown");
+        dd.load_dropdown_el.addEventListener("mouseleave", (e) => {
+            dd.load_dropdown_hide(dd);
+        });
+
+        dd.template_str = null; // Will hold current template string
+
+        dd.init_load(dd);
 
         //----------------------------------------------------------------------
         // trigger an 'update' so the display area is populated
@@ -129,15 +150,15 @@ class DiscordDoc {
     update_hammertime(dd) {
         // #DATE#
         dd.hammertime_date_el.innerText = dd.output_replace_date("#DATE#");
-        dd.hammertime_date_display_el.innerText = dd.display_replace_date("#DATE#");
+        dd.hammertime_date_display_el.innerHTML = dd.preview_replace_date("#DATE#");
 
         // #TIME#
         dd.hammertime_time_el.innerText = dd.output_replace_time("#TIME#");
-        dd.hammertime_time_display_el.innerText = dd.display_replace_time("#TIME#");
+        dd.hammertime_time_display_el.innerHTML = dd.preview_replace_time("#TIME#");
 
         // #DATETIME#
         dd.hammertime_datetime_el.innerText = dd.output_replace_datetime("#DATETIME#");
-        dd.hammertime_datetime_display_el.innerText = dd.display_replace_datetime("#DATETIME#");
+        dd.hammertime_datetime_display_el.innerHTML = dd.preview_replace_datetime("#DATETIME#");
     }
 
     update_output(dd)  {
@@ -150,34 +171,34 @@ class DiscordDoc {
             let output_line = lines[i];
 
             // Replace #DATETIME#
-            display_line = dd.display_replace_datetime(display_line);
+            display_line = dd.preview_replace_datetime(display_line);
             output_line = dd.output_replace_datetime(output_line);
 
             // Replace #DATE# - we are relying on #DATETIME already replaced
-            display_line = dd.display_replace_date(display_line);
+            display_line = dd.preview_replace_date(display_line);
             output_line = dd.output_replace_date(output_line);
 
             // Replace #TIME...#
-            display_line = dd.display_replace_time(display_line);
+            display_line = dd.preview_replace_time(display_line);
             output_line = dd.output_replace_time(output_line);
 
             // Replace **xxxx** with <b>xxxx</b>
-            display_line = dd.display_replace_bold(display_line);
+            display_line = dd.preview_replace_bold(display_line);
 
             // Replace *xxxx* with <i>xxxx</i>
-            display_line = dd.display_replace_italic(display_line);
+            display_line = dd.preview_replace_italic(display_line);
 
             // Replace https://foo.com with <a href="https://foo.com">https://foo.com</a>
-            display_line = dd.display_replace_url(display_line);
+            display_line = dd.preview_replace_url(display_line);
 
             display_str += display_line + "\n";
             dd.discord_str += output_line + "\n";
         }
-        dd.display_el.innerHTML = display_str;
+        dd.preview_el.innerHTML = display_str;
     }
 
     // Replace #DATETIME# with e.g. "Sunday, 11 February 2024 14:00"
-    display_replace_datetime(str) {
+    preview_replace_datetime(str) {
         let replaced_str = str;
         let time_pos = replaced_str.indexOf("#DATETIME");
         while (time_pos >= 0) {
@@ -203,7 +224,9 @@ class DiscordDoc {
             let time = ("0"+adjusted_datetime_js.getHours()).slice(-2) + ":" + ("0"+adjusted_datetime_js.getMinutes()).slice(-2);
             let datetime_str = day_of_week+", "+day_of_month+" "+month+" "+year+" "+time;
 
-            replaced_str = replaced_str.slice(0,time_pos)+datetime_str+replaced_str.slice(time_end_pos+1);
+            let insert_str = `<div class="preview_hammertime">${datetime_str}</div>`;
+
+            replaced_str = replaced_str.slice(0,time_pos)+insert_str+replaced_str.slice(time_end_pos+1);
 
             time_pos = replaced_str.indexOf("#DATETIME", time_pos);
         }
@@ -234,7 +257,7 @@ class DiscordDoc {
     }
 
     // Replace #DATE# with e.g. "11/02/2024" in locale date format
-    display_replace_date(str) {
+    preview_replace_date(str) {
         let replaced_str = str;
         let time_pos = replaced_str.indexOf("#DATE"); // Note we are relying on #DATETIME already replaced
         while (time_pos >= 0) {
@@ -253,7 +276,9 @@ class DiscordDoc {
 
             let date_str = adjusted_datetime_js.toLocaleString().slice(0,10);
 
-            replaced_str = replaced_str.slice(0,time_pos)+date_str+replaced_str.slice(time_end_pos+1);
+            let insert_str = `<div class="preview_hammertime">${date_str}</div>`;
+
+            replaced_str = replaced_str.slice(0,time_pos)+insert_str+replaced_str.slice(time_end_pos+1);
 
             time_pos = replaced_str.indexOf("#DATE", time_pos);
         }
@@ -288,7 +313,7 @@ class DiscordDoc {
     // Replace #TIME+15" with    "19:00"
     // Replace #TIME+1:30# with  "20:15"
     // Replace #TIME-15# with    "18:30"
-    display_replace_time(str) {
+    preview_replace_time(str) {
         let replaced_str = str;
         let time_pos = replaced_str.indexOf("#TIME");
         while (time_pos >= 0) {
@@ -308,7 +333,11 @@ class DiscordDoc {
             let hh = ("0" + adjusted_datetime_js.getHours()).slice(-2);
             let mm = ("0" + adjusted_datetime_js.getMinutes()).slice(-2);
 
-            replaced_str = replaced_str.slice(0,time_pos)+hh+":"+mm+replaced_str.slice(time_end_pos+1);
+            let display_str = hh+":"+mm;
+
+            let insert_str = `<div class="preview_hammertime">${display_str}</div>`;
+
+            replaced_str = replaced_str.slice(0,time_pos)+insert_str+replaced_str.slice(time_end_pos+1);
 
             time_pos = replaced_str.indexOf("#TIME", time_pos);
         }
@@ -337,7 +366,7 @@ class DiscordDoc {
         return replaced_str;
     }
 
-    display_replace_bold(str) {
+    preview_replace_bold(str) {
         let replaced_str = str;
         let bold_pos = replaced_str.indexOf("**");
         while (bold_pos >= 0) {
@@ -355,7 +384,7 @@ class DiscordDoc {
         return replaced_str;
     }
 
-    display_replace_italic(str) {
+    preview_replace_italic(str) {
         let replaced_str = str;
         let italic_pos = replaced_str.indexOf("*");
         while (italic_pos >= 0) {
@@ -373,7 +402,7 @@ class DiscordDoc {
         return replaced_str;
     }
 
-    display_replace_url(str) {
+    preview_replace_url(str) {
         let replaced_str = "";
         let rx = /(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])/g;
         let match;
@@ -446,40 +475,113 @@ class DiscordDoc {
         }, 1000);
     }
 
+    // ***********************************************************************************
+    // *********   Template load/store                ************************************
+    // Uses localStorage vars:                                                           *
+    //      template_index : index {0..dd.MAX_STORE_INDEX-1} of latest stored template         *
+    //      template_0 .. template_[dd.MAX_STORE_INDEX-1] : stored template strings
+    //      template_0_title etc, : title of Nth template (from 1st line)
+    // ***********************************************************************************
+
+    init_load(dd) {
+        dd.store_index = localStorage.getItem("template_index");
+        if (dd.store_index != null) {
+            dd.store_index = parseInt(dd.store_index);
+            dd.template_str = localStorage.getItem("template_"+dd.store_index);
+        } else {
+            dd.template_str = DiscordDoc.initial_template_str;
+        }
+        dd.template_el.innerText = dd.template_str;
+    }
+
     ui_click_load(dd) {
         console.log("load");
-        dd.saves_dropdown_el.style.display = "block";
+        if (dd.load_dropdown_el.style.display == "" || dd.load_dropdown_el.style.display == "none") {
+            dd.load_dropdown_el.style.display = "block";
+        } else {
+            // Hit 'Load' while dropdown displayed, so just hide dropdown
+            dd.load_dropdown_hide(dd);
+            return;
+        }
+
+        if (dd.store_index == null) {
+            dd.load_dropdown_el.innerHTML = "no saves";
+        } else {
+            let dropdown_html = "";
+            for (let offset_index=dd.store_index; offset_index > dd.store_index - dd.MAX_STORE_INDEX; offset_index--) {
+                let index = offset_index >= 0 ? offset_index : dd.MAX_STORE_INDEX + offset_index;
+                let title = localStorage.getItem("template_"+index+"_title");
+                if (title == null) {
+                    break;
+                }
+                if (title.length > 30) {
+                    title = title.slice(0,28)+"...";
+                }
+                dropdown_html += `<div class="load_dropdown_entry" onclick="dd.ui_click_load_entry(dd,${index})">`+title+`</div>`;
+            }
+            dd.load_dropdown_el.innerHTML = dropdown_html;
+        }
+
         //DEBUG display saves list in dropdown, call load_stored_template on click
     }
 
+    ui_click_load_entry(dd, index) {
+        console.log(`ui_click_load_entry(${index})`);
+        dd.load_stored_template(dd, index);
+    }
+
+    load_dropdown_hide(dd) {
+        dd.load_dropdown_el.style.display = "none";
+    }
+
     load_stored_template(dd, index) {
-        let template_str = localStorage.getItem("template_"+index);
+        let template_str = localStorage.getItem("template_"+index.toFixed(0));
         if (template_str != null && template_str != 'null') {
             dd.template_el.innerText = template_str;
-            for (let i=0; i<dd.MAX_RESET; i++) {
-                template_str = localStorage.getItem("template_"+i);
-                localStorage.setItem("template_"+(i-1), template_str);
-            }
-            localStorage.setItem("template_"+(dd.MAX_RESET-1), 'null');
         } else {
             dd.template_el.innerText = DiscordDoc.initial_template_str;
         }
-        dd.saves_dropdown_el.style.display = "none";
+        dd.load_dropdown_el.style.display = "none";
         dd.template_updated(dd);
     }
 
     ui_click_store(dd) { //DEBUG add popup confirm for store 'firstline'
-        console.log("store");
-        // Shuffle up existing stored entries
-        for (let i=dd.MAX_RESET - 2; i>=0; i--) {
-            let template_str = localStorage.getItem("template_"+i);
-            if (template_str == null) {
-                continue;
-            }
-            localStorage.setItem("template_"+(i+1), template_str);
+        console.log("store_template_button ");
+
+        dd.store_index = dd.store_index == null ? 0 : dd.store_index + 1;
+        if (dd.store_index >= dd.MAX_STORE_INDEX) {
+            dd.store_index = 0;
         }
-        localStorage.setItem("template_0", dd.template_str);
+
+        let index_value = dd.store_index.toFixed(0);
+
+        let template_title = dd.template_str.split('\n')[0];
+        if (template_title == null || template_title.trim() == "") {
+            template_title = `Template ${dd.store_index}`;
+        }
+
+        let store_var_name = "template_"+index_value;
+        console.log(`Storing tmeplate '${template_title}' as ${store_var_name}`);
+
+        localStorage.setItem(store_var_name, dd.template_str);
+        localStorage.setItem("template_index", index_value);
+        localStorage.setItem(store_var_name+"_title", template_title);
+
     }
+
+    ui_click_reset(dd) {
+        if (confirm("This will load the default template and remove stored templates")) {
+            localStorage.removeItem("template_index");
+            for (let i=0; i<dd.MAX_STORE_INDEX; i++) {
+                localStorage.removeItem("template_"+i.toFixed(0)+"_title");
+            }
+            dd.init_load(dd);
+        }
+    }
+
+    // ***********************************************************************************
+    // *********   Default initial tempalte               ********************************
+    // ***********************************************************************************
 
     static initial_template_str = `SSC Task Title
 

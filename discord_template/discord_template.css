@@ -71,8 +71,8 @@ table {
     left: 25%;
     border-radius: 7px;
     font-size: 1.3em;
-    color: white;
-    background-color: gray;
+    background-color: #3b5bdb;
+    color: #fff;
     padding: 10px;
 }
 
@@ -132,7 +132,7 @@ table {
     padding-left: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
@@ -144,6 +144,7 @@ table {
 .frame_header button {
     margin-right: 15px;
     border-radius: 4px;
+    font-size: 1em;
     background-color: #424242;
     color: white;
 }
@@ -163,14 +164,28 @@ table {
     white-space: pre-wrap;
 }
 
-#saves_dropdown {
+#load_dropdown {
     display: none;
     position: absolute;
     right: 15px;
     top: 35px;
+    cursor: pointer;
     min-height: 100px;
-    min-width: 80px;
-    background-color: pink;
+    min-width: 20%;
+    border-radius: 5px;
+    background-color: #aaaaaa;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.load_dropdown_entry {
+    color: #fff;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.load_dropdown_entry:hover {
+    background-color: #bbb;
 }
 
 [contenteditable] {
@@ -196,6 +211,11 @@ table {
     white-space: pre-wrap;
 }
 
+#copy_template_button {
+    background-color: #3b5bdb;
+    color: #fff;
+}
+
 #copy_template_popup {
     display: none;
     position: absolute;
@@ -203,8 +223,8 @@ table {
     right: 18%;
     border-radius: 7px;
     font-size: 1.3em;
-    color: white;
-    background-color: gray;
+    background-color: #3b5bdb;
+    color: #fff;
     padding: 10px;
 }
 
@@ -234,3 +254,13 @@ table {
     color: blue;
 }
 
+.preview_hammertime {
+    display: inline-block;
+    color: #fff;
+    background-color: #626262;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
