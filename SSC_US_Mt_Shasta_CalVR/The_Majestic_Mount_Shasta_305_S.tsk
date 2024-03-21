@@ -1,0 +1,40 @@
+<Task fai_finish="0" finish_min_height_ref="MSL" finish_min_height="0.000"
+            start_max_height_ref="MSL" start_max_height="1219.200" start_max_speed="0" start_requires_arm="0"
+            aat_min_time="0" name="The_Majestic_Mount_Shasta_305_S" type="RT">
+
+    <Point type="Start">
+        <Waypoint altitude="221.894" comment="" id="1" name="START 4000">
+            <Location latitude="40.6711333" longitude="-122.2743972"/>
+        </Waypoint>
+        <ObservationZone length="2000" type="Line"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="4294.022" comment="" id="2" name="WP 1">
+            <Location latitude="41.4099861" longitude="-122.1950694"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="1616.964" comment="" id="3" name="WP 2">
+            <Location latitude="41.0507167" longitude="-123.4236306"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Finish">
+        <Waypoint altitude="152.095" comment="" id="4" name="Finish">
+            <Location latitude="40.5099806" longitude="-122.2949111"/>
+        </Waypoint>
+        <ObservationZone length="2000" type="Line"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="153.000" comment="" id="5" name="KRDD">
+            <Location latitude="40.5090028" longitude="-122.2934528"/>
+        </Waypoint>
+        <ObservationZone radius="500" type="Cylinder"/>
+    </Point>
+
+    </Task>
