@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.5 -->
+    <FlightPlan.FlightPlan>
+        <Title>L09 to L09</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>L09</DepartureID>
+        <DepartureLLA>N36° 36' 13.80",W117° 9' 33.21",+000025.00</DepartureLLA>
+        <DestinationID>L09</DestinationID>
+        <DestinationLLA>N36° 36' 13.80",W117° 9' 33.21",+000025.00</DestinationLLA>
+        <Descr>L09 to L09</Descr>
+        <DeparturePosition>5</DeparturePosition>
+        <DepartureName>Stove Pipe Wells</DepartureName>
+        <DestinationName>Stove Pipe Wells</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Stove Pipe Wells">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 36' 13.80",W117° 9' 33.21",+000025.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>5</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>L09</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 5000+4849x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 29' 19.18",W117° 3' 44.09",+004849.08</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+2917x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N35° 47' 19.81",W117° 5' 2.56",+002916.67</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP2+5666x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 31' 33.79",W117° 32' 44.93",+005666.01</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+6362x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 39' 1.62",W117° 50' 48.26",+006361.55</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+2694x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 59' 57.27",W117° 27' 32.26",+002693.57</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+36x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 36' 7.37",W117° 9' 44.83",+000036.09</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Stove Pipe Wells">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 36' 13.80",W117° 9' 33.21",+000025.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>L09</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

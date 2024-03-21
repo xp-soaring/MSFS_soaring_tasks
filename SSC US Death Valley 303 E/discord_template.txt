@@ -1,6 +1,7 @@
-# SSC IT Terme 325km
+# SSC US Death Valley 303 in the Discus 2
+<t:1712771100:F>
 
-<t:1711824300:F>
+**Glider Class:** Discus 2
 
 **MSFS Server:** Southeast Asia
 
@@ -8,17 +9,16 @@
 
 **Max start:** 5000 Feet MSL
 
-Distance is 325km, expected duration ~1 hour 40 min
+Distance is 303km, expected duration ~1 hour 40 min
 
-**Meet/Briefing:** <t:1711824300:t>
+**Meet/Briefing:** <t:1712771100:t>
 At this time we meet in the voice chat and get ready. https://discord.com/channels/876123356385149009/876397825934626836
 
-**Synchronized Fly:** <t:1711825200:t>
+**Synchronized Fly:** <t:1712772000:t>
 At this time we simultaneously click the [FLY] button to sync our weather.
 
-**Task Start:** <t:1711827000:t>
+**Task Start:** <t:1712773800:t>
 At this time we cross the starting line and start the task.
 
 Task / Wx will be provided on the day.
 
-(Weather is SSC Soaring Weather SW)
