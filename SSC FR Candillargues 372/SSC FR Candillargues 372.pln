@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.5 -->
+    <FlightPlan.FlightPlan>
+        <Title>LFNG to LFNG</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LFNG</DepartureID>
+        <DepartureLLA>N43° 36' 37.02",E4° 4' 13.02",-000000.00</DepartureLLA>
+        <DestinationID>LFNG</DestinationID>
+        <DestinationLLA>N43° 36' 37.02",E4° 4' 13.02",-000000.00</DestinationLLA>
+        <Descr>LFNG to LFNG</Descr>
+        <DeparturePosition>14</DeparturePosition>
+        <DepartureName>Candillargues</DepartureName>
+        <DestinationName>Candillargues</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Candillargues">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 36' 37.02",E4° 4' 13.02",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>14</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LFNG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 6000+-7|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 37' 37.68",E4° 7' 36.12",-000007.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+10x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 27' 17.70",E4° 25' 36.60",+000010.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+1552x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 16' 17.22",E3° 51' 54.42",+001552.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+335x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 10' 52.39",E4° 55' 58.30",+000334.65</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+1040x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 55' 35.81",E3° 38' 55.86",+001040.03</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+0x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 36' 50.22",E4° 3' 57.18",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Candillargues">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 36' 37.02",E4° 4' 13.02",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LFNG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

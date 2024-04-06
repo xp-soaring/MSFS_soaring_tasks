@@ -1,0 +1,54 @@
+<Task fai_finish="0" finish_min_height_ref="MSL" finish_min_height="0.000"
+            start_max_height_ref="MSL" start_max_height="1828.800" start_max_speed="0" start_requires_arm="0"
+            aat_min_time="0" name="SSC_SA_Morningstar_326_SW" type="RT">
+
+    <Point type="Start">
+        <Waypoint altitude="28.956" comment="" id="1" name="Start">
+            <Location latitude="-33.7890278" longitude="18.5071861"/>
+        </Waypoint>
+        <ObservationZone length="5000" type="Line"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="940.003" comment="" id="2" name="WP 1">
+            <Location latitude="-34.2435944" longitude="18.8868833"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="797.052" comment="" id="3" name="WP 2">
+            <Location latitude="-34.0566472" longitude="19.7170139"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="448.970" comment="" id="4" name="WP 3">
+            <Location latitude="-33.9997278" longitude="19.2205833"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="580.034" comment="" id="5" name="WP 4">
+            <Location latitude="-33.3304472" longitude="19.0750167"/>
+        </Waypoint>
+        <ObservationZone radius="1000" type="Cylinder"/>
+    </Point>
+
+    <Point type="Finish">
+        <Waypoint altitude="178.003" comment="" id="6" name="Finish">
+            <Location latitude="-33.7170944" longitude="18.5662167"/>
+        </Waypoint>
+        <ObservationZone length="4000" type="Line"/>
+    </Point>
+
+    <Point type="Turn">
+        <Waypoint altitude="68.885" comment="" id="7" name="Morningstar">
+            <Location latitude="-33.7591556" longitude="18.5481917"/>
+        </Waypoint>
+        <ObservationZone radius="500" type="Cylinder"/>
+    </Point>
+
+    </Task>

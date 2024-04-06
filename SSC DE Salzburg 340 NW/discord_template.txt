@@ -1,0 +1,26 @@
+# SSC DE Salzburg 343km in the JS3-15
+
+<t:1713980700:F>
+
+**MSFS Server:** Southeast Asia
+
+**Glider type:** JS3-15
+
+**Sim date/time:** April 24th 1pm local (i.e. 1pm on day we are flying)
+
+**Max start:** 6000 Feet MSL
+
+Distance is 343km, expected duration ~1 hour 45 min
+
+**Meet/Briefing:** <t:1713980700:t>
+At this time we meet in the voice chat and get ready. https://discord.com/channels/876123356385149009/876397825934626836
+
+**Synchronized Fly:** <t:1713981600:t>
+At this time we simultaneously click the [FLY] button to sync our weather.
+
+**Task Start:** <t:1713983400:t>
+At this time we cross the starting line and start the task.
+
+A round trip in Germany including the foothills of the Alps and across the flat land.  Pilots who finish this task successfully during the event will be eligible to apply for the Silver Soaring Badge :silver:
+
+(Weather is SSC 64 Scattered Clouds 6k NW 15kt.WPR)

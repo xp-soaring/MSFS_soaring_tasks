@@ -20,5 +20,6 @@ At this time we simultaneously click the [FLY] button to sync our weather.
 **Task Start:** <t:1712773800:t>
 At this time we cross the starting line and start the task.
 
-Task / Wx will be provided on the day.
+Task / Wx will be provided on the day. Pilots who finish this task successfully during the event will be eligible to apply for the Silver Soaring Badge :silver:
 
+(Weather is SSC 22 Few Clouds 6k E 15kt.WPR)

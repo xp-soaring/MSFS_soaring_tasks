@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.5 -->
+    <FlightPlan.FlightPlan>
+        <Title>LGTL to LGTL</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LGTL</DepartureID>
+        <DepartureLLA>N35° 11' 34.80",E25° 19' 45.00",+001120.00</DepartureLLA>
+        <DestinationID>LGTL</DestinationID>
+        <DestinationLLA>N35° 11' 34.80",E25° 19' 45.00",+001120.00</DestinationLLA>
+        <Descr>LGTL to LGTL</Descr>
+        
+        <DepartureName>Kasteli AB</DepartureName>
+        <DestinationName>Kasteli AB</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Kasteli AB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N35° 11' 34.80",E25° 19' 45.00",+001120.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LGTL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 5000+1115|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N35° 9' 18.08",E25° 18' 19.39",+001115.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+174x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N35° 2' 13.35",E25° 55' 19.70",+000174.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+0x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 55' 8.01",E24° 44' 36.87",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+72x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N35° 8' 41.70",E24° 30' 41.16",+000072.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1358x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N35° 12' 56.27",E25° 19' 3.39",+001358.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Kasteli AB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N35° 11' 34.80",E25° 19' 45.00",+001120.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LGTL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

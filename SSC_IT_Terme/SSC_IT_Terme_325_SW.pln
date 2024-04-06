@@ -2,7 +2,7 @@
 
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
-    <!-- Created in B21 Task Planner v4.3.3 -->
+    <!-- Created in B21 Task Planner v4.3.5 -->
     <FlightPlan.FlightPlan>
         <Title>LICA to LICA</Title>
         <FPType>VFR</FPType>
@@ -12,7 +12,7 @@
         <DestinationID>LICA</DestinationID>
         <DestinationLLA>N38° 54' 30.00",E16° 14' 30.00",+000030.00</DestinationLLA>
         <Descr>LICA to LICA</Descr>
-        
+        <DeparturePosition>28</DeparturePosition>
         <DepartureName>Terme</DepartureName>
         <DestinationName>Terme</DestinationName>
         <AppVersion>
@@ -24,7 +24,7 @@
             <ATCWaypointType>Airport</ATCWaypointType>
             <WorldPosition>N38° 54' 30.00",E16° 14' 30.00",+000030.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
-            
+            <RunwayNumberFP>28</RunwayNumberFP>
             
             <ICAO>
                 <ICAOIdent>LICA</ICAOIdent>
@@ -33,7 +33,7 @@
 
         <ATCWaypoint id="*Start+312|5000x5000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N38° 56' 53.83",E16° 15' 26.11",+000311.68</WorldPosition>
+            <WorldPosition>N38° 56' 53.83",E16° 15' 26.11",+000312.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
@@ -57,7 +57,7 @@
 
         <ATCWaypoint id="*Finish+39x4000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N38° 54' 12.05",E16° 15' 45.88",+000039.37</WorldPosition>
+            <WorldPosition>N38° 54' 12.05",E16° 15' 45.88",+000039.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
