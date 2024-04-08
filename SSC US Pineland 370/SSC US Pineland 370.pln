@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.5 -->
+    <FlightPlan.FlightPlan>
+        <Title>T24 to T24</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>T24</DepartureID>
+        <DepartureLLA>N31° 14' 0.68",W93° 58' 54.69",+000260.00</DepartureLLA>
+        <DestinationID>T24</DestinationID>
+        <DestinationLLA>N31° 14' 0.68",W93° 58' 54.69",+000260.00</DestinationLLA>
+        <Descr>T24 to T24</Descr>
+        
+        <DepartureName>Pineland Mun</DepartureName>
+        <DestinationName>Pineland Mun</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Pineland Mun">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N31° 14' 0.68",W93° 58' 54.69",+000260.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>T24</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 6000+259|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N31° 16' 49.68",W94° 0' 36.81",+000259.19</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+236|1000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N31° 27' 18.22",W94° 34' 26.18",+000236.22</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+285x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N31° 1' 31.15",W94° 3' 17.22",+000285.43</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+259x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N31° 49' 51.24",W93° 56' 18.96",+000259.19</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+243x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N31° 8' 51.47",W93° 31' 48.47",+000242.78</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+246x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N31° 13' 36.97",W93° 58' 54.78",+000246.06</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Pineland Mun">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N31° 14' 0.68",W93° 58' 54.69",+000260.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>T24</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
