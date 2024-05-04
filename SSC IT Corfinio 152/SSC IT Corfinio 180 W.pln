@@ -4,14 +4,14 @@
     <Descr>AceXML Document</Descr>
     <!-- Created in B21 Task Planner v4.3.5 -->
     <FlightPlan.FlightPlan>
-        <Title>LIIY to LIIY</Title>
+        <Title>SSC IT Corfintio 150 W</Title>
         <FPType>VFR</FPType>
         <CruisingAlt>1500.000</CruisingAlt>
         <DepartureID>LIIY</DepartureID>
-        <DepartureLLA>N42° 6' 34.82",E13° 50' 30.94",+001179.00</DepartureLLA>
+        <DepartureLLA>N42° 6' 34.80",E13° 50' 30.96",+001184.00</DepartureLLA>
         <DestinationID>LIIY</DestinationID>
-        <DestinationLLA>N42° 6' 34.82",E13° 50' 30.94",+001179.00</DestinationLLA>
-        <Descr>LIIY to LIIY</Descr>
+        <DestinationLLA>N42° 6' 34.80",E13° 50' 30.96",+001184.00</DestinationLLA>
+        <Descr>SSC IT Corfintio 150 W</Descr>
         <DeparturePosition>32</DeparturePosition>
         <DepartureName>Aviosuperficie Corfinio</DepartureName>
         <DestinationName>Aviosuperficie Corfinio</DestinationName>
@@ -22,7 +22,7 @@
 
         <ATCWaypoint id="Aviosuperficie Corfinio">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N42° 6' 34.82",E13° 50' 30.94",+001179.00</WorldPosition>
+            <WorldPosition>N42° 6' 34.80",E13° 50' 30.96",+001184.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <RunwayNumberFP>32</RunwayNumberFP>
             
@@ -31,45 +31,45 @@
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="*Start+3714x5000">
+        <ATCWaypoint id="*Start+4728x5000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N42° 5' 15.08",E13° 57' 11.99",+003713.91</WorldPosition>
+            <WorldPosition>N42° 3' 59.83",E13° 59' 18.03",+004727.69</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 1+4393">
+        <ATCWaypoint id="WP 1+5653x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N42° 18' 18.88",E13° 49' 14.90",+004393.04</WorldPosition>
+            <WorldPosition>N42° 19' 42.07",E13° 48' 43.98",+005653.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 2+3228">
+        <ATCWaypoint id="WP 2+2582x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N42° 8' 43.25",E14° 2' 19.39",+003228.35</WorldPosition>
+            <WorldPosition>N42° 10' 52.41",E14° 1' 29.04",+002582.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 3+4642">
+        <ATCWaypoint id="WP 3+5240x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N41° 54' 16.53",E14° 0' 25.67",+004642.39</WorldPosition>
+            <WorldPosition>N41° 52' 45.37",E14° 3' 19.04",+005240.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 4+3711">
+        <ATCWaypoint id="WP 4+5315x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N42° 19' 33.82",E13° 48' 0.72",+003710.63</WorldPosition>
+            <WorldPosition>N42° 22' 20.48",E13° 44' 45.44",+005315.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
         <ATCWaypoint id="*Finish+1175x4000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N42° 6' 37.62",E13° 50' 27.65",+001174.54</WorldPosition>
+            <WorldPosition>N42° 6' 37.62",E13° 50' 27.66",+001175.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
         <ATCWaypoint id="Aviosuperficie Corfinio">
             <ATCWaypointType>Airport</ATCWaypointType>
-            <WorldPosition>N42° 6' 34.82",E13° 50' 30.94",+001179.00</WorldPosition>
+            <WorldPosition>N42° 6' 34.80",E13° 50' 30.96",+001184.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             
             
