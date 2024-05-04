@@ -31,9 +31,9 @@
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="*Start+4728x5000">
+        <ATCWaypoint id="*Start 6000+4728|6000x5000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N42° 3' 59.83",E13° 59' 18.03",+004727.69</WorldPosition>
+            <WorldPosition>N42° 3' 59.83",E13° 59' 18.03",+004728.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
         </ATCWaypoint>
 
