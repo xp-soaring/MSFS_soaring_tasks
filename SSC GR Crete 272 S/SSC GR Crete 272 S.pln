@@ -12,7 +12,7 @@
         <DestinationID>LGTL</DestinationID>
         <DestinationLLA>N35° 11' 34.80",E25° 19' 45.00",+001120.00</DestinationLLA>
         <Descr>LGTL to LGTL</Descr>
-        
+        <DeparturePosition>20</DeparturePosition>
         <DepartureName>Kasteli AB</DepartureName>
         <DestinationName>Kasteli AB</DestinationName>
         <AppVersion>
@@ -24,7 +24,7 @@
             <ATCWaypointType>Airport</ATCWaypointType>
             <WorldPosition>N35° 11' 34.80",E25° 19' 45.00",+001120.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
-            
+            <RunwayNumberFP>20</RunwayNumberFP>
             
             <ICAO>
                 <ICAOIdent>LGTL</ICAOIdent>
