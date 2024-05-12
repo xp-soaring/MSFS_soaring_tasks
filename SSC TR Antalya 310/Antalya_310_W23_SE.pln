@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.5 -->
+    <FlightPlan.FlightPlan>
+        <Title>Antalya_310_W23_SE_v2</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LTXE</DepartureID>
+        <DepartureLLA>N37° 5' 45.78",E30° 38' 51.90",+001010.50</DepartureLLA>
+        <DestinationID>LTXE</DestinationID>
+        <DestinationLLA>N37° 5' 45.84",E30° 38' 51.84",+001010.50</DestinationLLA>
+        <Descr>Antalya_310_W23_SE_v2</Descr>
+        <DeparturePosition>18</DeparturePosition>
+        <DepartureName>Karainn Airport</DepartureName>
+        <DestinationName>Karainn Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Karainn Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 5' 45.78",E30° 38' 51.90",+001010.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>18</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LTXE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*START+988|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 1' 22.50",E30° 36' 4.86",+000987.53</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+4409x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 51' 31.50",E30° 0' 32.34",+004409.45</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+7290x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 33' 45.36",E29° 36' 14.52",+007290.03</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+95x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 21' 54.66",E30° 17' 5.46",+000095.14</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+108x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 55' 2.04",E31° 6' 16.92",+000108.27</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*FINISH+1010x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 5' 46.32",E30° 38' 52.20",+001010.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Karainn Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 5' 45.84",E30° 38' 51.84",+001010.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LTXE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
