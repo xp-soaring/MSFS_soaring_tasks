@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.5 -->
+    <FlightPlan.FlightPlan>
+        <Title>LFLS to LFLS</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LFLS</DepartureID>
+        <DepartureLLA>N45° 21' 47.00",E5° 19' 58.00",+001256.00</DepartureLLA>
+        <DestinationID>LFLS</DestinationID>
+        <DestinationLLA>N45° 21' 47.00",E5° 19' 58.00",+001256.00</DestinationLLA>
+        <Descr>LFLS to LFLS</Descr>
+        <DeparturePosition>9</DeparturePosition>
+        <DepartureName>St Geoirs</DepartureName>
+        <DestinationName>St Geoirs</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="St Geoirs">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45° 21' 47.00",E5° 19' 58.00",+001256.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>9</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LFLS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+1614|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 25' 40.92",E5° 19' 56.79",+001614.17</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+1706x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 35' 11.95",E6° 11' 46.52",+001706.04</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+3094x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 38' 21.64",E5° 36' 1.01",+003093.83</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+2602x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 5' 24.02",E4° 33' 43.45",+002601.71</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1214x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 21' 45.65",E5° 18' 32.51",+001213.91</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="St Geoirs">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45° 21' 47.00",E5° 19' 58.00",+001256.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LFLS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
