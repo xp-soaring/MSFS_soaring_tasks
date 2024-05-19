@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.5 -->
+    <FlightPlan.FlightPlan>
+        <Title>LICZ to LICZ</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LICZ</DepartureID>
+        <DepartureLLA>N37° 24' 21.18",E14° 55' 26.04",+000088.58</DepartureLLA>
+        <DestinationID>LICZ</DestinationID>
+        <DestinationLLA>N37° 24' 21.18",E14° 55' 26.04",+000088.58</DestinationLLA>
+        <Descr>LICZ to LICZ</Descr>
+        <DeparturePosition>28R</DeparturePosition>
+        <DepartureName>Sigonella Mil</DepartureName>
+        <DestinationName>Sigonella Mil</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Sigonella Mil">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 24' 21.18",E14° 55' 26.04",+000088.58</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>28</RunwayNumberFP>
+            <RunwayDesignatorFP>RIGHT</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>LICZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+92x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 26' 29.16",E14° 54' 15.30",+000091.86</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+3911x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 59' 3.44",E14° 40' 0.33",+003910.76</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+778x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 14' 7.14",E15° 30' 10.32",+000777.56</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+2320x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 16' 13.79",E16° 0' 45.10",+002319.55</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+203x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 0' 21.24",E15° 23' 55.38",+000203.41</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+75x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 24' 26.10",E14° 56' 9.30",+000075.46</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Sigonella Mil">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 24' 21.18",E14° 55' 26.04",+000088.58</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LICZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
