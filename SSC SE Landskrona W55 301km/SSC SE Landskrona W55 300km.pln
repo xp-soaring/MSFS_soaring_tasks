@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.6 -->
+    <FlightPlan.FlightPlan>
+        <Title>ESML to ESML</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>ESML</DepartureID>
+        <DepartureLLA>N55° 56' 39.99",E12° 52' 10.00",+000194.00</DepartureLLA>
+        <DestinationID>ESML</DestinationID>
+        <DestinationLLA>N55° 56' 39.99",E12° 52' 10.00",+000194.00</DestinationLLA>
+        <Descr>ESML to ESML</Descr>
+        <DeparturePosition>12</DeparturePosition>
+        <DepartureName>Landskrona</DepartureName>
+        <DestinationName>Landskrona</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Landskrona">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N55° 56' 39.99",E12° 52' 10.00",+000194.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>12</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>ESML</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+56x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N55° 54' 33.22",E12° 49' 57.76",+000056.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+102x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N55° 39' 46.33",E13° 26' 50.24",+000101.71</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+7x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N55° 33' 54.52",E12° 34' 1.25",+000006.56</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+92x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N56° 1' 25.38",E12° 16' 43.01",+000091.86</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+341x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N56° 24' 41.84",E13° 25' 11.31",+000341.21</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+177x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N55° 56' 51.96",E12° 51' 51.79",+000177.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Landskrona">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N55° 56' 39.99",E12° 52' 10.00",+000194.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>ESML</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

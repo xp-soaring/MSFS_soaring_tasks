@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.6 -->
+    <FlightPlan.FlightPlan>
+        <Title>A57 to A57 (1) (1) (1)</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>A57</DepartureID>
+        <DepartureLLA>N59° 11' 56.88",W138° 26' 45.18",-000000.00</DepartureLLA>
+        <DestinationID>A57</DestinationID>
+        <DestinationLLA>N59° 11' 56.88",W138° 26' 45.18",-000000.00</DestinationLLA>
+        <Descr>A57 to A57 (1) (1) (1)</Descr>
+        <DeparturePosition>25</DeparturePosition>
+        <DepartureName>Alsek River</DepartureName>
+        <DestinationName>Alsek River</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Alsek River">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N59° 11' 56.88",W138° 26' 45.18",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>25</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>A57</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+151|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N59° 18' 3.42",W138° 13' 18.30",+000151.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+3205x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N59° 44' 44.88",W138° 37' 27.12",+003205.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+205x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N60° 0' 35.88",W139° 25' 9.36",+000205.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+341x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N59° 50' 26.46",W140° 54' 38.40",+000341.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+95x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N59° 41' 53.64",W139° 28' 36.66",+000095.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+52x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N59° 11' 57.06",W138° 27' 1.74",+000052.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Alsek River">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N59° 11' 56.88",W138° 26' 45.18",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>A57</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
