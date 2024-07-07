@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.5 -->
+    <FlightPlan.FlightPlan>
+        <Title>EGSC to EGSC</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>EGSC</DepartureID>
+        <DepartureLLA>N52° 12' 18.01",E0° 10' 30.00",+000039.00</DepartureLLA>
+        <DestinationID>EGSC</DestinationID>
+        <DestinationLLA>N52° 12' 18.01",E0° 10' 30.00",+000039.00</DestinationLLA>
+        <Descr>EGSC to EGSC</Descr>
+        <DeparturePosition>5</DeparturePosition>
+        <DepartureName>Cambridge</DepartureName>
+        <DestinationName>Cambridge</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Cambridge">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N52° 12' 18.01",E0° 10' 30.00",+000039.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>5</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>EGSC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 5000+66|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 12' 24.35",E0° 4' 2.25",+000066.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+190x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N51° 45' 10.17",W1° 16' 7.44",+000190.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+167x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 42' 5.91",W1° 5' 12.82",+000167.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+43x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 12' 4.41",E0° 9' 57.92",+000043.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Cambridge">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N52° 12' 18.01",E0° 10' 30.00",+000039.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>EGSC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.3.9 -->
+    <FlightPlan.FlightPlan>
+        <Title>CTA3 to CTA3</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>CTA3</DepartureID>
+        <DepartureLLA>N47° 23' 22.01",W70° 23' 4.00",+000110.00</DepartureLLA>
+        <DestinationID>CTA3</DestinationID>
+        <DestinationLLA>N47° 23' 22.01",W70° 23' 4.00",+000110.00</DestinationLLA>
+        <Descr>CTA3 to CTA3</Descr>
+        <DeparturePosition>17</DeparturePosition>
+        <DepartureName>Ile Aux Coudres</DepartureName>
+        <DestinationName>Ile Aux Coudres</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Ile Aux Coudres">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 23' 22.01",W70° 23' 4.00",+000110.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>17</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>CTA3</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+0|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 24' 25.84",W70° 20' 4.12",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+1155x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 5' 51.75",W69° 59' 20.74",+001155.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+2201x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 33' 28.50",W70° 25' 55.26",+002201.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+942x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 48' 13.75",W71° 30' 1.44",+000942.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+1476x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 5' 36.60",W70° 45' 21.87",+001476.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+233x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 23' 52.96",W70° 25' 17.50",+000233.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Ile Aux Coudres">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 23' 22.01",W70° 23' 4.00",+000110.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>CTA3</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.4.0 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC IS Akureyri 252</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>BIAR</DepartureID>
+        <DepartureLLA>N65° 39' 17.28",W18° 4' 18.30",-000000.00</DepartureLLA>
+        <DestinationID>BIAR</DestinationID>
+        <DestinationLLA>N65° 39' 17.28",W18° 4' 18.30",-000000.00</DestinationLLA>
+        <Descr>BIAR to BIAR (1)</Descr>
+        <DeparturePosition>19</DeparturePosition>
+        <DepartureName>Akureyri Airport</DepartureName>
+        <DestinationName>Akureyri Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Akureyri Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N65° 39' 17.28",W18° 4' 18.30",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>19</RunwayNumberFP>
+
+            <ICAO>
+                <ICAOIdent>BIAR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 3000+722|3000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N65° 46' 39.81",W18° 2' 45.26",+000722.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+2100x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N65° 10' 51.30",W18° 12' 37.32",+002100.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+3450x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N65° 31' 21.43",W18° 26' 6.20",+003450.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+656x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N65° 54' 2.65",W18° 20' 14.13",+000656.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+0x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N66° 9' 17.85",W18° 1' 42.84",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+0x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N66° 11' 5.73",W18° 20' 20.15",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+6x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N65° 40' 0.54",W18° 4' 26.46",+000006.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Akureyri Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N65° 39' 17.28",W18° 4' 18.30",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+
+
+            <ICAO>
+                <ICAOIdent>BIAR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

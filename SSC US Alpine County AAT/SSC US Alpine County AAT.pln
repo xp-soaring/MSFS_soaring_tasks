@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.4.0 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC US Alpine County AAT</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>M45</DepartureID>
+        <DepartureLLA>N38° 44' 5.09",W119° 46' 1.41",+005849.00</DepartureLLA>
+        <DestinationID>M45</DestinationID>
+        <DestinationLLA>N38° 44' 5.09",W119° 46' 1.41",+005849.00</DestinationLLA>
+        <Descr>Alpine County</Descr>
+        <DeparturePosition>17</DeparturePosition>
+        <DepartureName>Alpine County</DepartureName>
+        <DestinationName>Alpine County</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Alpine County">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 44' 5.09",W119° 46' 1.41",+005849.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>17</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>M45</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+7470|10000x5000;AAT01:45;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 42' 49.28",W119° 43' 30.10",+007470.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+4531x80000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 32' 22.43",W118° 30' 4.61",+004531.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+4718x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 53' 14.97",W119° 24' 55.95",+004718.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+7536x80000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 40' 39.34",W119° 26' 45.98",+007536.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+5837x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 44' 27.51",W119° 45' 59.41",+005837.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Alpine County">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 44' 5.09",W119° 46' 1.41",+005849.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>M45</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

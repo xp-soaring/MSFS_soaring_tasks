@@ -1,0 +1,26 @@
+# SSC FR St Geoirs 346
+
+#DATETIME#
+
+**MSFS Server:** Southeast Asia
+
+**Glider type:** DG808S
+
+**Sim date/time:** Wed 19th 3pm local (i.e. 3pm on day we are flying)
+
+**Max start:** 6000 Feet MSL
+
+Distance is 346km, expected duration ~1 hour 40 min
+
+**Meet/Briefing:** #TIME#
+At this time we meet in the voice chat and get ready. https://discord.com/channels/876123356385149009/876397825934626836
+
+**Synchronized Fly:** #TIME+15#
+At this time we simultaneously click the [FLY] button to sync our weather.
+
+**Task Start:** #TIME+45#
+At this time we cross the starting line and start the task.
+
+A round trip in France.  Pilots who finish this task successfully during the event will be eligible to apply for the Silver Soaring Badge :silver:
+
+(Weather is SSC 55 Scattered Clouds 6k SE 10kt.WPR)
