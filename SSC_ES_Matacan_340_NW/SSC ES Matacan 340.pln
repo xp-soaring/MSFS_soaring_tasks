@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.4.1 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC ES Matacan 340</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LESA</DepartureID>
+        <DepartureLLA>N40° 57' 7.01",W5° 30' 7.00",+002589.00</DepartureLLA>
+        <DestinationID>LESA</DestinationID>
+        <DestinationLLA>N40° 57' 7.01",W5° 30' 7.00",+002589.00</DestinationLLA>
+        <Descr>SSC ES Matacan 340</Descr>
+        <DeparturePosition>26</DeparturePosition>
+        <DepartureName>Matacan</DepartureName>
+        <DestinationName>Matacan</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Matacan">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N40° 57' 7.01",W5° 30' 7.00",+002589.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>26</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LESA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+2756|7000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 54' 22.49",W5° 34' 37.11",+002755.91</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+3635x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 17' 49.22",W5° 31' 32.93",+003635.17</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+1949x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 24' 10.94",W4° 25' 48.97",+001948.82</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP3+4255x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 51' 41.77",W4° 4' 23.63",+004255.25</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2589x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 56' 54.55",W5° 29' 49.85",+002588.58</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Matacan">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N40° 57' 7.01",W5° 30' 7.00",+002589.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LESA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
