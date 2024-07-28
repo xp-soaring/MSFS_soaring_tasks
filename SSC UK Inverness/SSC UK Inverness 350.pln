@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.5.3 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC UK Inverness 350</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>EGPE</DepartureID>
+        <DepartureLLA>N57° 32' 33.00",W4° 2' 51.00",+000027.00</DepartureLLA>
+        <DestinationID>EGPE</DestinationID>
+        <DestinationLLA>N57° 32' 33.00",W4° 2' 51.00",+000027.00</DestinationLLA>
+        <Descr>Inverness</Descr>
+        <DeparturePosition>11</DeparturePosition>
+        <DepartureName>Inverness</DepartureName>
+        <DestinationName>Inverness</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Inverness">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N57° 32' 33.00",W4° 2' 51.00",+000027.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>11</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>EGPE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+371|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N57° 28' 40.65",W4° 3' 47.44",+000371.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+112x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N57° 8' 31.92",W4° 39' 49.51",+000112.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+430x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N56° 59' 50.53",W5° 39' 38.69",+000430.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+92x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N56° 56' 32.20",W4° 58' 26.73",+000092.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+0x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N57° 14' 0.60",W5° 25' 30.72",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+66x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N57° 49' 55.95",W3° 48' 30.22",+000065.62</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+30x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N57° 33' 6.57",W4° 2' 11.73",+000030.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Inverness">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N57° 32' 33.00",W4° 2' 51.00",+000027.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>EGPE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
