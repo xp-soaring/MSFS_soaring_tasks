@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.5.4 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC Glenforsa 150</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>EG13</DepartureID>
+        <DepartureLLA>N56° 31' 2.59",W5° 54' 47.97",+000015.00</DepartureLLA>
+        <DestinationID>EG13</DestinationID>
+        <DestinationLLA>N56° 31' 2.59",W5° 54' 47.97",+000015.00</DestinationLLA>
+        <Descr>SSC Glenforsa 150</Descr>
+        
+        <DepartureName>Glenforsa</DepartureName>
+        <DestinationName>Glenforsa</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Glenforsa">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N56° 31' 2.59",W5° 54' 47.97",+000015.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>EG13</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 2000+52|2000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N56° 29' 57.52",W5° 53' 27.40",+000052.49</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+269x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N56° 22' 11.33",W5° 42' 31.61",+000269.03</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+167x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N56° 17' 5.27",W6° 15' 31.92",+000167.32</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+354x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N56° 23' 17.03",W5° 46' 24.02",+000354.33</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+269x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N56° 32' 36.91",W6° 20' 5.95",+000269.03</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+26x1000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N56° 30' 59.70",W5° 55' 9.76",+000026.25</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Glenforsa">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N56° 31' 2.59",W5° 54' 47.97",+000015.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>EG13</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
