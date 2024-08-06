@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.5.6 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC US Grand Tetons</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>46U</DepartureID>
+        <DepartureLLA>N43° 10' 54.50",W111° 2' 18.59",+005630.00</DepartureLLA>
+        <DestinationID>46U</DestinationID>
+        <DestinationLLA>N43° 10' 54.50",W111° 2' 18.59",+005630.00</DestinationLLA>
+        <Descr>SSC US Grand Tetons</Descr>
+        <DeparturePosition>13</DeparturePosition>
+        <DepartureName>Alpine</DepartureName>
+        <DestinationName>Alpine</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Alpine">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 10' 54.50",W111° 2' 18.59",+005630.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>13</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>46U</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+8983x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 12' 18.99",W110° 59' 9.40",+008982.94</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+7575x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 14' 6.71",W110° 45' 1.53",+007575.46</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+6831x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 29' 28.64",W110° 55' 19.52",+006830.71</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+6775x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 1' 59.91",W110° 42' 38.16",+006774.93</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+9321x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 37' 35.04",W110° 49' 54.95",+009320.87</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+6824x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 21' 43.67",W111° 17' 29.43",+006824.15</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+5617x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 11' 17.10",W111° 2' 42.48",+005616.80</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Alpine">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 10' 54.50",W111° 2' 18.59",+005630.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>46U</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
