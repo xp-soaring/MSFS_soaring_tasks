@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.5.6 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC FR Nice AAT SW</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LFMC</DepartureID>
+        <DepartureLLA>N43° 23' 4.81",E6° 23' 12.91",+000257.00</DepartureLLA>
+        <DestinationID>LFMC</DestinationID>
+        <DestinationLLA>N43° 23' 4.81",E6° 23' 12.91",+000257.00</DestinationLLA>
+        <Descr>SSC FR Nice AAT SW</Descr>
+        <DeparturePosition>27</DeparturePosition>
+        <DepartureName>Le Cannet Army</DepartureName>
+        <DestinationName>Le Cannet Army</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Le Cannet Army">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 23' 4.81",E6° 23' 12.91",+000257.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>27</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LFMC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+266|5000x5000;AAT01:45;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 21' 19.71",E6° 25' 10.33",+000266.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+1325x80000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 55' 35.70",E7° 38' 2.90",+001325.46</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+3789x60000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 11' 31.38",E6° 22' 34.29",+003789.37</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+259x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 23' 17.85",E6° 22' 51.34",+000259.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Le Cannet Army">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 23' 4.81",E6° 23' 12.91",+000257.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LFMC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
