@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.6.0 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC NL Ameland 337</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>EHAL</DepartureID>
+        <DepartureLLA>N53° 27' 6.00",E5° 40' 38.00",+000011.00</DepartureLLA>
+        <DestinationID>EHAL</DestinationID>
+        <DestinationLLA>N53° 27' 6.00",E5° 40' 38.00",+000011.00</DestinationLLA>
+        <Descr>SSC NL Ameland 337</Descr>
+        <DeparturePosition>9</DeparturePosition>
+        <DepartureName>Ameland</DepartureName>
+        <DestinationName>Ameland</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Ameland">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N53° 27' 6.00",E5° 40' 38.00",+000011.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>9</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>EHAL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 6000+0|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N53° 26' 26.26",E5° 32' 53.16",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Cocksdorp+-3x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N53° 7' 1.59",E4° 50' 22.12",-000003.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Purmerend+-7x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 29' 58.21",E4° 58' 36.50",-000007.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Wezep+0x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 28' 37.53",E5° 59' 5.30",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Veenhuizen+13x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N53° 2' 40.26",E6° 18' 22.16",+000013.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+3x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N53° 27' 4.23",E5° 41' 9.86",+000003.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Ameland">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N53° 27' 6.00",E5° 40' 38.00",+000011.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>EHAL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
