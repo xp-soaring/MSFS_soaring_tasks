@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.6.1 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC IT Venice AAT</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LIPZ</DepartureID>
+        <DepartureLLA>N45° 30' 19.01",E12° 21' 7.00",+000006.00</DepartureLLA>
+        <DestinationID>LIPZ</DestinationID>
+        <DestinationLLA>N45° 30' 19.01",E12° 21' 7.00",+000006.00</DestinationLLA>
+        <Descr>SSC IT Venice AAT</Descr>
+        <DeparturePosition>22R</DeparturePosition>
+        <DepartureName>Tessera</DepartureName>
+        <DestinationName>Tessera</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Tessera">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45° 30' 19.01",E12° 21' 7.00",+000006.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>22</RunwayNumberFP>
+            <RunwayDesignatorFP>RIGHT</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>LIPZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 6000+3|6000x5000;AAT01:40;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 33' 51.49",E12° 19' 37.21",+000003.28</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+883x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 45' 58.56",E11° 26' 5.36",+000882.55</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+2635x60000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 2' 17.87",E12° 17' 19.11",+002634.51</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+46x80000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 17' 25.25",E11° 32' 52.83",+000045.93</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+13x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 20' 38.19",E12° 19' 26.09",+000013.12</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+-7x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 29' 42.21",E12° 20' 6.05",-000006.56</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Tessera">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45° 30' 19.01",E12° 21' 7.00",+000006.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LIPZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
