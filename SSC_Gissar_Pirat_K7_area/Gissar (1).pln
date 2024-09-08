@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.6.1 -->
+    <FlightPlan.FlightPlan>
+        <Title>Gissar</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>UT45</DepartureID>
+        <DepartureLLA>N38° 30' 44.00",E68° 40' 22.73",+002406.00</DepartureLLA>
+        <DestinationID>UT45</DestinationID>
+        <DestinationLLA>N38° 30' 44.00",E68° 40' 22.73",+002406.00</DestinationLLA>
+        <Descr>Gissar</Descr>
+        <DeparturePosition>8</DeparturePosition>
+        <DepartureName>Gissar</DepartureName>
+        <DestinationName>Gissar</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Gissar">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 30' 44.00",E68° 40' 22.73",+002406.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>8</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>UT45</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+2313x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 27' 22.60",E68° 43' 42.42",+002312.99</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+4364x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 50' 1.14",E68° 7' 9.64",+004363.52</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+1923x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 25' 16.75",E68° 6' 15.34",+001922.57</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+5899x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 17' 50.93",E67° 30' 19.83",+005898.95</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+7060x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 40' 56.26",E67° 44' 0.48",+007060.37</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2428x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N38° 30' 38.68",E68° 39' 21.37",+002427.82</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Gissar">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 30' 44.00",E68° 40' 22.73",+002406.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>UT45</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
