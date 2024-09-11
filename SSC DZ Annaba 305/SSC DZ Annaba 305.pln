@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.6.1 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC DZ Annaba 305</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>DABB</DepartureID>
+        <DepartureLLA>N36° 49' 20.92",E7° 47' 31.40",+000013.12</DepartureLLA>
+        <DestinationID>DABB</DestinationID>
+        <DestinationLLA>N36° 49' 20.92",E7° 47' 31.40",+000013.12</DestinationLLA>
+        <Descr>SSC DZ Annaba 305</Descr>
+        <DeparturePosition>36</DeparturePosition>
+        <DepartureName>Rabah Bitat</DepartureName>
+        <DestinationName>Rabah Bitat</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Rabah Bitat">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 49' 20.92",E7° 47' 31.40",+000013.12</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>36</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>DABB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 5000+20|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 46' 24.10",E7° 49' 4.73",+000019.69</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+144x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 49' 28.83",E8° 32' 35.90",+000144.36</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+1404x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 27' 49.87",E7° 53' 47.08",+001404.20</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+617x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 35' 38.51",E7° 18' 44.75",+000616.80</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+154x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 5' 15.99",E7° 12' 41.38",+000154.20</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+13x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 49' 49.28",E7° 48' 19.88",+000013.12</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Rabah Bitat">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 49' 20.92",E7° 47' 31.40",+000013.12</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>DABB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

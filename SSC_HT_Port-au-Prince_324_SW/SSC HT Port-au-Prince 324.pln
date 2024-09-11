@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.6.1 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC HT Port-au-Prince 324</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>MTPP</DepartureID>
+        <DepartureLLA>N18° 34' 48.18",W72° 17' 33.15",+000100.00</DepartureLLA>
+        <DestinationID>MTPP</DestinationID>
+        <DestinationLLA>N18° 34' 48.18",W72° 17' 33.15",+000100.00</DestinationLLA>
+        <Descr>SSC HT Port-au-Prince 324</Descr>
+        <DeparturePosition>28</DeparturePosition>
+        <DepartureName>Toussaint Louverture Airport</DepartureName>
+        <DestinationName>Toussaint Louverture Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Toussaint Louverture Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N18° 34' 48.18",W72° 17' 33.15",+000100.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>28</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>MTPP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 5000+75x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N18° 38' 49.99",W72° 15' 0.77",+000075.46</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+5289x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N18° 35' 53.14",W71° 23' 49.59",+005288.71</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+774x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N18° 57' 10.98",W71° 57' 2.94",+000774.28</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+440x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N19° 4' 21.00",W72° 47' 23.80",+000439.63</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+108x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N18° 34' 46.41",W72° 18' 23.80",+000108.27</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Toussaint Louverture Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N18° 34' 48.18",W72° 17' 33.15",+000100.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>MTPP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

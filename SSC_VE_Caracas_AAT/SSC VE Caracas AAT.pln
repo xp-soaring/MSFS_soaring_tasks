@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.6.1 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC VE Caracas AAT</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>SVFM</DepartureID>
+        <DepartureLLA>N10° 29' 6.12",W66° 50' 36.65",+002739.00</DepartureLLA>
+        <DestinationID>SVFM</DestinationID>
+        <DestinationLLA>N10° 29' 6.12",W66° 50' 36.65",+002739.00</DestinationLLA>
+        <Descr>SSC VE Caracas AAT</Descr>
+        <DeparturePosition>11</DeparturePosition>
+        <DepartureName>Gen Francisco Miranda AB</DepartureName>
+        <DestinationName>Gen Francisco Miranda AB</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Gen Francisco Miranda AB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N10° 29' 6.12",W66° 50' 36.65",+002739.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>11</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>SVFM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 7000+3038|7000x5000;AAT01:40;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N10° 28' 19.00",W66° 53' 29.91",+003038.06</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+696x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N10° 30' 50.15",W67° 29' 50.93",+000695.54</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+1906x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N10° 33' 42.23",W66° 16' 59.74",+001906.17</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+46x80000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N10° 12' 29.39",W66° 0' 43.35",+000045.93</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2726x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N10° 28' 59.46",W66° 50' 7.05",+002726.38</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Gen Francisco Miranda AB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N10° 29' 6.12",W66° 50' 36.65",+002739.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>SVFM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
