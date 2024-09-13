@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.6.1 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC AU Tumut AAT</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>YTMU</DepartureID>
+        <DepartureLLA>S35° 15' 46.01",E148° 14' 26.99",+000854.00</DepartureLLA>
+        <DestinationID>YTMU</DestinationID>
+        <DestinationLLA>S35° 15' 46.01",E148° 14' 26.99",+000854.00</DestinationLLA>
+        <Descr>SSC AU Tumut AAT</Descr>
+        <DeparturePosition>17</DeparturePosition>
+        <DepartureName>Tumut</DepartureName>
+        <DestinationName>Tumut</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Tumut">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S35° 15' 46.01",E148° 14' 26.99",+000854.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>17</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>YTMU</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 7000+1020|7000x5000;AAT01:45;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S35° 18' 34.28",E148° 18' 6.10",+001020.34</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+2382x60000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S36° 30' 26.74",E148° 6' 14.21",+002381.89</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+1375x80000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S35° 50' 52.35",E147° 39' 57.18",+001374.67</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+3327x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S35° 50' 24.29",E148° 19' 59.81",+003326.77</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+856x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S35° 16' 33.22",E148° 14' 8.73",+000856.30</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Tumut">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S35° 15' 46.01",E148° 14' 26.99",+000854.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>YTMU</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
