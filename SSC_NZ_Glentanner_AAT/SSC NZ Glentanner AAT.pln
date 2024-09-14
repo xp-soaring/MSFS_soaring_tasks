@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.6.1 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC NZ Glentanner AAT</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>NZGT</DepartureID>
+        <DepartureLLA>S43° 54' 27.77",E170° 7' 44.50",+001765.00</DepartureLLA>
+        <DestinationID>NZGT</DestinationID>
+        <DestinationLLA>S43° 54' 27.77",E170° 7' 44.50",+001765.00</DestinationLLA>
+        <Descr>SSC NZ Glentanner AAT</Descr>
+        <DeparturePosition>15</DeparturePosition>
+        <DepartureName>Glentanner</DepartureName>
+        <DestinationName>Glentanner</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Glentanner">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S43° 54' 27.77",E170° 7' 44.50",+001765.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>15</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>NZGT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 7000+3990|7000x5000;AAT01:40;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 55' 16.56",E170° 4' 59.24",+003989.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+3264x30000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S44° 23' 15.59",E170° 9' 7.67",+003264.44</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+3891x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 48' 24.42",E169° 58' 59.57",+003891.08</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+5141x30000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S44° 19' 25.83",E169° 46' 42.94",+005141.08</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1781x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S43° 54' 54.00",E170° 7' 46.80",+001781.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Glentanner">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S43° 54' 27.77",E170° 7' 44.50",+001765.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>NZGT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
