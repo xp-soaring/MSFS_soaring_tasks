@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.6.1 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC MX Monterrey 160</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>MMVK</DepartureID>
+        <DepartureLLA>N25° 30' 20.50",W100° 4' 57.45",+001313.00</DepartureLLA>
+        <DestinationID>MMVK</DestinationID>
+        <DestinationLLA>N25° 30' 20.50",W100° 4' 57.45",+001313.00</DestinationLLA>
+        <Descr>SSC MX Monterrey 160</Descr>
+        <DeparturePosition>12</DeparturePosition>
+        <DepartureName>Sergio Perez De Leon Airport</DepartureName>
+        <DestinationName>Sergio Perez De Leon Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Sergio Perez De Leon Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N25° 30' 20.50",W100° 4' 57.45",+001313.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>12</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>MMVK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 5000+1539|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N25° 29' 14.85",W100° 7' 21.55",+001538.71</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+2375x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N25° 21' 52.21",W100° 8' 55.03",+002375.33</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+3494x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N25° 9' 37.84",W100° 0' 43.11",+003494.09</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+1608x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N25° 24' 48.63",W100° 3' 1.55",+001607.61</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+2224x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N25° 39' 16.29",W100° 27' 8.87",+002224.41</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+3022x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N25° 38' 53.28",W100° 14' 5.78",+003021.65</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1325x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N25° 30' 25.89",W100° 5' 5.25",+001325.46</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Sergio Perez De Leon Airport">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N25° 30' 20.50",W100° 4' 57.45",+001313.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>MMVK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
