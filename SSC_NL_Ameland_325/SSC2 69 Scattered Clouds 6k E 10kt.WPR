@@ -3,7 +3,7 @@
 <SimBase.Document Type="WeatherPreset" version="1,4">
     <Descr>AceXML Document</Descr>
     <WeatherPreset.Preset>
-        <Name>SSC2 - 33 Partly Cloudy 6k N 10kt</Name>
+        <Name>SSC2 - 69 Scattered Clouds 6k E 10kt</Name>
         <Image>weather/presets/scattered_clouds.jpg</Image>
         <Icon>weather/presets/scattered_clouds.svg</Icon>
         <LayeredImage>weather/presets/scattered_clouds_layer.png</LayeredImage>
@@ -11,25 +11,25 @@
         <CloudLayer>
             <CloudLayerDensity Value="0.997" Unit="(0 - 1)">
             </CloudLayerDensity>
-            <CloudLayerCoverage Value="0.150" Unit="(0 - 1)">
+            <CloudLayerCoverage Value="0.300" Unit="(0 - 1)">
             </CloudLayerCoverage>
-            <CloudLayerAltitudeBot Value="1832.432" Unit="m">
+            <CloudLayerAltitudeBot Value="1810.586" Unit="m">
             </CloudLayerAltitudeBot>
-            <CloudLayerAltitudeTop Value="5793.314" Unit="m">
+            <CloudLayerAltitudeTop Value="5755.644" Unit="m">
             </CloudLayerAltitudeTop>
-            <CloudLayerScattering Value="0.330" Unit="(0 - 1)">
+            <CloudLayerScattering Value="0.600" Unit="(0 - 1)">
             </CloudLayerScattering>
         </CloudLayer>
         <CloudLayer>
-            <CloudLayerDensity Value="0.749" Unit="(0 - 1)">
+            <CloudLayerDensity Value="0.000" Unit="(0 - 1)">
             </CloudLayerDensity>
-            <CloudLayerCoverage Value="0.000" Unit="(0 - 1)">
+            <CloudLayerCoverage Value="0.416" Unit="(0 - 1)">
             </CloudLayerCoverage>
-            <CloudLayerAltitudeBot Value="593.491" Unit="m">
+            <CloudLayerAltitudeBot Value="8707.899" Unit="m">
             </CloudLayerAltitudeBot>
-            <CloudLayerAltitudeTop Value="1370.277" Unit="m">
+            <CloudLayerAltitudeTop Value="9352.404" Unit="m">
             </CloudLayerAltitudeTop>
-            <CloudLayerScattering Value="0.272" Unit="(0 - 1)">
+            <CloudLayerScattering Value="0.350" Unit="(0 - 1)">
             </CloudLayerScattering>
         </CloudLayer>
         <CloudLayer>
@@ -37,17 +37,17 @@
             </CloudLayerDensity>
             <CloudLayerCoverage Value="0.000" Unit="(0 - 1)">
             </CloudLayerCoverage>
-            <CloudLayerAltitudeBot Value="12542.043" Unit="m">
+            <CloudLayerAltitudeBot Value="15625.913" Unit="m">
             </CloudLayerAltitudeBot>
-            <CloudLayerAltitudeTop Value="12998.086" Unit="m">
+            <CloudLayerAltitudeTop Value="15625.913" Unit="m">
             </CloudLayerAltitudeTop>
-            <CloudLayerScattering Value="0.161" Unit="(0 - 1)">
+            <CloudLayerScattering Value="1.000" Unit="(0 - 1)">
             </CloudLayerScattering>
         </CloudLayer>
         <WindLayer>
             <WindLayerAltitude Value="-400.000" Unit="m">
             </WindLayerAltitude>
-            <WindLayerAngle Value="0.000" Unit="degrees">
+            <WindLayerAngle Value="90.000" Unit="degrees">
             </WindLayerAngle>
             <WindLayerSpeed Value="17.000" Unit="knts">
             </WindLayerSpeed>
@@ -55,7 +55,7 @@
         <WindLayer>
             <WindLayerAltitude Value="500.000" Unit="m">
             </WindLayerAltitude>
-            <WindLayerAngle Value="0.000" Unit="degrees">
+            <WindLayerAngle Value="90.000" Unit="degrees">
             </WindLayerAngle>
             <WindLayerSpeed Value="4.000" Unit="knts">
             </WindLayerSpeed>
@@ -63,7 +63,7 @@
         <WindLayer>
             <WindLayerAltitude Value="600.000" Unit="m">
             </WindLayerAltitude>
-            <WindLayerAngle Value="0.000" Unit="degrees">
+            <WindLayerAngle Value="90.000" Unit="degrees">
             </WindLayerAngle>
             <WindLayerSpeed Value="4.000" Unit="knts">
             </WindLayerSpeed>
@@ -71,7 +71,7 @@
         <WindLayer>
             <WindLayerAltitude Value="2000.000" Unit="m">
             </WindLayerAltitude>
-            <WindLayerAngle Value="0.000" Unit="degrees">
+            <WindLayerAngle Value="90.000" Unit="degrees">
             </WindLayerAngle>
             <WindLayerSpeed Value="8.000" Unit="knts">
             </WindLayerSpeed>
@@ -79,7 +79,7 @@
         <WindLayer>
             <WindLayerAltitude Value="2300.000" Unit="m">
             </WindLayerAltitude>
-            <WindLayerAngle Value="0.000" Unit="degrees">
+            <WindLayerAngle Value="90.000" Unit="degrees">
             </WindLayerAngle>
             <WindLayerSpeed Value="1.000" Unit="knts">
             </WindLayerSpeed>
