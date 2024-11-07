@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document>
+    <FlightPlan.FlightPlan>
+        <DepartureID>M45</DepartureID>
+        <DestinationID>M45</DestinationID>
+        <Title>M45 - M45</Title>
+        <Descr>Flight from M45 to M45</Descr>
+        <FPType>IFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <AppVersion>
+            <AppVersionMajor>12</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint>
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <ICAO>
+                <ICAOIdent>M45</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint>
+            <WorldPosition>N38° 42' 49.28",W119° 43' 30.10",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint>
+            <WorldPosition>N38° 32' 22.43",W118° 30' 4.61",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint>
+            <WorldPosition>N38° 53' 14.97",W119° 24' 55.95",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint>
+            <WorldPosition>N39° 40' 39.34",W119° 26' 45.98",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint>
+            <WorldPosition>N38° 44' 27.51",W119° 45' 59.41",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint>
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <ICAO>
+                <ICAOIdent>M45</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.7.1 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC IT Brescia 310</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LIIZ</DepartureID>
+        <DepartureLLA>N45° 30' 57.27",E10° 27' 54.16",+000646.00</DepartureLLA>
+        <DestinationID>LIIZ</DestinationID>
+        <DestinationLLA>N45° 30' 57.27",E10° 27' 54.16",+000646.00</DestinationLLA>
+        <Descr>SSC IT Brescia 310</Descr>
+        <DeparturePosition>15</DeparturePosition>
+        <DepartureName>Carzago Riviera</DepartureName>
+        <DestinationName>Carzago Riviera</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Carzago Riviera">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45° 30' 57.27",E10° 27' 54.16",+000646.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>15</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LIIZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 5000+653|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 33' 0.43",E10° 18' 35.93",+000652.89</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+1444x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 49' 22.87",E9° 2' 44.98",+001443.57</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+1033x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 9' 9.27",E9° 17' 32.83",+001033.46</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+4377x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 14' 26.35",E10° 11' 23.40",+004376.64</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+1142x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 42' 11.89",E10° 4' 42.90",+001141.73</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+607x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 30' 55.32",E10° 27' 9.49",+000606.96</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Carzago Riviera">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45° 30' 57.27",E10° 27' 54.16",+000646.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LIIZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
