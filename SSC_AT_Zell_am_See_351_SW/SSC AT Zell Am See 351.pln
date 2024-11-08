@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.7.1 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC AT Zell Am See 351</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LOWZ</DepartureID>
+        <DepartureLLA>N47° 17' 31.60",E12° 47' 14.46",+002469.00</DepartureLLA>
+        <DestinationID>LOWZ</DestinationID>
+        <DestinationLLA>N47° 17' 31.60",E12° 47' 14.46",+002469.00</DestinationLLA>
+        <Descr>SSC AT Zell Am See 337</Descr>
+        <DeparturePosition>26</DeparturePosition>
+        <DepartureName>Zell Am See</DepartureName>
+        <DestinationName>Zell Am See</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Zell Am See">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 17' 31.60",E12° 47' 14.46",+002469.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>26</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LOWZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 6000+4793|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 18' 43.42",E12° 42' 17.07",+004793.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+2014x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 10' 39.34",E11° 52' 10.91",+002014.44</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+2851x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 34' 30.48",E11° 39' 15.96",+002851.05</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+2080x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 39' 19.65",E12° 22' 32.04",+002080.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+4619x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 23' 42.35",E13° 2' 55.83",+004619.42</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+4081x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 33' 5.84",E12° 12' 53.66",+004081.36</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 6+2992x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 17' 17.51",E12° 24' 56.09",+002992.13</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2464x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 17' 26.69",E12° 47' 10.36",+002464.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Zell Am See">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 17' 31.60",E12° 47' 14.46",+002469.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LOWZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
