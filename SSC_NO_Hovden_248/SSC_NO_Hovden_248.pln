@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v4.7.1 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC_NO_Hovden_248</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>ENOV</DepartureID>
+        <DepartureLLA>N62° 10' 48.00",E6° 4' 27.00",+000239.00</DepartureLLA>
+        <DestinationID>ENOV</DestinationID>
+        <DestinationLLA>N62° 10' 48.00",E6° 4' 27.00",+000239.00</DestinationLLA>
+        <Descr>ENOV to ENOV</Descr>
+        
+        <DepartureName>Hovden</DepartureName>
+        <DestinationName>Hovden</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Hovden">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N62° 10' 48.00",E6° 4' 27.00",+000239.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>ENOV</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 3000+0|3000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N62° 12' 9.61",E6° 1' 45.98",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+853x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N61° 56' 27.78",E5° 45' 49.34",+000853.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+968x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N61° 55' 45.33",E6° 49' 1.19",+000968.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+656x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N61° 52' 34.40",E5° 46' 38.80",+000656.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+10x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N62° 6' 2.99",E6° 53' 23.27",+000010.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*FINISH+239x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N62° 11' 13.69",E6° 5' 30.24",+000239.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Hovden">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N62° 10' 48.00",E6° 4' 27.00",+000239.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>ENOV</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
