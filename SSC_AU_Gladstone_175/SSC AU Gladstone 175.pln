@@ -2,7 +2,7 @@
 
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
-    <!-- Created in B21 Task Planner v4.6.1 -->
+    <!-- Created in B21 Task Planner v5.0.2 -->
     <FlightPlan.FlightPlan>
         <Title>SSC AU Gladstone 175</Title>
         <FPType>VFR</FPType>
@@ -12,7 +12,7 @@
         <DestinationID>YGLL</DestinationID>
         <DestinationLLA>S23° 49' 0.79",E150° 49' 12.08",+000110.00</DestinationLLA>
         <Descr>SSC AU Gladstone 224</Descr>
-        <DeparturePosition>4</DeparturePosition>
+        <DeparturePosition>8</DeparturePosition>
         <DepartureName>Gladstone Airport</DepartureName>
         <DestinationName>Gladstone Airport</DestinationName>
         <AppVersion>
@@ -21,10 +21,10 @@
         </AppVersion>
 
         <ATCWaypoint id="Gladstone Airport">
-            <ATCWaypointType>Airport</ATCWaypointType>
+            <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>S23° 49' 0.79",E150° 49' 12.08",+000110.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
-            <RunwayNumberFP>4</RunwayNumberFP>
+            <RunwayNumberFP>8</RunwayNumberFP>
             
             <ICAO>
                 <ICAOIdent>YGLL</ICAOIdent>
@@ -35,40 +35,58 @@
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>S23° 46' 11.75",E150° 47' 9.05",+000463.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S0CV0P0A</ICAOIdent>
+            </ICAO>
         </ATCWaypoint>
 
         <ATCWaypoint id="WP 1+745x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>S23° 44' 37.96",E150° 33' 26.38",+000744.75</WorldPosition>
+            <WorldPosition>S23° 44' 37.96",E150° 33' 26.38",+000745.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C0KP0A00</ICAOIdent>
+            </ICAO>
         </ATCWaypoint>
 
         <ATCWaypoint id="WP 2+1473x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>S24° 13' 10.46",E150° 53' 18.46",+001473.10</WorldPosition>
+            <WorldPosition>S24° 13' 10.46",E150° 53' 18.46",+001473.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D14X0A00</ICAOIdent>
+            </ICAO>
         </ATCWaypoint>
 
         <ATCWaypoint id="WP 3+164x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>S24° 1' 23.73",E151° 11' 35.38",+000164.04</WorldPosition>
+            <WorldPosition>S24° 1' 23.73",E151° 11' 35.38",+000164.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E04K0A00</ICAOIdent>
+            </ICAO>
         </ATCWaypoint>
 
         <ATCWaypoint id="WP 4+630x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>S23° 58' 2.75",E150° 51' 13.01",+000629.92</WorldPosition>
+            <WorldPosition>S23° 58' 2.75",E150° 51' 13.01",+000630.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G0HI0A00</ICAOIdent>
+            </ICAO>
         </ATCWaypoint>
 
         <ATCWaypoint id="*Finish+108x4000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>S23° 49' 11.35",E150° 48' 56.83",+000108.27</WorldPosition>
+            <WorldPosition>S23° 49' 11.35",E150° 48' 56.83",+000108.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F0300K00</ICAOIdent>
+            </ICAO>
         </ATCWaypoint>
 
         <ATCWaypoint id="Gladstone Airport">
-            <ATCWaypointType>Airport</ATCWaypointType>
+            <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>S23° 49' 0.79",E150° 49' 12.08",+000110.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             

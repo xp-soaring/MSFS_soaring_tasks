@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.0.6 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC IT Carzago</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LIIZ</DepartureID>
+        <DepartureLLA>N45° 30' 57.27",E10° 27' 54.16",+000646.00</DepartureLLA>
+        <DestinationID>LIIZ</DestinationID>
+        <DestinationLLA>N45° 30' 57.27",E10° 27' 54.16",+000646.00</DestinationLLA>
+        <Descr>SSC IT Carzago</Descr>
+        <DeparturePosition>15</DeparturePosition>
+        <DepartureName>Aviosuperficie Carzago Riviera</DepartureName>
+        <DestinationName>Aviosuperficie Carzago Riviera</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Aviosuperficie Carzago Riviera">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 30' 57.27",E10° 27' 54.16",+000646.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>15</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LIIZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+509|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 30' 6.39",E10° 23' 23.91",+000508.53</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S0E50P0A</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+1591x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 40' 51.61",E9° 58' 39.57",+001591.21</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C1870A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+4278x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 9' 31.21",E10° 19' 31.55",+004278.22</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D3AU0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+892x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 9' 20.51",E9° 47' 20.38",+000892.39</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E0OS0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+6309">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 15' 44.34",E10° 34' 34.11",+006309.06</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G4V90000</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+2067x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 23' 4.10",E11° 3' 33.42",+002066.93</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>H1LF0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+646x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 31' 1.61",E10° 27' 53.67",+000646.33</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F0HY0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Aviosuperficie Carzago Riviera">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 30' 57.27",E10° 27' 54.16",+000646.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LIIZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
