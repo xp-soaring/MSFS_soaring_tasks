@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.0.7 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC NZ Culverden 353 N</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>NZAM</DepartureID>
+        <DepartureLLA>S42° 45' 58.43",E172° 53' 36.14",+000599.00</DepartureLLA>
+        <DestinationID>NZAM</DestinationID>
+        <DestinationLLA>S42° 45' 58.43",E172° 53' 36.14",+000599.00</DestinationLLA>
+        <Descr>SSC NZ Culverden 320 N</Descr>
+        <DeparturePosition>36</DeparturePosition>
+        <DepartureName>Culverden</DepartureName>
+        <DestinationName>Culverden</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Culverden">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 45' 58.43",E172° 53' 36.14",+000599.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>36</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>NZAM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 4000+633|4000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 44' 43.31",E172° 55' 0.14",+000633.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S0HL0P08</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+994x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 33' 14.25",E172° 46' 8.83",+000994.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C0RM0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+3107x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 48' 33.31",E171° 18' 1.95",+003106.96</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D2EB0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+3422x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 18' 9.71",E172° 35' 15.59",+003421.92</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E2N20A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+1814x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 36' 20.40",E172° 21' 42.32",+001814.30</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G1EE0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+591x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 46' 5.67",E172° 53' 20.02",+000591.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F0GF0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Culverden">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 45' 58.43",E172° 53' 36.14",+000599.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>NZAM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

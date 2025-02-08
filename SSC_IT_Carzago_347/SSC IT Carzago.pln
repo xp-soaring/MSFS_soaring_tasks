@@ -2,7 +2,7 @@
 
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
-    <!-- Created in B21 Task Planner v5.0.6 -->
+    <!-- Created in B21 Task Planner v5.0.7 -->
     <FlightPlan.FlightPlan>
         <Title>SSC IT Carzago</Title>
         <FPType>VFR</FPType>
@@ -33,25 +33,25 @@
 
         <ATCWaypoint id="*Start+509|5000x5000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 30' 6.39",E10° 23' 23.91",+000508.53</WorldPosition>
+            <WorldPosition>N45° 30' 6.39",E10° 23' 23.91",+000509.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>S0E50P0A</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 1+1591x2000">
+        <ATCWaypoint id="WP 1+1220x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 40' 51.61",E9° 58' 39.57",+001591.21</WorldPosition>
+            <WorldPosition>N45° 42' 1.53",E9° 51' 51.73",+001220.47</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>C1870A00</ICAOIdent>
+                <ICAOIdent>C0XW0A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
         <ATCWaypoint id="WP 2+4278x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 9' 31.21",E10° 19' 31.55",+004278.22</WorldPosition>
+            <WorldPosition>N46° 9' 31.21",E10° 19' 31.55",+004278.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>D3AU0A00</ICAOIdent>
@@ -60,7 +60,7 @@
 
         <ATCWaypoint id="WP 3+892x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 9' 20.51",E9° 47' 20.38",+000892.39</WorldPosition>
+            <WorldPosition>N46° 9' 20.51",E9° 47' 20.38",+000892.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>E0OS0A00</ICAOIdent>
@@ -69,7 +69,7 @@
 
         <ATCWaypoint id="WP 4+6309">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 15' 44.34",E10° 34' 34.11",+006309.06</WorldPosition>
+            <WorldPosition>N46° 15' 44.34",E10° 34' 34.11",+006309.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>G4V90000</ICAOIdent>
@@ -78,7 +78,7 @@
 
         <ATCWaypoint id="WP 5+2067x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 23' 4.10",E11° 3' 33.42",+002066.93</WorldPosition>
+            <WorldPosition>N46° 23' 4.10",E11° 3' 33.42",+002067.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>H1LF0A00</ICAOIdent>
@@ -87,7 +87,7 @@
 
         <ATCWaypoint id="*Finish+646x4000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 31' 1.61",E10° 27' 53.67",+000646.33</WorldPosition>
+            <WorldPosition>N45° 31' 1.61",E10° 27' 53.67",+000646.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>F0HY0K00</ICAOIdent>
