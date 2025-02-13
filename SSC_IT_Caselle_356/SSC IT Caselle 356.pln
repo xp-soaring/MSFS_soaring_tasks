@@ -4,25 +4,25 @@
     <Descr>AceXML Document</Descr>
     <!-- Created in B21 Task Planner v5.0.7 -->
     <FlightPlan.FlightPlan>
-        <Title>SSC IT Venaria 351</Title>
+        <Title>SSC IT Caselle 356</Title>
         <FPType>VFR</FPType>
         <CruisingAlt>1500.000</CruisingAlt>
         <DepartureID>LIMF</DepartureID>
-        <DepartureLLA>N45° 7' 50.61",E7° 36' 39.38",+000870.00</DepartureLLA>
+        <DepartureLLA>N45° 12' 9.00",E7° 38' 58.00",+000958.00</DepartureLLA>
         <DestinationID>LIMF</DestinationID>
-        <DestinationLLA>N45° 7' 50.61",E7° 36' 39.38",+000870.00</DestinationLLA>
+        <DestinationLLA>N45° 12' 9.00",E7° 38' 58.00",+000958.00</DestinationLLA>
         <Descr>SSC IT Venaria 351</Descr>
         <DeparturePosition>18</DeparturePosition>
-        <DepartureName>Venaria</DepartureName>
-        <DestinationName>Venaria</DestinationName>
+        <DepartureName>LIMF Caselle</DepartureName>
+        <DestinationName>LIMF Caselle</DestinationName>
         <AppVersion>
             <AppVersionMajor>11</AppVersionMajor>
             <AppVersionBuild>282174</AppVersionBuild>
         </AppVersion>
 
-        <ATCWaypoint id="Venaria">
+        <ATCWaypoint id="LIMF Caselle">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 7' 50.61",E7° 36' 39.38",+000870.00</WorldPosition>
+            <WorldPosition>N45° 12' 9.00",E7° 38' 58.00",+000958.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <RunwayNumberFP>18</RunwayNumberFP>
             
@@ -31,72 +31,72 @@
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="*Start+902x5000">
+        <ATCWaypoint id="*Start 6000+1007x5000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 8' 44.63",E7° 33' 58.10",+000902.23</WorldPosition>
+            <WorldPosition>N45° 9' 29.95",E7° 32' 16.77",+001007.22</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>S0P20P00</ICAOIdent>
+                <ICAOIdent>S0RZ0P00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
         <ATCWaypoint id="WP 1+2123x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 14' 41.72",E6° 25' 12.49",+002122.70</WorldPosition>
+            <WorldPosition>N45° 14' 41.72",E6° 25' 12.49",+002123.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>C1MZ0A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 2+2201x2000">
+        <ATCWaypoint id="WP 2+2815x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 30' 2.27",E6° 16' 37.92",+002201.44</WorldPosition>
+            <WorldPosition>N45° 35' 44.82",E6° 12' 36.07",+002814.96</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>D1P50A00</ICAOIdent>
+                <ICAOIdent>D2670A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 3+4049x2000">
+        <ATCWaypoint id="WP 3+715x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 6' 58.22",E5° 55' 42.60",+004048.56</WorldPosition>
+            <WorldPosition>N45° 10' 32.69",E5° 43' 30.90",+000715.22</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>E34H0A00</ICAOIdent>
+                <ICAOIdent>E0JV0A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 4+4304x2000">
+        <ATCWaypoint id="WP 4+7133x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N44° 54' 16.33",E6° 39' 37.67",+004304.46</WorldPosition>
+            <WorldPosition>N44° 56' 11.81",E6° 42' 38.10",+007132.55</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>G3BK0A00</ICAOIdent>
+                <ICAOIdent>G5I50A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 5+3373x2000">
+        <ATCWaypoint id="WP 5+4541x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 23' 8.83",E7° 34' 30.16",+003372.70</WorldPosition>
+            <WorldPosition>N45° 8' 49.84",E6° 59' 32.40",+004540.68</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>H2LP0A00</ICAOIdent>
+                <ICAOIdent>H3I50A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="*Finish+853x4000">
+        <ATCWaypoint id="*Finish+958x4000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 8' 14.07",E7° 36' 30.14",+000853.02</WorldPosition>
+            <WorldPosition>N45° 11' 31.48",E7° 38' 17.06",+000958.01</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>F0NP0K00</ICAOIdent>
+                <ICAOIdent>F0QM0K00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="Venaria">
+        <ATCWaypoint id="LIMF Caselle">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 7' 50.61",E7° 36' 39.38",+000870.00</WorldPosition>
+            <WorldPosition>N45° 12' 9.00",E7° 38' 58.00",+000958.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             
             
