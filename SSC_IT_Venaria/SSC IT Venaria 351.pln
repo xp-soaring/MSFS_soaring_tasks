@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.0.7 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC IT Venaria 351</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LIMF</DepartureID>
+        <DepartureLLA>N45° 7' 50.61",E7° 36' 39.38",+000870.00</DepartureLLA>
+        <DestinationID>LIMF</DestinationID>
+        <DestinationLLA>N45° 7' 50.61",E7° 36' 39.38",+000870.00</DestinationLLA>
+        <Descr>SSC IT Venaria 351</Descr>
+        <DeparturePosition>18</DeparturePosition>
+        <DepartureName>Venaria</DepartureName>
+        <DestinationName>Venaria</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Venaria">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 7' 50.61",E7° 36' 39.38",+000870.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>18</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LIMF</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+902x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 8' 44.63",E7° 33' 58.10",+000902.23</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S0P20P00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+2123x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 14' 41.72",E6° 25' 12.49",+002122.70</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C1MZ0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+2201x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 30' 2.27",E6° 16' 37.92",+002201.44</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D1P50A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+4049x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 6' 58.22",E5° 55' 42.60",+004048.56</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E34H0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+4304x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 54' 16.33",E6° 39' 37.67",+004304.46</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G3BK0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+3373x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 23' 8.83",E7° 34' 30.16",+003372.70</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>H2LP0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+853x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 8' 14.07",E7° 36' 30.14",+000853.02</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F0NP0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Venaria">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 7' 50.61",E7° 36' 39.38",+000870.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LIMF</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
