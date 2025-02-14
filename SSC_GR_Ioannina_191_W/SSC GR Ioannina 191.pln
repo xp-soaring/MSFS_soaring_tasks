@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.0.8 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC GR Ioannina 191</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LGIO</DepartureID>
+        <DepartureLLA>N39° 41' 49.98",E20° 49' 19.02",-000000.00</DepartureLLA>
+        <DestinationID>LGIO</DestinationID>
+        <DestinationLLA>N39° 41' 49.98",E20° 49' 19.02",-000000.00</DestinationLLA>
+        <Descr>SSC GR Ioannina 191</Descr>
+        <DeparturePosition>32</DeparturePosition>
+        <DepartureName>Ioannina</DepartureName>
+        <DestinationName>Ioannina</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Ioannina">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 41' 49.98",E20° 49' 19.02",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>32</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LGIO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 5000+4833|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 44' 3.80",E20° 51' 56.82",+004832.68</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S3Q90P0A</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+3251x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 58' 27.97",E20° 18' 51.88",+003251.31</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C2IB0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+1798x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 8' 2.41",E20° 3' 26.13",+001797.90</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D1DY0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+105x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 46' 2.58",E20° 4' 4.44",+000105.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E02X0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+2385x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 38' 10.94",E20° 20' 35.69",+002385.17</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G1U90A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1535x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 42' 19.20",E20° 48' 39.72",+001535.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F16N0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Ioannina">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 41' 49.98",E20° 49' 19.02",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LGIO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
