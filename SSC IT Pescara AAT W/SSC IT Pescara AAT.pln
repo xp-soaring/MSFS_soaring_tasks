@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.0.9 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC IT Pescara AAT</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LIBP</DepartureID>
+        <DepartureLLA>N42° 26' 13.98",E14° 11' 13.98",-000000.00</DepartureLLA>
+        <DestinationID>LIBP</DestinationID>
+        <DestinationLLA>N42° 26' 13.98",E14° 11' 13.98",-000000.00</DestinationLLA>
+        <Descr>SSC IT Pescara AAT</Descr>
+        <DeparturePosition>22</DeparturePosition>
+        <DepartureName>Pescara</DepartureName>
+        <DestinationName>Pescara</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Pescara">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 26' 13.98",E14° 11' 13.98",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>22</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LIBP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+148|6000x5000;AAT01:40;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 21' 40.80",E14° 8' 18.16",+000147.64</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S0440P0B</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+4964x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N41° 48' 14.68",E14° 3' 48.71",+004964.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C3TW0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+5965x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 25' 46.32",E13° 42' 34.44",+005965.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D4LP0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+2208x40000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 17' 3.92",E12° 53' 52.66",+002208.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E1PC5KZ0</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+1775x40000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N41° 42' 28.00",E13° 47' 55.81",+001774.93</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G1DB5KZ0</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+10x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 27' 41.26",E14° 13' 39.46",+000009.84</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F00A0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Pescara">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 26' 13.98",E14° 11' 13.98",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LIBP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
