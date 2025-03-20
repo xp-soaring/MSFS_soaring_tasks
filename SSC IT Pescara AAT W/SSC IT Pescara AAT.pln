@@ -2,7 +2,7 @@
 
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
-    <!-- Created in B21 Task Planner v5.0.9 -->
+    <!-- Created in B21 Task Planner v5.1.3 -->
     <FlightPlan.FlightPlan>
         <Title>SSC IT Pescara AAT</Title>
         <FPType>VFR</FPType>
@@ -33,7 +33,7 @@
 
         <ATCWaypoint id="*Start+148|6000x5000;AAT01:40;">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N42° 21' 40.80",E14° 8' 18.16",+000147.64</WorldPosition>
+            <WorldPosition>N42° 21' 40.80",E14° 8' 18.16",+000148.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>S0440P0B</ICAOIdent>
@@ -58,27 +58,27 @@
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 3+2208x40000;AAT;">
+        <ATCWaypoint id="WP 3+1808x40000;AAT;">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N42° 17' 3.92",E12° 53' 52.66",+002208.00</WorldPosition>
+            <WorldPosition>N42° 19' 44.79",E12° 58' 34.44",+001807.74</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>E1PC5KZ0</ICAOIdent>
+                <ICAOIdent>E1E85KZ0</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 4+1775x40000;AAT;">
+        <ATCWaypoint id="WP 4+5492x40000;AAT;">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N41° 42' 28.00",E13° 47' 55.81",+001774.93</WorldPosition>
+            <WorldPosition>N41° 44' 48.21",E13° 46' 51.47",+005492.13</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>G1DB5KZ0</ICAOIdent>
+                <ICAOIdent>G48K5KZ0</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
         <ATCWaypoint id="*Finish+10x4000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N42° 27' 41.26",E14° 13' 39.46",+000009.84</WorldPosition>
+            <WorldPosition>N42° 27' 41.26",E14° 13' 39.46",+000010.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>F00A0K00</ICAOIdent>
