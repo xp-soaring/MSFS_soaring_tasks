@@ -1,26 +1,25 @@
-# MSFS2024 Trial: SSC CH Locarno 247km in LS4
+# SSC CH Locarno 247km in the LS4 (MSFS2024)
 
-<t:1735411500:F>
+<t:1741805100:F>
 
 **MSFS Server:** Southeast Asia
 
 **Glider type:** LS4
 
-**Sim date/time:** Saturday Dec 28th 1pm local (i.e. 1pm on day we are flying)
+**Sim date/time:** Wednesday March 12th 1pm local (i.e. 1pm on day we are flying)
 
 **Max start:** 4000 Feet MSL
 
-Distance is 247km, expected duration 1 hour 30 min
+Distance is AAT 247km expected duration 1 hour 40 min
 
-**Meet/Briefing:** <t:1735411500:t>
+**Meet/Briefing:** <t:1741805100:t>
 At this time we meet in the voice chat and get ready. https://discord.com/channels/876123356385149009/876397825934626836
 
-**Synchronized Fly:** <t:1735412400:t>
+**Synchronized Fly:** <t:1741806000:t>
 At this time we simultaneously click the [FLY] button to sync our weather.
 
-**Task Start:** <t:1735413600:t>
+**Task Start:** <t:1741807200:t>
 At this time we cross the starting line and start the task.
 
-A modest round-trip in the Swiss/Italian Alps in MSFS2024 in the LS4, in the same area we recently flew @Georg's Lugano task.
-
+A round trip in the foothills of the Italian Alps starting from Locarno Airport.
 

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.3 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC AR La Rioja 350 E</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>SANL</DepartureID>
+        <DepartureLLA>S29° 22' 49.99",W66° 47' 44.99",+001427.00</DepartureLLA>
+        <DestinationID>SANL</DestinationID>
+        <DestinationLLA>S29° 22' 49.99",W66° 47' 44.99",+001427.00</DestinationLLA>
+        <Descr>SSC AR La Rioja 350 E</Descr>
+        <DeparturePosition>3</DeparturePosition>
+        <DepartureName>Capitan V. Almandos Almonacid</DepartureName>
+        <DestinationName>Capitan V. Almandos Almonacid</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Capitan V. Almandos Almonacid">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S29° 22' 49.99",W66° 47' 44.99",+001427.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>3</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>SANL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 6000+1480|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S29° 25' 45.98",W66° 48' 18.42",+001479.66</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S1540P0B</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+6007x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S29° 10' 6.06",W67° 10' 1.13",+006007.22</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C4MV0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+6112x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S28° 30' 35.02",W66° 58' 46.30",+006112.20</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D4PS0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+1709x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S29° 0' 37.95",W66° 36' 56.05",+001709.32</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E1BH0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+5312x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S28° 39' 59.37",W66° 8' 6.02",+005311.68</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G43K0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1414x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S29° 22' 6.82",W66° 47' 15.70",+001414.04</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F13A0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Capitan V. Almandos Almonacid">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S29° 22' 49.99",W66° 47' 44.99",+001427.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>SANL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
