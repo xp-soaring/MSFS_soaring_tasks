@@ -3,21 +3,21 @@
 <SimBase.Document Type="WeatherPreset" version="1,4">
 
     <WeatherPreset.Preset>
-        <Name>SSC3 121 Weak Thermals 6k</Name>
+        <Name>SSC3 122 Strong Thermals 6k</Name>
         <Image>weather/presets/few_clouds.jpg</Image>
         <Icon>weather/presets/few_clouds.svg</Icon>
         <LayeredImage>weather/presets/few_clouds_layer.png</LayeredImage>
         <IsAltitudeAMGL>True</IsAltitudeAMGL>
         <CloudLayer>
-            <CloudLayerDensity Value="2.530" Unit="(0 - 1)">
+            <CloudLayerDensity Value="2.000" Unit="(0 - 1)">
             </CloudLayerDensity>
-            <CloudLayerCoverage Value="0.150" Unit="(0 - 1)">
+            <CloudLayerCoverage Value="0.200" Unit="(0 - 1)">
             </CloudLayerCoverage>
             <CloudLayerAltitudeBot Value="1874.544" Unit="m">
             </CloudLayerAltitudeBot>
-            <CloudLayerAltitudeTop Value="5256.548" Unit="m">
+            <CloudLayerAltitudeTop Value="5874.970" Unit="m">
             </CloudLayerAltitudeTop>
-            <CloudLayerScattering Value="1.000" Unit="(0 - 1)">
+            <CloudLayerScattering Value="0.800" Unit="(0 - 1)">
             </CloudLayerScattering>
         </CloudLayer>
         <CloudLayer>
