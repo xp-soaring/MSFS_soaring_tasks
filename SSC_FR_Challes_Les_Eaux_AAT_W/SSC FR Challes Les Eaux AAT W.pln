@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.3 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC FR Challes Les Eaux AAT W</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LFLE</DepartureID>
+        <DepartureLLA>N45° 33' 38.00",E5° 58' 33.00",+000963.00</DepartureLLA>
+        <DestinationID>LFLE</DestinationID>
+        <DestinationLLA>N45° 33' 38.00",E5° 58' 33.00",+000963.00</DestinationLLA>
+        <Descr>LFLE to LFLE</Descr>
+        <DeparturePosition>14L</DeparturePosition>
+        <DepartureName>Challes-Les-Eaux</DepartureName>
+        <DestinationName>Challes-Les-Eaux</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Challes-Les-Eaux">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 33' 38.00",E5° 58' 33.00",+000963.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>14</RunwayNumberFP>
+            <RunwayDesignatorFP>LEFT</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>LFLE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start MAX 5000+3504|5000x5000;AAT01:40;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 26' 45.29",E5° 53' 53.84",+003503.94</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S2PC0P0A</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP1+5354x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 57' 4.20",E5° 30' 14.93",+005354.33</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C44Q0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP2+945x80000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 39' 57.16",E5° 25' 33.15",+000944.88</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D0Q9B4Z0</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+3868x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 3' 36.67",E6° 35' 49.32",+003868.11</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E2ZG0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+2116x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 29' 55.32",E6° 7' 39.13",+002116.14</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G1MS0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+965x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 33' 24.72",E5° 58' 40.57",+000964.57</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F0QT0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Challes-Les-Eaux">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 33' 38.00",E5° 58' 33.00",+000963.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LFLE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
