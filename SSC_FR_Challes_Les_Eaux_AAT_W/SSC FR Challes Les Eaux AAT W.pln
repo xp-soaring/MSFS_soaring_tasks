@@ -12,7 +12,7 @@
         <DestinationID>LFLE</DestinationID>
         <DestinationLLA>N45° 33' 38.00",E5° 58' 33.00",+000963.00</DestinationLLA>
         <Descr>LFLE to LFLE</Descr>
-        <DeparturePosition>14L</DeparturePosition>
+        <DeparturePosition>32</DeparturePosition>
         <DepartureName>Challes-Les-Eaux</DepartureName>
         <DestinationName>Challes-Les-Eaux</DestinationName>
         <AppVersion>
@@ -24,8 +24,8 @@
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N45° 33' 38.00",E5° 58' 33.00",+000963.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
-            <RunwayNumberFP>14</RunwayNumberFP>
-            <RunwayDesignatorFP>LEFT</RunwayDesignatorFP>
+            <RunwayNumberFP>32</RunwayNumberFP>
+            
             <ICAO>
                 <ICAOIdent>LFLE</ICAOIdent>
             </ICAO>
@@ -33,7 +33,7 @@
 
         <ATCWaypoint id="*Start MAX 5000+3504|5000x5000;AAT01:40;">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 26' 45.29",E5° 53' 53.84",+003503.94</WorldPosition>
+            <WorldPosition>N45° 26' 45.29",E5° 53' 53.84",+003504.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>S2PC0P0A</ICAOIdent>
@@ -42,25 +42,25 @@
 
         <ATCWaypoint id="WP1+5354x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N44° 57' 4.20",E5° 30' 14.93",+005354.33</WorldPosition>
+            <WorldPosition>N44° 57' 4.20",E5° 30' 14.93",+005354.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>C44Q0A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP2+945x80000;AAT;">
+        <ATCWaypoint id="WP2+1191x80000;AAT;">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 39' 57.16",E5° 25' 33.15",+000944.88</WorldPosition>
+            <WorldPosition>N45° 44' 29.92",E5° 18' 47.77",+001190.94</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>D0Q9B4Z0</ICAOIdent>
+                <ICAOIdent>D0X3B4Z0</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
         <ATCWaypoint id="WP 3+3868x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 3' 36.67",E6° 35' 49.32",+003868.11</WorldPosition>
+            <WorldPosition>N46° 3' 36.67",E6° 35' 49.32",+003868.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>E2ZG0A00</ICAOIdent>
@@ -69,7 +69,7 @@
 
         <ATCWaypoint id="WP 4+2116x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 29' 55.32",E6° 7' 39.13",+002116.14</WorldPosition>
+            <WorldPosition>N45° 29' 55.32",E6° 7' 39.13",+002116.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>G1MS0A00</ICAOIdent>
@@ -78,7 +78,7 @@
 
         <ATCWaypoint id="*Finish+965x4000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N45° 33' 24.72",E5° 58' 40.57",+000964.57</WorldPosition>
+            <WorldPosition>N45° 33' 24.72",E5° 58' 40.57",+000965.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>F0QT0K00</ICAOIdent>
