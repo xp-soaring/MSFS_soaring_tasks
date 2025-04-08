@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.3 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC SI Bled 357 S</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LJBL</DepartureID>
+        <DepartureLLA>N46° 21' 23.00",E14° 10' 27.98",+001654.00</DepartureLLA>
+        <DestinationID>LJBL</DestinationID>
+        <DestinationLLA>N46° 21' 23.00",E14° 10' 27.98",+001654.00</DestinationLLA>
+        <Descr>SSC SI Bled 357 S</Descr>
+        <DeparturePosition>14</DeparturePosition>
+        <DepartureName>Bled</DepartureName>
+        <DestinationName>Bled</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Bled">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 21' 23.00",E14° 10' 27.98",+001654.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>14</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LJBL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+2487x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 22' 7.42",E14° 13' 58.05",+002486.88</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S1X30P00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+4081x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 19' 13.95",E14° 27' 28.60",+004081.36</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C35D0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+3389x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 13' 16.24",E13° 55' 48.07",+003389.11</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D2M50A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+1532x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 17' 10.41",E13° 8' 57.40",+001532.15</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E16K0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+4888x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 44' 21.27",E12° 18' 9.81",+004888.45</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G3RS0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Nikolsdorf Airport+2093x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 47' 53.99",E12° 52' 42.03",+002093.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>H1M50A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1660x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 21' 48.90",E14° 9' 52.84",+001660.11</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F1A40K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Bled">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 21' 23.00",E14° 10' 27.98",+001654.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LJBL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
