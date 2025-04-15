@@ -31,18 +31,18 @@
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="*Start+2487x5000">
+        <ATCWaypoint id="*Start 5000+2487|5000x5000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 22' 7.42",E14° 13' 58.05",+002486.88</WorldPosition>
+            <WorldPosition>N46° 22' 7.42",E14° 13' 58.05",+002487.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>S1X30P00</ICAOIdent>
+                <ICAOIdent>S1X30P0A</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
         <ATCWaypoint id="WP 1+4081x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 19' 13.95",E14° 27' 28.60",+004081.36</WorldPosition>
+            <WorldPosition>N46° 19' 13.95",E14° 27' 28.60",+004081.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>C35D0A00</ICAOIdent>
@@ -51,7 +51,7 @@
 
         <ATCWaypoint id="WP 2+3389x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 13' 16.24",E13° 55' 48.07",+003389.11</WorldPosition>
+            <WorldPosition>N46° 13' 16.24",E13° 55' 48.07",+003389.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>D2M50A00</ICAOIdent>
@@ -60,7 +60,7 @@
 
         <ATCWaypoint id="WP 3+1532x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 17' 10.41",E13° 8' 57.40",+001532.15</WorldPosition>
+            <WorldPosition>N46° 17' 10.41",E13° 8' 57.40",+001532.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>E16K0A00</ICAOIdent>
@@ -69,7 +69,7 @@
 
         <ATCWaypoint id="WP 4+4888x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 44' 21.27",E12° 18' 9.81",+004888.45</WorldPosition>
+            <WorldPosition>N46° 44' 21.27",E12° 18' 9.81",+004888.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>G3RS0A00</ICAOIdent>
@@ -87,7 +87,7 @@
 
         <ATCWaypoint id="*Finish+1660x4000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N46° 21' 48.90",E14° 9' 52.84",+001660.11</WorldPosition>
+            <WorldPosition>N46° 21' 48.90",E14° 9' 52.84",+001660.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>F1A40K00</ICAOIdent>

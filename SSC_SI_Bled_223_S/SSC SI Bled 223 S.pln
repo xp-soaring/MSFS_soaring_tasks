@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.3 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC SI Bled 223 S</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LJBL</DepartureID>
+        <DepartureLLA>N46° 21' 23.00",E14° 10' 27.98",+001654.00</DepartureLLA>
+        <DestinationID>LJBL</DestinationID>
+        <DestinationLLA>N46° 21' 23.00",E14° 10' 27.98",+001654.00</DestinationLLA>
+        <Descr>SSC SI Bled 223 S</Descr>
+        <DeparturePosition>14</DeparturePosition>
+        <DepartureName>Bled</DepartureName>
+        <DestinationName>Bled</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Bled">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 21' 23.00",E14° 10' 27.98",+001654.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>14</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LJBL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 5000+4321|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 25' 9.84",E14° 10' 14.29",+004320.87</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S3C10P0A</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+3435x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 49' 38.33",E13° 34' 10.21",+003435.04</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C2NF0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+4865x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 46' 8.50",E13° 11' 55.33",+004865.49</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D3R50A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+4072x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 38' 47.79",E13° 24' 19.37",+004071.52</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E3540A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+4049x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 40' 44.85",E13° 56' 0.28",+004048.56</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G34H0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+2904x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 30' 7.83",E13° 40' 48.14",+002903.54</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>H28O0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1644x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 21' 38.14",E14° 10' 1.49",+001643.70</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F19O0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Bled">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 21' 23.00",E14° 10' 27.98",+001654.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LJBL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
