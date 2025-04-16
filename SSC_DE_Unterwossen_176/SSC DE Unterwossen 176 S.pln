@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.3 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC DE Unterwössen 176 S</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>EDUE</DepartureID>
+        <DepartureLLA>N47° 43' 47.38",E12° 26' 17.80",+001846.00</DepartureLLA>
+        <DestinationID>EDUE</DestinationID>
+        <DestinationLLA>N47° 43' 47.38",E12° 26' 17.80",+001846.00</DestinationLLA>
+        <Descr>SSC DE Unterwössen 176 S</Descr>
+        <DeparturePosition>23</DeparturePosition>
+        <DepartureName>Unterwössen Airfield</DepartureName>
+        <DestinationName>Unterwössen Airfield</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Unterwössen Airfield">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 43' 47.38",E12° 26' 17.80",+001846.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>23</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>EDUE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+3232x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 40' 10.39",E12° 21' 29.70",+003231.63</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S2HS0P00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+3399x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 45' 1.47",E12° 51' 19.32",+003398.95</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C2MF0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+2021x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 39' 17.00",E12° 25' 44.43",+002021.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D1K50A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+3845x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 33' 58.83",E12° 44' 1.79",+003845.14</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E2YT0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+2854x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 34' 5.52",E12° 6' 54.69",+002854.33</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G27A0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+2628x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 44' 6.73",E12° 17' 55.80",+002627.95</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>H2100A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2165x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 43' 33.41",E12° 25' 36.55",+002165.35</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F1O50K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Unterwössen Airfield">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 43' 47.38",E12° 26' 17.80",+001846.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>EDUE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
