@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.5 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC HR Losinj 358 SW</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LDLO</DepartureID>
+        <DepartureLLA>N44° 33' 57.24",E14° 23' 35.46",+000112.00</DepartureLLA>
+        <DestinationID>LJBL</DestinationID>
+        <DestinationLLA>N46° 21' 22.98",E14° 10' 27.96",+001654.00</DestinationLLA>
+        <Descr>SSC HR Losinj 358 SW</Descr>
+        <DeparturePosition>20</DeparturePosition>
+        <DepartureName>Losinj</DepartureName>
+        <DestinationName>Bled</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Losinj">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 33' 57.24",E14° 23' 35.46",+000112.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>20</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LDLO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 3000+482|3000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 36' 27.30",E14° 23' 45.12",+000482.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S0DE0P06</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+226x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 8' 55.08",E14° 9' 43.44",+000226.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C06A0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+2677x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 41' 52.92",E14° 6' 38.04",+002677.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D22D0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+1739x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 30' 32.58",E12° 51' 32.16",+001739.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E1CB0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1650x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 21' 42.96",E14° 10' 5.22",+001650.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F19U0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Bled">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 21' 22.98",E14° 10' 27.96",+001654.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LJBL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
