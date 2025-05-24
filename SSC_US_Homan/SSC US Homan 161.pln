@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.6 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC US Homan 161</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>47PA</DepartureID>
+        <DepartureLLA>N40° 43' 0.23",W77° 58' 59.02",+001201.00</DepartureLLA>
+        <DestinationID>47PA</DestinationID>
+        <DestinationLLA>N40° 43' 0.23",W77° 58' 59.02",+001201.00</DestinationLLA>
+        <Descr>SSC US Homan 161</Descr>
+        <DeparturePosition>24</DeparturePosition>
+        <DepartureName>Homan</DepartureName>
+        <DestinationName>Homan</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Homan">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 43' 0.23",W77° 58' 59.02",+001201.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>24</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>47PA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+1883|2500x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 40' 43.75",W78° 0' 8.09",+001883.20</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S1GB0P05</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+1969x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 30' 28.42",W78° 21' 38.57",+001968.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C1IP0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+1332x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N41° 0' 58.23",W77° 37' 55.69",+001332.02</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D1100A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1234x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 43' 16.70",W77° 57' 28.41",+001233.60</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F0YA0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Homan">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 43' 0.23",W77° 58' 59.02",+001201.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>47PA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

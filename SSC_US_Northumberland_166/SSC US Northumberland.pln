@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.6 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC US Northumberland 166</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>N79</DepartureID>
+        <DepartureLLA>N40° 50' 12.90",W76° 33' 8.80",+000867.00</DepartureLLA>
+        <DestinationID>PA74</DestinationID>
+        <DestinationLLA>N40° 27' 55.32",W76° 50' 23.90",+000700.00</DestinationLLA>
+        <Descr>SSC US Northumberland 166</Descr>
+        <DeparturePosition>26</DeparturePosition>
+        <DepartureName>Northumberland Co</DepartureName>
+        <DestinationName>Gusler</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Northumberland Co">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 50' 12.90",W76° 33' 8.80",+000867.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>26</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>N79</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Start+1335|1500x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 50' 7.34",W76° 28' 41.62",+001335.30</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>B1130P03</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+1001x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 45' 13.24",W76° 49' 28.06",+001000.66</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C0RT0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+1066x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 44' 52.00",W76° 25' 30.09",+001066.27</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D0TM0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+1158x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 30' 27.77",W77° 7' 18.00",+001158.14</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E0W60A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+1266x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 32' 37.71",W76° 47' 46.10",+001266.40</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G0Z60A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+656x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 27' 58.33",W76° 50' 16.36",+000656.17</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F0I80K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Gusler">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 27' 55.32",W76° 50' 23.90",+000700.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>PA74</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
