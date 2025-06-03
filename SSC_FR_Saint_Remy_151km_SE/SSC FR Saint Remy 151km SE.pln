@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.7 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC FR Saint Remy 151km SE</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LFKR</DepartureID>
+        <DepartureLLA>N45° 22' 30.00",E6° 16' 39.98",+001388.00</DepartureLLA>
+        <DestinationID>LFLJ</DestinationID>
+        <DestinationLLA>N45° 23' 44.28",E6° 37' 58.62",+006477.00</DestinationLLA>
+        <Descr>Saint Remy De Maurienne</Descr>
+        <DeparturePosition>16</DeparturePosition>
+        <DepartureName>Saint Remy De Maurienne</DepartureName>
+        <DestinationName>Courchevel</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Saint Remy De Maurienne">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 22' 30.00",E6° 16' 39.98",+001388.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>16</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LFKR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+2490|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 26' 20.17",E6° 15' 48.89",+002490.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S1X60P0A</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+3533x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 58' 6.00",E6° 36' 5.08",+003533.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C2Q50A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+4137x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 42' 25.70",E6° 20' 55.41",+004137.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D36X0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+5210x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 27' 46.08",E6° 44' 51.37",+005210.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E40Q0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+6266x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 24' 0.04",E6° 38' 17.56",+006266.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F4U20K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Courchevel">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 23' 44.28",E6° 37' 58.62",+006477.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LFLJ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
