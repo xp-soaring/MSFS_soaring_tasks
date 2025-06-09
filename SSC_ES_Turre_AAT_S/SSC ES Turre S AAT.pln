@@ -2,7 +2,7 @@
 
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
-    <!-- Created in B21 Task Planner v5.1.6 -->
+    <!-- Created in B21 Task Planner v5.1.8 -->
     <FlightPlan.FlightPlan>
         <Title>SSC ES Turre S AAT</Title>
         <FPType>VFR</FPType>
@@ -33,7 +33,7 @@
 
         <ATCWaypoint id="*Start+351|5000x5000;AAT01:40;">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N37° 12' 19.13",W1° 55' 11.60",+000351.05</WorldPosition>
+            <WorldPosition>N37° 12' 19.13",W1° 55' 11.60",+000351.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>S09R0P0A</ICAOIdent>
@@ -42,34 +42,34 @@
 
         <ATCWaypoint id="WP 1+5102x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N37° 13' 9.90",W2° 48' 5.44",+005101.71</WorldPosition>
+            <WorldPosition>N37° 13' 9.90",W2° 48' 5.44",+005102.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>C3XQ0A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 2+3888x80000;AAT;">
+        <ATCWaypoint id="WP 2+3586x80000;AAT;">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N37° 42' 43.70",W3° 31' 35.81",+003887.80</WorldPosition>
+            <WorldPosition>N37° 35' 17.23",W3° 24' 35.58",+003585.96</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>D300B4Z0</ICAOIdent>
+                <ICAOIdent>D2RMB4Z0</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 3+3730x2000">
+        <ATCWaypoint id="WP 3+3533x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N36° 58' 13.25",W3° 41' 29.47",+003730.32</WorldPosition>
+            <WorldPosition>N36° 57' 43.07",W3° 39' 35.37",+003533.46</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>E2VM0A00</ICAOIdent>
+                <ICAOIdent>E2Q50A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
         <ATCWaypoint id="*Finish+515x4000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N37° 8' 7.11",W1° 56' 44.83",+000515.09</WorldPosition>
+            <WorldPosition>N37° 8' 7.11",W1° 56' 44.83",+000515.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>F0EB0K00</ICAOIdent>

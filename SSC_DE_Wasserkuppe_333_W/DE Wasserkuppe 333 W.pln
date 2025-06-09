@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.8 -->
+    <FlightPlan.FlightPlan>
+        <Title>DE Wasserkuppe 333 W</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>EDER</DepartureID>
+        <DepartureLLA>N50° 29' 52.20",E9° 56' 58.18",+002958.00</DepartureLLA>
+        <DestinationID>EDER</DestinationID>
+        <DestinationLLA>N50° 29' 52.20",E9° 56' 58.18",+002958.00</DestinationLLA>
+        <Descr>DE Wasserkuppe 333 W</Descr>
+        <DeparturePosition>24</DeparturePosition>
+        <DepartureName>Wasserkuppe</DepartureName>
+        <DestinationName>Wasserkuppe</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Wasserkuppe">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N50° 29' 52.20",E9° 56' 58.18",+002958.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>24</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>EDER</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+1585|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N50° 32' 35.98",E10° 0' 55.47",+001584.65</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S1810P0B</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+558x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N51° 5' 35.42",E9° 22' 16.88",+000557.74</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C0FI0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+732x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N50° 58' 48.17",E10° 21' 30.24",+000731.63</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D0KC0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+636x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N50° 49' 37.89",E8° 54' 1.13",+000636.48</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E0HO0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2943x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N50° 29' 53.95",E9° 57' 8.68",+002942.91</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F29R0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Wasserkuppe">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N50° 29' 52.20",E9° 56' 58.18",+002958.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>EDER</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
