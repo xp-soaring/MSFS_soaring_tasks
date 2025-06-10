@@ -4,7 +4,7 @@
     <Descr>AceXML Document</Descr>
     <!-- Created in B21 Task Planner v5.1.8 -->
     <FlightPlan.FlightPlan>
-        <Title>DE Wasserkuppe 333 W</Title>
+        <Title>DE Wasserkuppe 333 E</Title>
         <FPType>VFR</FPType>
         <CruisingAlt>1500.000</CruisingAlt>
         <DepartureID>EDER</DepartureID>
@@ -12,7 +12,7 @@
         <DestinationID>EDER</DestinationID>
         <DestinationLLA>N50° 29' 52.20",E9° 56' 58.18",+002958.00</DestinationLLA>
         <Descr>DE Wasserkuppe 333 W</Descr>
-        <DeparturePosition>24</DeparturePosition>
+        <DeparturePosition>6</DeparturePosition>
         <DepartureName>Wasserkuppe</DepartureName>
         <DestinationName>Wasserkuppe</DestinationName>
         <AppVersion>
@@ -24,52 +24,52 @@
             <ATCWaypointType>User</ATCWaypointType>
             <WorldPosition>N50° 29' 52.20",E9° 56' 58.18",+002958.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
-            <RunwayNumberFP>24</RunwayNumberFP>
+            <RunwayNumberFP>6</RunwayNumberFP>
             
             <ICAO>
                 <ICAOIdent>EDER</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="*Start+1585|6000x5000">
+        <ATCWaypoint id="*Start+2041|6000x5000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N50° 32' 35.98",E10° 0' 55.47",+001584.65</WorldPosition>
+            <WorldPosition>N50° 33' 12.89",E9° 54' 5.13",+002040.68</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>S1810P0B</ICAOIdent>
+                <ICAOIdent>S1KP0P0B</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 1+558x2000">
+        <ATCWaypoint id="WP 1+968x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N51° 5' 35.42",E9° 22' 16.88",+000557.74</WorldPosition>
+            <WorldPosition>N51° 4' 2.25",E10° 45' 30.85",+000967.85</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>C0FI0A00</ICAOIdent>
+                <ICAOIdent>C0QW0A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 2+732x2000">
+        <ATCWaypoint id="WP 2+604x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N50° 58' 48.17",E10° 21' 30.24",+000731.63</WorldPosition>
+            <WorldPosition>N51° 0' 24.63",E9° 43' 2.65",+000603.67</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>D0KC0A00</ICAOIdent>
+                <ICAOIdent>D0GS0A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 3+636x2000">
+        <ATCWaypoint id="WP 3+1270x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N50° 49' 37.89",E8° 54' 1.13",+000636.48</WorldPosition>
+            <WorldPosition>N50° 45' 7.55",E11° 1' 29.20",+001269.69</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>E0HO0A00</ICAOIdent>
+                <ICAOIdent>E0ZA0A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
         <ATCWaypoint id="*Finish+2943x4000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N50° 29' 53.95",E9° 57' 8.68",+002942.91</WorldPosition>
+            <WorldPosition>N50° 29' 53.95",E9° 57' 8.68",+002943.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>F29R0K00</ICAOIdent>
