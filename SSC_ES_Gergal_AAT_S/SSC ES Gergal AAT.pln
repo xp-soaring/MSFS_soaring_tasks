@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.8 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC ES Gergal AAT</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LEGG</DepartureID>
+        <DepartureLLA>N37° 7' 32.09",W2° 35' 44.26",+002576.00</DepartureLLA>
+        <DestinationID>LEGG</DestinationID>
+        <DestinationLLA>N37° 7' 32.09",W2° 35' 44.26",+002576.00</DestinationLLA>
+        <Descr>SSC ES Gergal AAT</Descr>
+        <DeparturePosition>13</DeparturePosition>
+        <DepartureName>Aeródromo De Gérgal</DepartureName>
+        <DestinationName>Aeródromo De Gérgal</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Aeródromo De Gérgal">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 7' 32.09",W2° 35' 44.26",+002576.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>13</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LEGG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+4619|6000x5000;AAT01:40;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 11' 47.13",W2° 28' 53.55",+004619.42</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S3KB0P0B</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+3858x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 57' 24.67",W3° 39' 47.55",+003858.27</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C2Z60A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+3471x60000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 32' 56.16",W3° 21' 42.55",+003471.13</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D2OF8CZ0</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+1982x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 11' 31.38",W2° 6' 58.45",+001981.63</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E1J20A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2575x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 7' 30.00",W2° 35' 40.90",+002575.46</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F1ZJ0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Aeródromo De Gérgal">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 7' 32.09",W2° 35' 44.26",+002576.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LEGG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
