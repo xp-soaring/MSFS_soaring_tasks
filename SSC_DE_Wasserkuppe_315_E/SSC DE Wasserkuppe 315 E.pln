@@ -4,7 +4,7 @@
     <Descr>AceXML Document</Descr>
     <!-- Created in B21 Task Planner v5.1.8 -->
     <FlightPlan.FlightPlan>
-        <Title>DE Wasserkuppe 333 E</Title>
+        <Title>SSC DE Wasserkuppe 315 E</Title>
         <FPType>VFR</FPType>
         <CruisingAlt>1500.000</CruisingAlt>
         <DepartureID>EDER</DepartureID>
@@ -33,7 +33,7 @@
 
         <ATCWaypoint id="*Start+2041|6000x5000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N50° 33' 12.89",E9° 54' 5.13",+002040.68</WorldPosition>
+            <WorldPosition>N50° 33' 12.89",E9° 54' 5.13",+002041.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>S1KP0P0B</ICAOIdent>
@@ -42,7 +42,7 @@
 
         <ATCWaypoint id="WP 1+968x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N51° 4' 2.25",E10° 45' 30.85",+000967.85</WorldPosition>
+            <WorldPosition>N51° 4' 2.25",E10° 45' 30.85",+000968.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>C0QW0A00</ICAOIdent>
@@ -51,19 +51,19 @@
 
         <ATCWaypoint id="WP 2+604x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N51° 0' 24.63",E9° 43' 2.65",+000603.67</WorldPosition>
+            <WorldPosition>N51° 0' 24.63",E9° 43' 2.65",+000604.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>D0GS0A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 3+1270x2000">
+        <ATCWaypoint id="WP 3+1227x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N50° 45' 7.55",E11° 1' 29.20",+001269.69</WorldPosition>
+            <WorldPosition>N50° 46' 10.13",E10° 53' 14.92",+001227.03</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>E0ZA0A00</ICAOIdent>
+                <ICAOIdent>E0Y30A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
