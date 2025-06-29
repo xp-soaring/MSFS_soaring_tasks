@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.8 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC IT Dobbiaco  273 S</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LIVD</DepartureID>
+        <DepartureLLA>N46° 43' 37.23",E12° 13' 53.09",+003958.00</DepartureLLA>
+        <DestinationID>LIVD</DestinationID>
+        <DestinationLLA>N46° 43' 37.23",E12° 13' 53.09",+003958.00</DestinationLLA>
+        <Descr>SSC IT Dobbiaco  273 S</Descr>
+        <DeparturePosition>27</DeparturePosition>
+        <DepartureName>Dobbiaco - Toblach Airport</DepartureName>
+        <DestinationName>Dobbiaco - Toblach Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Dobbiaco - Toblach Airport">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 43' 37.23",E12° 13' 53.09",+003958.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>27</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LIVD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+5653|7000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 45' 24.47",E12° 16' 55.30",+005652.89</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S4D10P0C</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+4518x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 57' 0.94",E13° 8' 27.70",+004517.72</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C3HI0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+6125x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 50' 30.80",E13° 35' 4.54",+006125.33</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D4Q50A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+5302x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 46' 35.62",E12° 58' 24.52",+005301.84</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E43A0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+5886x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 1' 12.19",E12° 27' 57.78",+005885.83</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G4JI0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+2218x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 49' 7.90",E12° 46' 12.84",+002217.85</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>H1PM0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+3904x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 43' 36.55",E12° 14' 33.96",+003904.20</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F30G0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Dobbiaco - Toblach Airport">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 43' 37.23",E12° 13' 53.09",+003958.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LIVD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
