@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.8 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC AT Salzburg 348 AAT</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LOWS</DepartureID>
+        <DepartureLLA>N47° 47' 44.45",E13° 0' 15.38",+001407.00</DepartureLLA>
+        <DestinationID>LOWS</DestinationID>
+        <DestinationLLA>N47° 47' 44.45",E13° 0' 15.38",+001407.00</DestinationLLA>
+        <Descr>SSC AT Salzburg 348 AAT</Descr>
+        <DeparturePosition>15</DeparturePosition>
+        <DepartureName>Salzburg</DepartureName>
+        <DestinationName>Salzburg</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Salzburg">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 47' 44.45",E13° 0' 15.38",+001407.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>15</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LOWS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 5000+1476|5000x5000;AAT01:40;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 45' 29.19",E13° 2' 19.32",+001476.38</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S1500P0A</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+3245x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 20' 9.71",E13° 10' 11.50",+003244.75</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C2I50A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+3497x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 22' 50.46",E11° 41' 36.88",+003497.38</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D2P50A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+1552x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 37' 32.17",E12° 12' 1.14",+001551.84</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E1740A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+1325x60000;AAT;">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 16' 59.49",E12° 30' 8.79",+001325.46</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G10T8CZ0</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+1398x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 48' 3.65",E12° 59' 49.21",+001397.64</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F12U0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Salzburg">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 47' 44.45",E13° 0' 15.38",+001407.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LOWS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
