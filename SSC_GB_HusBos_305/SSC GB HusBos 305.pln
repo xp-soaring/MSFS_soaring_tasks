@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.8 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC GB HusBos 305</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>EGKO</DepartureID>
+        <DepartureLLA>N52° 26' 22.86",W1° 2' 35.10",-000000.00</DepartureLLA>
+        <DestinationID>EGKO</DestinationID>
+        <DestinationLLA>N52° 26' 22.86",W1° 2' 35.10",-000000.00</DestinationLLA>
+        <Descr>SSC GB HusBos 305</Descr>
+        <DeparturePosition>27</DeparturePosition>
+        <DepartureName>Husbands Bosworth Airfield</DepartureName>
+        <DestinationName>Husbands Bosworth Airfield</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Husbands Bosworth Airfield">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 26' 22.86",W1° 2' 35.10",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>27</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>EGKO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+505|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 25' 45.42",W1° 2' 49.08",+000505.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S0E10P0A</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+52x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N53° 5' 44.42",W0° 47' 17.83",+000052.49</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C01G0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+62x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 23' 40.14",E0° 15' 12.12",+000062.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D01Q0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+131x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 5' 16.80",E0° 7' 37.92",+000131.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E03N0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+489x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 26' 27.24",W1° 2' 41.88",+000489.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F0DL0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Husbands Bosworth Airfield">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 26' 22.86",W1° 2' 35.10",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>EGKO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
