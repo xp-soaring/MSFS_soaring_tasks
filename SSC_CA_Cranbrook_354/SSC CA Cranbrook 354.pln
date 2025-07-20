@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.1.8 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC CA Cranbrook 354</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>CYXC</DepartureID>
+        <DepartureLLA>N49° 36' 43.62",W115° 46' 55.36",+003058.00</DepartureLLA>
+        <DestinationID>CYXC</DestinationID>
+        <DestinationLLA>N49° 36' 43.62",W115° 46' 55.36",+003058.00</DestinationLLA>
+        <Descr>SSC CA Cranbrook 354</Descr>
+        <DeparturePosition>16</DeparturePosition>
+        <DepartureName>Cranbrook</DepartureName>
+        <DestinationName>Cranbrook</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Cranbrook">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49° 36' 43.62",W115° 46' 55.36",+003058.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>16</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>CYXC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+3028|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49° 34' 51.76",W115° 49' 18.28",+003028.22</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S2C40P0B</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+3825x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49° 53' 23.17",W116° 50' 7.67",+003825.46</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C2Y90A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+1860x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N50° 10' 49.50",W116° 55' 29.09",+001860.24</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D1FO0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+6962x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N50° 51' 19.33",W115° 55' 29.98",+006961.94</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E5DE0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+3022x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49° 37' 26.08",W115° 47' 2.67",+003021.65</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F2BY0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Cranbrook">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49° 36' 43.62",W115° 46' 55.36",+003058.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>CYXC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
