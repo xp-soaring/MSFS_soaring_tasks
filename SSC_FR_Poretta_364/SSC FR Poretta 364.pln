@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.2.2 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC FR Poretta 364</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LFKB</DepartureID>
+        <DepartureLLA>N42° 33' 0.00",E9° 29' 5.01",+000019.00</DepartureLLA>
+        <DestinationID>LIOQ</DestinationID>
+        <DestinationLLA>N39° 16' 6.62",E9° 32' 18.10",+000210.00</DestinationLLA>
+        <Descr>SSC FR Poretta 364</Descr>
+        <DeparturePosition>16</DeparturePosition>
+        <DepartureName>Poretta</DepartureName>
+        <DestinationName>Aviosuperficie Antica Sardegna</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+
+        <ATCWaypoint id="Poretta">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 33' 0.00",E9° 29' 5.01",+000019.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>16</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LFKB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+1683|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 33' 11.09",E9° 24' 15.47",+001683.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S1AR0P0B</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+207x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 16' 22.55",E9° 32' 18.11",+000207.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F05R0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Aviosuperficie Antica Sardegna">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N39° 16' 6.62",E9° 32' 18.10",+000210.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LIOQ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
