@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.2.3 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC3 075 US Grapevine 330</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>88AZ</DepartureID>
+        <DepartureLLA>N33° 38' 27.27",W111° 3' 24.89",+002329.00</DepartureLLA>
+        <DestinationID>88AZ</DestinationID>
+        <DestinationLLA>N33° 38' 27.27",W111° 3' 24.89",+002329.00</DestinationLLA>
+        <Descr>SSC3 075 US Grapevine 330</Descr>
+        <DepartureName>Grapevine</DepartureName>
+        <DestinationName>Grapevine</DestinationName>
+        
+        <DeparturePosition>17</DeparturePosition>
+        <!-- <DepartureDetails>
+            <RunwayNumberFP>17</RunwayNumberFP>
+            
+        </DepartureDetails> -->
+        
+        <AppVersion>
+            <AppVersionMajor>12</AppVersionMajor>
+        </AppVersion>
+
+        <ATCWaypoint id="Grapevine">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N33° 38' 27.27",W111° 3' 24.89",+002329.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>17</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>88AZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start 7000+2648|7000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N33° 41' 57.15",W110° 58' 17.55",+002647.64</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S21K0P0C</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+6490x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 20' 11.88",W111° 2' 59.27",+006489.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C50A0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+5318x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 16' 39.52",W111° 48' 48.05",+005318.24</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D43Q0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+4957x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 30' 3.23",W111° 55' 58.21",+004957.35</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E3TP0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+1549x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N33° 32' 20.78",W111° 35' 7.39",+001548.56</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G1710A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2326x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N33° 38' 30.03",W111° 3' 26.89",+002326.12</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F1SM0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Grapevine">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N33° 38' 27.27",W111° 3' 24.89",+002329.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>88AZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

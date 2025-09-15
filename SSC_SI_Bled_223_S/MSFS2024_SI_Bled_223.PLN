@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document>
+    <FlightPlan.FlightPlan>
+        <DepartureID>LJBL</DepartureID>
+        <DestinationID>LJBL</DestinationID>
+        <Title>LJBL - LJBL</Title>
+        <Descr>Flight from LJBL to LJBL</Descr>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <AppVersion>
+            <AppVersionMajor>12</AppVersionMajor>
+            <AppVersionMinor>1</AppVersionMinor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="Bled">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 21' 23.0000",E14° 10' 27.9800",+001654.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LJBL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="*Start 5000+4321|5000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 25' 9.8400",E14° 10' 14.2900",+004321.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>S3C10P0A</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP 1+3435x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 49' 38.3300",E13° 34' 10.2100",+003435.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>C2NF0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP 2+4865x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 46' 8.5000",E13° 11' 55.3300",+004865.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>D3R50A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP 3+4072x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 38' 47.7900",E13° 24' 19.3700",+004072.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>E3540A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP 4+4049x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 40' 44.8500",E13° 56' 0.2800",+004049.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>G34H0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP 5+2904x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 30' 7.8300",E13° 40' 48.1400",+002904.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>H28O0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="*Finish+1644x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 21' 38.1400",E14° 10' 1.4900",+001644.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>F19O0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="Bled">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 21' 23.0000",E14° 10' 27.9800",+001654.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LJBL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
