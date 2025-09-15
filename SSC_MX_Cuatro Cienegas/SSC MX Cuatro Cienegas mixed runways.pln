@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.2.4 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC MX Cuatro Cienegas 345</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>MM64</DepartureID>
+        <DepartureLLA>N26° 59' 24.96",W102° 1' 58.50",-000000.00</DepartureLLA>
+        <DestinationID>MM64</DestinationID>
+        <DestinationLLA>N26° 59' 24.96",W102° 1' 58.50",-000000.00</DestinationLLA>
+        <Descr>SSC MX Cuatro Cienegas 345</Descr>
+        <DepartureName>Cuatro Cienegas</DepartureName>
+        <DestinationName>Cuatro Cienegas</DestinationName>
+
+        <DeparturePosition>25</DeparturePosition>
+        <!-- <DepartureDetails>
+            <RunwayNumberFP>7</RunwayNumberFP>
+
+        </DepartureDetails> -->
+
+        <AppVersion>
+            <AppVersionMajor>12</AppVersionMajor>
+        </AppVersion>
+
+        <ATCWaypoint id="Cuatro Cienegas">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26° 59' 24.96",W102° 1' 58.50",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>7</RunwayNumberFP>
+
+            <ICAO>
+                <ICAOIdent>MM64</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+2375|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26° 57' 9.63",W102° 4' 55.97",+002375.33</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S1TZ0P0B</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+7093x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N27° 5' 41.60",W102° 33' 35.19",+007093.18</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C5H10A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+5295x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26° 47' 37.98",W102° 36' 38.70",+005295.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D4330A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+5085x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26° 31' 27.24",W101° 59' 42.12",+005085.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E3X90A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+5417x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26° 44' 16.20",W102° 4' 21.54",+005417.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G46H0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+5358x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26° 20' 49.08",W101° 26' 34.50",+005358.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>H44U0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+2365x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26° 59' 14.46",W102° 1' 50.94",+002365.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F1TP0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Cuatro Cienegas">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26° 59' 24.96",W102° 1' 58.50",-000000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+
+
+            <ICAO>
+                <ICAOIdent>MM64</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

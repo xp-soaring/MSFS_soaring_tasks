@@ -4,20 +4,20 @@
     <Descr>AceXML Document</Descr>
     <!-- Created in B21 Task Planner v5.2.4 -->
     <FlightPlan.FlightPlan>
-        <Title>Cuatro Cienegas</Title>
+        <Title>SSC MX Cuatro Cienegas 345</Title>
         <FPType>VFR</FPType>
         <CruisingAlt>1500.000</CruisingAlt>
         <DepartureID>MM64</DepartureID>
-        <DepartureLLA>N26° 59' 24.97",W102° 1' 58.49",+002403.00</DepartureLLA>
+        <DepartureLLA>N26° 59' 24.96",W102° 1' 58.50",-000000.00</DepartureLLA>
         <DestinationID>MM64</DestinationID>
-        <DestinationLLA>N26° 59' 24.97",W102° 1' 58.49",+002403.00</DestinationLLA>
-        <Descr>Cuatro Cienegas</Descr>
+        <DestinationLLA>N26° 59' 24.96",W102° 1' 58.50",-000000.00</DestinationLLA>
+        <Descr>SSC MX Cuatro Cienegas 345</Descr>
         <DepartureName>Cuatro Cienegas</DepartureName>
         <DestinationName>Cuatro Cienegas</DestinationName>
         
-        <DeparturePosition>7</DeparturePosition>
+        <DeparturePosition>25</DeparturePosition>
         <!-- <DepartureDetails>
-            <RunwayNumberFP>7</RunwayNumberFP>
+            <RunwayNumberFP>25</RunwayNumberFP>
             
         </DepartureDetails> -->
         
@@ -27,36 +27,36 @@
 
         <ATCWaypoint id="Cuatro Cienegas">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N26° 59' 24.97",W102° 1' 58.49",+002403.00</WorldPosition>
+            <WorldPosition>N26° 59' 24.96",W102° 1' 58.50",-000000.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
-            <RunwayNumberFP>7</RunwayNumberFP>
+            <RunwayNumberFP>25</RunwayNumberFP>
             
             <ICAO>
                 <ICAOIdent>MM64</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="*Start+2352|6000x5000">
+        <ATCWaypoint id="*Start+2375|6000x5000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N26° 57' 28.71",W102° 2' 57.58",+002352.36</WorldPosition>
+            <WorldPosition>N26° 57' 9.63",W102° 4' 55.97",+002375.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>S1TC0P0B</ICAOIdent>
+                <ICAOIdent>S1TZ0P0B</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
-        <ATCWaypoint id="WP 1+8524x2000">
+        <ATCWaypoint id="WP 1+7093x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N27° 6' 26.17",W102° 33' 43.23",+008523.62</WorldPosition>
+            <WorldPosition>N27° 5' 41.60",W102° 33' 35.19",+007093.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
-                <ICAOIdent>C6KS0A00</ICAOIdent>
+                <ICAOIdent>C5H10A00</ICAOIdent>
             </ICAO>
         </ATCWaypoint>
 
         <ATCWaypoint id="WP 2+5295x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N26° 47' 38.00",W102° 36' 38.73",+005295.28</WorldPosition>
+            <WorldPosition>N26° 47' 37.98",W102° 36' 38.70",+005295.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>D4330A00</ICAOIdent>
@@ -65,7 +65,7 @@
 
         <ATCWaypoint id="WP 3+5085x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N26° 31' 27.22",W101° 59' 42.14",+005085.30</WorldPosition>
+            <WorldPosition>N26° 31' 27.24",W101° 59' 42.12",+005085.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>E3X90A00</ICAOIdent>
@@ -74,7 +74,7 @@
 
         <ATCWaypoint id="WP 4+5417x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N26° 44' 16.19",W102° 4' 21.52",+005416.67</WorldPosition>
+            <WorldPosition>N26° 44' 16.20",W102° 4' 21.54",+005417.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>G46H0A00</ICAOIdent>
@@ -83,7 +83,7 @@
 
         <ATCWaypoint id="WP 5+5358x2000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N26° 20' 49.06",W101° 26' 34.52",+005357.61</WorldPosition>
+            <WorldPosition>N26° 20' 49.08",W101° 26' 34.50",+005358.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>H44U0A00</ICAOIdent>
@@ -92,7 +92,7 @@
 
         <ATCWaypoint id="*Finish+2365x4000">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N26° 59' 14.47",W102° 1' 50.96",+002365.49</WorldPosition>
+            <WorldPosition>N26° 59' 14.46",W102° 1' 50.94",+002365.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             <ICAO>
                 <ICAOIdent>F1TP0K00</ICAOIdent>
@@ -101,7 +101,7 @@
 
         <ATCWaypoint id="Cuatro Cienegas">
             <ATCWaypointType>User</ATCWaypointType>
-            <WorldPosition>N26° 59' 24.97",W102° 1' 58.49",+002403.00</WorldPosition>
+            <WorldPosition>N26° 59' 24.96",W102° 1' 58.50",-000000.00</WorldPosition>
             <SpeedMaxFP>-1</SpeedMaxFP>
             
             

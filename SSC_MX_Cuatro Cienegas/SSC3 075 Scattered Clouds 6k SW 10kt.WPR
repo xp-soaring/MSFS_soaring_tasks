@@ -3,7 +3,7 @@
 <SimBase.Document Type="WeatherPreset" version="1,4">
 
     <WeatherPreset.Preset>
-        <Name>SSC3 076 Scattered Clouds 6k SW 15kt</Name>
+        <Name>SSC3 075 Scattered Clouds 6k SW 10kt</Name>
         <Image>weather/presets/scattered_clouds.jpg</Image>
         <Icon>weather/presets/scattered_clouds.svg</Icon>
         <LayeredImage>weather/presets/scattered_clouds_layer.png</LayeredImage>
@@ -49,7 +49,7 @@
             </WindLayerAltitude>
             <WindLayerAngle Value="225.000" Unit="degrees">
             </WindLayerAngle>
-            <WindLayerSpeed Value="25.000" Unit="knts">
+            <WindLayerSpeed Value="17.000" Unit="knts">
             </WindLayerSpeed>
         </WindLayer>
         <WindLayer>
