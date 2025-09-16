@@ -1,0 +1,9 @@
+Briefing
+MSFS2024 SU4 if you can help test that, otherwise any MSFS
+Glider: JS3-18 or AS33-18
+Depart MM64/25
+Weather SSC3 075, so 10 knots SW ok for the ridges
+In-sim local date/time: today 17th Sept 1300
+Max Start: 6000 feet MSL
+
+House thermal is available to get above the Start height. The ridges in the area are mostly rocky and very well-defined. The into-wind jump WP1 to WP2 needs some consideration, just make sure you get a decent height on the local WP1 slope before heading South where WP2 marks the recommended height to get around that corner. WP2 to WP3 has a mix of less-steep slopes and you could be slow but shouldn't have any problem. WP4 to WP5 towards Finish has great slopes, the jump from WP5 to the final ridges needs optimising. Finishes are expected to be quite close.
