@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <!-- Created in B21 Task Planner v5.2.5 -->
+    <FlightPlan.FlightPlan>
+        <Title>SSC IT Mattarello 215 SE</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>1500.000</CruisingAlt>
+        <DepartureID>LIDT</DepartureID>
+        <DepartureLLA>N46° 1' 24.01",E11° 7' 30.00",+000605.36</DepartureLLA>
+        <DestinationID>LIDT</DestinationID>
+        <DestinationLLA>N46° 1' 24.01",E11° 7' 30.00",+000605.36</DestinationLLA>
+        <Descr>SSC IT Mattarello 227 SE</Descr>
+        <DepartureName>Mattarello</DepartureName>
+        <DestinationName>Mattarello</DestinationName>
+        
+        <DeparturePosition>18</DeparturePosition>
+        <!-- <DepartureDetails>
+            <RunwayNumberFP>18</RunwayNumberFP>
+            
+        </DepartureDetails> -->
+        
+        <AppVersion>
+            <AppVersionMajor>12</AppVersionMajor>
+        </AppVersion>
+
+        <ATCWaypoint id="Mattarello">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 1' 24.01",E11° 7' 30.00",+000605.36</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>18</RunwayNumberFP>
+            
+            <ICAO>
+                <ICAOIdent>LIDT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Start+5545|6000x5000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 1' 20.48",E11° 3' 45.78",+005545.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>S4A10P0B</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 1+1191x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 38' 1.85",E10° 33' 39.42",+001191.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>C0X30A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 2+3091x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 37' 55.36",E10° 48' 21.90",+003091.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>D2DV0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 3+2178x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 47' 53.41",E11° 0' 16.29",+002178.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>E1OI0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 4+2743x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 55' 35.18",E10° 48' 19.74",+002743.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>G2470A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="WP 5+3297x2000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 22' 44.08",E11° 0' 45.33",+003297.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>H2JL0A00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="*Finish+594x4000">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 1' 43.51",E11° 7' 32.89",+000594.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>F0GI0K00</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+        <ATCWaypoint id="Mattarello">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 1' 24.01",E11° 7' 30.00",+000605.36</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            
+            
+            <ICAO>
+                <ICAOIdent>LIDT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
